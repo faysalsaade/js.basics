@@ -196,4 +196,22 @@ taba2a elzero web school betsir elzero.... btetkarare 3 marat bel console hed ba
 
  - 
 console.log(a.substring()); haydi mete el slice w iza 5akayta fadia ma bete2ta2 shi w 
-bethet el a metel ma hiya   
+bethet el a metel ma hiya  /  iza hate console.log(a.substring(2,6)); iza hatet hek hayetelak 
+bel console el ahref yali ra2mou 2 lal haref yali ra2mou 5 mena 6 la2nou byete5ade yali abla bi 
+index  /  w iza console.log(a.substring(6,2)); lahalou el browzer laha ye2leben ya2ni haybalesh 
+2ad metel el console.log(a.substring(2,6));   /  console.log(a.substring(-10,6)); iza hateyti
+el start number<0 la ya2teber el browzer ka2nou 0 w bibalesh ye2se men el 0index lal 6 index
+
+
+---console.log(a.substr()); iza 2ana hayda fadi fa bijebli kel a 
+console.log(a.substring()); haydi ya2ni balesh men indexing 0 w 2edeli ba2da 6 caractere ya2ni ahrof
+console.log(a.substring(17)); iza katabet el value =<men el length hayraja2li string aw caractere fadi
+
+-includes /startswith/endswith jaweben true or false 
+ex includes console.log(a.includes("web")) hayatla2 true inta menek hatetlou el start men wen fa haybalesh 2ad men el 0  /   console.log(a.includes("web",8)) enta hone haddatelou el start men wen w mafi web bel index 8 fa haytla2 false  
+
+console.log(a.startsWith("e")); hone hayetla2 true la2nou a betbalesh bel e w btefra2 men e 
+small (e) la e large  (E) 
+w fik kamen tehaded el sta console.log(a.startsWith("e",8)); fina kamen nehaded el start men wen
+
+console.log(a.endsWith("e",6)) hone ya2ni 2edeli bel length ma bel indexing w shouf mahal ma weselet bel 2ade fi haref el e iza kane fi bihete true w iza mafi bihate false
