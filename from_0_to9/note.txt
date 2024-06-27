@@ -1,4 +1,4 @@
- <!--
+<!--
 // cannot be a reserved keyword
 // should be meaningful
 // cannot start with a number (1name)
@@ -8,6 +8,7 @@ fik tahet el script bel head aw bi 2e5are elbody w youfadal bel body lesh la2nou
 browzer bye2ra line by line so iza 2andek h1 bedek tlawnou  bel body bel javascipt  wel browzer wasal 2ala el script bel head fa biwa2ef 2raye la2anou wasal 2ala el  script fa maha yelawan  el h1 ela iza hatet bi code el js  inou bas yet2amel lal safha loading lawen el h1 ya2ni ba2ad ma te2ra kel el element ba2da 2ate el style ta2 el js bas haydou kelou tedyi2 wa2et fa lazem 
 tahet el script bi 2e5er el body w tra2eh 2alak \
 // singel line comment 
+
 /* multipale line comment */
 !!- window.alert("faysal saadeh"); haydi ya2ni awal ma teftah el page taba2ak
 byetla2lak faysal saadeh.
@@ -15,12 +16,14 @@ byetla2lak faysal saadeh.
 <h1>hello world</h1>
 "); awal shi el document ya2ni kelshi el head,body kelshi bel safha fa awal ma
 tektob bel doc.write shi element ex p w tahet fi shi bisir byetla2 bel safha.
+
 !!- console.error("faysal"); haydi ya2ni bisir yetla2 bel console 2alemet x wel
 background ta2 el kalem el maktub bel console.error bisir el lone taba2ou sheway
 red
+
 !!- console.table(["faysal", "bachar", "fifo"]); haydi betsir betal2lak bel
-console haydol el 3 name bi2aleb table w hed keol name fi el value taba2ou ya2ni ra2mou w bi2ed el browzer bi tari2et el 
-indexing ya2ni 0 to infini ya2ni awal element faysal bihet hedou 0 w ba2dou 1-bachar w hek    
+console haydol el 3 name bi2aleb table w hed keol name fi el value taba2ou ya2ni ra2mou w bi2ed el browzer bi tari2et el indexing ya2ni 0 to infini ya2ni awal element faysal bihet hedou 0 w ba2dou 1-bachar w hek    
+
 !!-console.log( "faysal %csaadeh%c page",
 "color:Red; font-size:20px;", 
 "color:blue; font-size:20px;" );
@@ -93,41 +96,62 @@ a += 100;= a = (a) + 100 -->
 100;=110 
 -->
 <!--number("100") hayraja2li number 100 menou string wel type of lal number  hiya function 
+
  console.log(1e6) haydi =1000000 milion 
     console.log(10 ** 6) haydi =1000000 milion  10 exposants 6
+
     w hata ta2ref te2da el 0 ahsan fik tahet byneten _ w haydi el 2aleme ma btetla2 bel console
     ex:
 console.log(1_000_000)
+
 integer ya2ni number mafi virgule
-w fi 2ana hayda console.log(Number.MAX_SAFE_INTEGER); iza hatet haydi el value 
+
+fi 2ana hayda console.log(Number.MAX_SAFE_INTEGER); iza hatet haydi el value 
 bisir bye2atik bel console akbar number integer 2ader ye5oudou el browzer bel console 
 yali houwe 9007199254740991
+
 console.log(Number.MAX_VALUE); hayda bye2tik number akber men yali 2ablou bas fi virgule w haydi howa akber number bel languages w howa manu integer (1.7976931348623157e+308)
 w iza hatet  console.log(Number.MAX_VALUE+333333333); ma byenzed shi 2ala hayda el number la2nou hayda akber number bye2dar ye5etou  el browzer w bi hetelak bel console el value ta2it el max value
+
 console.log((100).to string()); ya2ni betsir bte2tik el 100 string
+
 console.log((100.5555).tofixed(2));haydi ya2ni betale2lek bel console 100 w ra2men ba2ade el virgule la2nak inta hatet 2
 w beta2tik string   
 console.log(parseInt("100")) haydi betraje2 number ; w haydi iza el ra2em fi virgule ya2ni ex
-console.log(parseInt("100.500")) ma hek betraje2 100 bala .500 beynama el
+console.log(parseInt("100.500")) bteraja2 100 bala aya ra2em ba2ad el virgule
+console.log(parseInt("100 faysal")); betraje2 100 bas bas iza hatet faysal 2abel  el 100 betsir betraja2 Nan
+
 console.log(parsefloat("100.500")) betraje2 number fi virgule
-we kelshi fi is kaza haytale2 jawab bel console true aw false ex  console.log(Number.isInteger("100")) haydi hatetla2 false 
-la2nou el"100" ya2ni hayerja2 string w is integer ya2ni hayetla2 number fa false  
+w nafes el shi console.log(parsefloat("100.500 faysal"))kamen betraje2 number fi virgule
+we kelshi fi  is ex isInteger,isNan kaza haytale2 jawab bel console true aw false ex  console.log(Number.isInteger("100")) haydi hatetla2 false la2nou el"100" ya2ni hayerja2 string w is integer ya2ni hayetla2 number fa false 
+
 console.log(Number.isNan("100")) w haydi betala2 false aw true la2nou fi 2abla is w hone betala2 iza howa number aw la2
-console.log(Math.round(99.x)) iza el x akaklk men el nos fa hayraje2 el numberl yali 2arib 2ale yekoun interger w iza
-akter men el nos hayrouh 2ala el number yali ba2dou
+
+console.log(Math.round(99.x)) iza el x akal men el nos fa hayraje2 el number yali 2arib 2ale ya2ni akal menou ex console.log(Math.round(99.2)) hhayraje2 99 ama iza akter men el nos aw nos  hayraja2  number yali ba2dou aw akter menou ex console.log(Math.round(99.7)) byraje2 100
+
 console.log(Math.ceil(99.x)) haydi ya2ni shou ma tkoun el x hatrouhe 2ala el number yali ba2dou
+
 console.log(Math.floor(99.x))  haydi ya2ni shou ma tkoun el x hatrouhe 2ala el number yali 2ablou
+
 console.log(Math.min(10,20,-10,100)) el min ya2ni bijib 2akel ra2em fiyon yali howa el -10  
-console.log(Math.min(10,20,-10,100)) el min ya2ni bijib 2akter ra2em fiyon yali howa el 100
-console.log(Math.pow(2, 4)) haydi ya2ni 2**4 =2puisances 4 ya2ni hayetla2 bel consolo 16         
+
+console.log(Math.max(10,20,-10,100)) el min ya2ni bijib 2akber  ra2em fiyon yali howa el 100
+
+console.log(Math.pow(2, 4)) haydi ya2ni 2**4 =2puisances 4 ya2ni hayetla2 bel console 16 
+
 console.log(Math.random())random ya2ni betala2 number 2ashwa2i kalma ta2mel reload
+console.log(Math.floor(Math.random() * 4)); w hek btehADED el ra2em yali badek yela2 
+menou haydi el () ma te5ayer fia w el () =0 men 0 la hata 4 ya2ni ()*4 iza badek 
+men el 0 lal 5 bethet mahal el 4 ,5
+
 console.log(Math.trunc(10.3)) el trunc betraja2 el number bala el number yali ba2ad el virgule
+
   let theName = "faysal";
   1-  console.log(theName);
   2- console.log(theName[0]);
   3-  console.log(theName.charAt(1)); 
   1 bte2tina bel conole faysal 
-  fi 2ana tari2ten lan njib el haref  ya 2ama 2 or 3
+  fi 2ana tari2ten lan njib el haref  ya ama 2 or 3
   2 bte2tina bel console awal haref or awal index yali houwe f la2nou bel javascript el 2ad bibalesh men el 0
   3 bte2tina haref el a 
   el indexing betbalesh 2ade men 0 la i5er ra2em
@@ -135,13 +159,41 @@ console.log(Math.trunc(10.3)) el trunc betraja2 el number bala el number yali ba
   let theName = "faysal";
     console.log(theName.length);
     haydi bet2edeli 2adad el ahrof ta2oun el kalme  w bet2edon 2akes el indexing la2nou el index bibalesh men 0 ama lenght bibalesh men 1
-    -iza 2amlna space bel string el space byetla2 bel console w iza hatayna console.log(theName.length); el space bye5ode mahal haref
-    iza badek tshil el space btesta2mel
-      let theName = "  faysal  "; iza badek el space ma yebayen btesta2mel 
-        console.log(theName.trim()); bisir biraje2lek faysal bala space 
+    -iza 2amlna space bel string el space bye5ode mahal haref  bel console w iza hatayna console.log(theName.length); el space byen2ade  haref
+    iza badek tshil el space btesta2mel el trim console.log(theName.trim()); bisir biraje2lek faysal bala space 
          let theName = "faysal";    
     console.log(theName.toUpperCase()); bethawal el ahrof la kbir FAYSAL
     console.log(theName.toLowerCase()); bethawal el ahrof la ze3ir faysal
     
     console.log(theName.trim().charAt(2).toUpperCase()); hek iza badna ne5tar haref w nekabrou 
 -->
+string methodes
+let a = "elzero web school";
+
+console.log(a.indexOf("web")); haydi bet2ad bel 2ade indexing w bas tousal 2ala kelmete web 
+bethete bel console aya index houwa ex hone  web betbalech be index yali ra2mou 7 
+
+console.log(a.indexOf("web",8)); hone ya2ni bibalesh 2ade men el 8 w tlou2 iza la2a web 
+bihatelek bi aya index betbalesh w iza ma la2aha bihate bel console -1  hala2e bel ex yali 2ablou el web betbalech bel index 7 w hone ana ketabette yebaesh men el 8 fa haytla2 bel
+console -1  
+fik kamen ta2mel search 2ala haref ya2ni ex console.log(a.indexOf("o")) iza hatyna haydi haya2tina 5 
+w iza ista2mlna console.log(a.lastIndexOf("o")); bibalesh ye5ede men el a5ir lal awal hata yile2i awal haref o
+
+console.log(a.slice(7)); haydi ya2n bye5ode kelshi ba2ade el index 7 w byektebou bel console 
+w hone byetla2 2ala nafes el ex yali fa2 web school bas 
+console.log(a.slice(7,13 )); w hone ya2ni bi2ede men el index 7 lal 12 ma el 13 la2nou el ending betkoun ma el ra2em zetou betkou yali 2ablou ya2ni 12 ya2ni web sc 
+w iza ista2mlna console.log(a.slice(-7,-3)); ya2ni bibalesh yi2ade men el index ra2em -7 bel 2akes la hata yewasal lal index yali ra2mou -3
+ 
+iza hatyna console.log(a.repeat(3)) betsir betetkarare (a)  yali hiya variables wel value 
+taba2a elzero web school betsir elzero.... btetkarare 3 marat bel console hed ba2don
+ console.log(a.split()) iza 5alet el value fadi hayraja2li kel el a 2ala shakel array ya2ni
+ ["elzero web school"] 2adia bas bi array iza hatet 
+ - iza hateytou hek console.log(a.split("")); mafi fara2 wala shi ben el doubles quotes 
+ biraje2lek array fiya kel haref lahal wou kel haref jouwette "" ya2ni iza houa jouwette fa ya2ni houwa  string w kamen bihatelek 5er el ahref string fadi
+ -  console.log(a.split(" ")) iza  hate hek w fi fara3 ben el doubles quotes fa haytale2 3 sha2fet faker ka2nou 2andek feuille w badek te2esa bi mahlen kame bisirou sha2fe haysirou 3 w nafes el shi bel a 
+ yali 2ana , 2ana 2 fara2 fa hatraje2 elzero lahal w web lahal school lahal
+ - iza hatet  console.log(a.split(" ",2)) el 2 hiya limit el 2as2asa ya2ni nahna 2ana console.log(a.split(" ")) betala2 3 shafet (elzero,we,school) ba2ad ma hatet inta 2 hatala2lek sha2aften bas w betbalesh men el awal ya2ni hatale2 elzero wou web bas
+
+ - 
+console.log(a.substring()); haydi mete el slice w iza 5akayta fadia ma bete2ta2 shi w 
+bethet el a metel ma hiya   
