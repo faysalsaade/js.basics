@@ -190,7 +190,7 @@ taba2a elzero web school betsir elzero.... btetkarare 3 marat bel console hed ba
  ["elzero web school"] 2adia bas bi array iza hatet 
  - iza hateytou hek console.log(a.split("")); mafi fara2 wala shi ben el doubles quotes 
  biraje2lek array fiya kel haref lahal wou kel haref jouwette "" ya2ni iza houa jouwette fa ya2ni houwa  string w kamen bihatelek 5er el ahref string fadi
- -  console.log(a.split(" ")) iza  hate hek w fi fara3 ben el doubles quotes fa haytale2 3 sha2fet faker ka2nou 2andek feuille w badek te2esa bi mahlen kame bisirou sha2fe haysirou 3 w nafes el shi bel a 
+ -  console.log(a.split(" ")) iza  hatet hek w fi fara3 ben el doubles quotes fa haytale2 3 sha2fet faker ka2nou 2andek feuille w badek te2esa bi mahlen kame bisirou sha2fe haysirou 3 w nafes el shi bel a 
  yali 2ana , 2ana 2 fara2 fa hatraje2 elzero lahal w web lahal school lahal
  - iza hatet  console.log(a.split(" ",2)) el 2 hiya limit el 2as2asa ya2ni nahna 2ana console.log(a.split(" ")) betala2 3 shafet (elzero,we,school) ba2ad ma hatet inta 2 hatala2lek sha2aften bas w betbalesh men el awal ya2ni hatale2 elzero wou web bas
 
@@ -215,3 +215,17 @@ small (e) la e large  (E)
 w fik kamen tehaded el sta console.log(a.startsWith("e",8)); fina kamen nehaded el start men wen
 
 console.log(a.endsWith("e",6)) hone ya2ni 2edeli bel length ma bel indexing w shouf mahal ma weselet bel 2ade fi haref el e iza kane fi bihete true w iza mafi bihate false
+
+
+comparison operators 
+haydi betala2 true aw false 
+- == Equal     == (compare value only)
+- != Not Equal == (compare value only)
+ex console.log(10 == "10") hone hatetla2 true la2nou 10 = 10 w el browzer hone ma hamou
+el kind ta2 el data in kanet string aw Number
+
+
+haydi betala2 true aw false 
+- === Identical    == (compare value + type )
+- ==! Not Identical== (compare value + type )
+ex console.log(10 === "10") hone laha yetla2 false sahi inon nafes value bas 3er type fa ha yetla2 false
