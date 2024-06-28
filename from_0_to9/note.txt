@@ -229,3 +229,30 @@ haydi betala2 true aw false
 - === Identical    == (compare value + type )
 - ==! Not Identical== (compare value + type )
 ex console.log(10 === "10") hone laha yetla2 false sahi inon nafes value bas 3er type fa ha yetla2 false
+   
+
+haydi betala2 true aw false 
+- > bigger than 
+- >= bigger than or equal
+
+- < smaller than
+- <= smaller than or equal
+
+
+- ! = not
+- && = and
+
+
+
+- ! = not 
+console.log(true); haydi hatetla2 true 
+console.log(!true); haydi !true ya2ni not true ya2ni hatale2 false 
+console.log(10 == "10");  hone hatetla2 true
+console.log(!(10 == "10")); hone bima inek hatet ! w hiya true ya2ni el jawab howa  !true fa hatetla2 false
+
+- && = and
+console.log(10 == "10" && 10 > 9 && 10 > 50);hone ya2ni 2andak 3 shroot iza wahed menon menou mawjoud fa haytale2 false w iza kelen majoudin fa haytale2 true
+
+
+- || = or
+console.log(10 == "10" || 10 > 9 || 10 || 50); ya2ni iza 2ana wahed men hal shroot sah fa bihetli true hata la el be2i el shroot 3alat el mohem yekoun wahed zabet 
