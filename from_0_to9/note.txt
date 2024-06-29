@@ -343,3 +343,9 @@ hone ya2ni iza el the age > 20 wou < 60 tale2li el mktoub bel console
 ? console.log("larger than 60") hone ya2ni iza el theage > 60  tale2li el mktoub bel console 
 : console.log("unknown");
 hone ya2ni iza wala sharetzabet tab2ali el mktoub bel console
+
+let price = 0;
+console.log(`the price is ${price || 200}`);
+da2imen ma lazem tehet el price 0 null , or false or undefined aw space fadi iza bedek tebi2 bi balesh ya2ni 0 bethet free bas ma betehet 0 wali yali 2elnehen 2abel wel || 200 bte2ni 2nou iza fi hale hatyna haydol yali 2elnehon men sheway 0..... fa ma yetale2en wou hayatla2 200
+
+console.log(`the price is ${price ?? 200}`);hone ya2ni el false value byraje2en bel browzer metel el 0... bas el null wel undefined iza kenou mawjouin fa biraje2 200
