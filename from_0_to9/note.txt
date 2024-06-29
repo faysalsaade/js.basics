@@ -256,3 +256,27 @@ console.log(10 == "10" && 10 > 9 && 10 > 50);hone ya2ni 2andak 3 shroot iza wahe
 
 - || = or
 console.log(10 == "10" || 10 > 9 || 10 || 50); ya2ni iza 2ana wahed men hal shroot sah fa bihetli true hata la el be2i el shroot 3alat el mohem yekoun wahed zabet 
+
+
+if conditions
+
+let price = 100;
+let discount = true;
+let discountamount = 30;
+
+if (discount === true) {
+  price -= discountamount;// price = price -discountamount
+}
+console.log(price);
+
+haseb el condition(shart) yali hone iza 2ana discount === true fa ya2ni 2ana 2a 2oul lal browzer taba2 kelshi bektbou aw hesabe  klishi behetou  w hone bima inou el discount === true  fa hay2mel el 2amilie el hisabie haydi  price -= discountamount;
+w ytala2 el answer bel console yali howa 70 la2nou 100 - 30 =70 
+ else if (country === "lebanon") {
+  price -= discountamount;
+} haydi ya2ni (or) ya2ni iza el shart el awal ma teha2a2 w kene 2ana  ex discount === false fa maha temshi el 2amalie el hesabie la2nou fi 2ana conditons yali howa discount === true w hiya false fa maha temshi wel else if bet2oul lal browzer iza el condition el awal ma teha2a2  fa rouh 2ala el condition  el tani yali howa country  w fina nesta2mel akter men shart w iza wala wehede zabat fa hayraja2 100  
+
+ else {
+  price -= 50;
+} 
+haydi betheta metel el else if w haydi ya2ni iza wala condition zabet 
+na2esli 50 men el price el asasi yali howa 100
