@@ -280,3 +280,19 @@ w ytala2 el answer bel console yali howa 70 la2nou 100 - 30 =70
 } 
 haydi betheta metel el else if w haydi ya2ni iza wala condition zabet 
 na2esli 50 men el price el asasi yali howa 100
+
+moumken nahet jouwatte el else if aw el if aw el else if tani
+ ex: 
+let price = 100;
+let discount = false;
+let discountamount = 30;
+let country = "lebanon";
+if (discount === true) {
+  price -= discountamount;
+} else if (country === "spain") {
+  if (student === true) {
+    price -= discountamount + 30;
+  } else {
+    price -= 10;
+  }
+}

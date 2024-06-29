@@ -5,7 +5,11 @@ let country = "lebanon";
 if (discount === true) {
   price -= discountamount;
 } else if (country === "spain") {
-  price -= discountamount;
+  if (student === true) {
+    price -= discountamount + 30;
+  } else {
+    price -= 10;
+  }
 } else {
   price -= 50;
 }
