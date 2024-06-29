@@ -295,4 +295,51 @@ if (discount === true) {
   } else {
     price -= 10;
   }
-}
+} 
+
+
+ w 2ana tari2a la shart ahyan w mo5tasera akter 
+ ex 
+let thename = "ahmed";
+let thegender = "male";
+let theage = "30";
+
+thegender === "male" ? console.log("mr") : console.log("mrs");
+  hone yali 2abel ? howa el sharet w yali 2abel el : howa iza el condition tela2  true teba2li mr w yali ba2ad el : ya2ni iza condition tela2 false tab2ali mrs
+  w hone el result  
+  let result = thegender === "male" ? "mr" : "mrs";
+document.write(result); iza ken thegender male fa haytale2 bel page mr 
+ w iza el thegender mena male fa ha yetale2 bel page mrs
+
+ hone bi tar2ite el Ec6
+ console.log(
+  `hello ${
+    thegender === "male" ? console.log("mr") : console.log("mrs")
+  }  ${thename}`
+);
+
+
+
+theage < 20
+  ? console.log(20)
+  : theage > 20 && theage < 60
+  ? console.log("20 to 60")
+  : theage > 60
+  ? console.log("larger than 60")
+  : console.log("unknown");
+w hone tari2a la nektob el condition bala tari2et  true aw false
+theage < 20  
+? console.log(20)
+hone ya2ni iza el the age < 20 tale2li el mktoub bel console
+
+
+
+: theage > 20 && theage < 60  
+? console.log("20 to 60")
+hone ya2ni iza el the age > 20 wou < 60 tale2li el mktoub bel console 
+
+ 
+: theage > 60 
+? console.log("larger than 60") hone ya2ni iza el theage > 60  tale2li el mktoub bel console 
+: console.log("unknown");
+hone ya2ni iza wala sharetzabet tab2ali el mktoub bel console
