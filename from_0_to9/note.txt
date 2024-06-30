@@ -349,3 +349,44 @@ console.log(`the price is ${price || 200}`);
 da2imen ma lazem tehet el price 0 null , or false or undefined aw space fadi iza bedek tebi2 bi balesh ya2ni 0 bethet free bas ma betehet 0 wali yali 2elnehen 2abel wel || 200 bte2ni 2nou iza fi hale hatyna haydol yali 2elnehon men sheway 0..... fa ma yetale2en wou hayatla2 200
 
 console.log(`the price is ${price ?? 200}`);hone ya2ni el false value byraje2en bel browzer metel el 0... bas el null wel undefined iza kenou mawjouin fa biraje2 200
+
+
+
+haydi metel el if 
+let day = 2;
+
+switch (day) {
+  case 0:
+    console.log("saturday");
+    break;
+  case 1:
+    console.log("sunday");
+    break;
+  case 2:
+  case 3:
+    console.log("sunday");
+    break;
+  default:
+    console.log("UNKONWNDAY");
+}
+  w hone 2ana akter men case iza el day ken 2 fa yrouh el browzer yebarem 2ala el case yali fi 2 wou  yetba2 el mektoub bel console w iza ma la2a wala case fi ra2em 2 nahana menkoun 2ana shi ismou default hada el default ya2ni iza ma l2et wala case zabet heteli el mektoub bel console yali howa UNKONWNDAY w fina nahet iza bedna el default bi awal el switch bas ma nensa nahet ba2da break 
+  el break bet2mer el browzer iza la2a el case el matloube aw ma laa2ha ma yetba2 yali ba2da men days 
+  ex:
+  
+  switch (day) {
+  case 0:
+    console.log("saturday");
+    
+  case 1:
+    console.log("sunday");
+    ;
+  case 2:
+  case 3:
+    console.log("sunday");
+    
+  default:
+    console.log("UNKONWNDAY");
+} ya2ni hone mafi wala break fa yetba2 kel days yali hatina hone bel code laha yetba2a w yeheta  bel console
+
+
+    wel break lazem teheta de2iman  w fina nehet 2 case la fared day   
