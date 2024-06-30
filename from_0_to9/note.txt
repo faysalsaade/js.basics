@@ -389,4 +389,44 @@ switch (day) {
 } ya2ni hone mafi wala break fa yetba2 kel days yali hatina hone bel code laha yetba2a w yeheta  bel console
 
 
-    wel break lazem teheta de2iman  w fina nehet 2 case la fared day   
+    wel break lazem teheta de2iman  w fina nehet 2 case la fared day 
+
+
+
+Array:
+let my freinds = ["Ahmed","Mohamed","Sayed"]
+haydi isma array
+
+console.log(`hello ${myfriends[0]}`) 2ana haydi  betale2elna ahmed la2nou bel array kel string howa ra2em wel 2adde 2ala tari2ette el indexing yani (0 ,1, 2) wel 0 yaniahmed 
+console.log(`hello ${myfriends[2]}`) w hoen nafes el shi
+console.log(`${myfriends[1][2]})  [1] haydi  ya2ni el string yali ra2mou 1 yeli howa Mohamed  wel [2] ya2ni tetba2 el haref el teni 
+
+
+2ani shi ismou nested array wel haydi el nested array bte2ni array jouwette array 
+ex: 
+let myfriends = ["Ahmed", "Mohamed", "Sayed", ["marwan", "ali"]];
+
+w hone  2ana iza bedna njib el nested array wou njib 2 kelme men wou njib a5er haref mne2mel
+console.log(`${myfriends[3][1][2]}`); 
+[3] hone 2am ne2mel focus  el element yali 2ondou index ra2em 3 yali howa el nested array
+[1] haydi bte2mel focus 2ala el element yali jouwette el nested array yali howa ali 
+[2] wou  haydi bte2mel focus 2ala el haref yali 2andou index ra2em 3 yali howa el i 
+
+
+let myfriends = ["Ahmed", "Mohamed", "Sayed", ["marwan", "ali"]];
+
+console.log(myfriends);
+
+myfriends[1] = "gamal";haydi laha te5ayerli mohamed yali howa el index 1 la gamal
+console.log(myfriends);
+
+myfriends[3] = ["sameh", "ameer"];haydi bet5ayer el index ra2em 3 yali howa el nested array  wou ["marwan", "ali"]; 5ayerneha la sameh , ameer 
+
+console.log(myfriends);
+
+console.log(Array.isArray(myfriends));
+W haydi mnesta2mela la na2ref anou hayala shi idemna iza howa array aw la iza array betale2 true bel console w iza la2 betale2 false wou menktob ismou lal shi la na2ref iza howa array aw la2 
+ex
+console.log(Array.isArray(myfriends));el myfriends hiya el name
+
+
