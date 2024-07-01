@@ -13,17 +13,27 @@
 
 // console.log(Array.isArray(myfriends));
 
-let myfriends = ["ahmed", "mohamed", "sayed", "alaa"];
 // console.log(myfriends.length);
 // myfriends[myfriends.length - 1] = "faysal";
+// console.log(myfriends);
+// myfriends.unshift("faysal", "fifi");
+// console.log(myfriends);
+// myfriends.push("fifo", "fofo");
+// console.log(myfriends);
+// let first = myfriends.shift();
+// console.log(myfriends);
+// console.log(`first name is ${first}`);
+// let last = myfriends.pop();
+// console.log(myfriends);
+// console.log(`first name is ${last}`);
+
+let myfriends = ["ahmed", "mohamed", "sayed", "alaa", "ahmed"];
 console.log(myfriends);
-myfriends.unshift("faysal", "fifi");
-console.log(myfriends);
-myfriends.push("fifo", "fofo");
-console.log(myfriends);
-let first = myfriends.shift();
-console.log(myfriends);
-console.log(`first name is ${first}`);
-let last = myfriends.pop();
-console.log(myfriends);
-console.log(`first name is ${last}`);
+console.log(myfriends.indexOf("ahmed"));
+console.log(myfriends.indexOf("ahmed", 2));
+
+console.log(myfriends.lastIndexOf("ahmed"));
+console.log(myfriends.lastIndexOf("ahmed", -2));
+
+console.log(myfriends.includes("ahmed"));
+console.log(myfriends.includes("ahmed", -2));
