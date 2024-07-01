@@ -14,6 +14,16 @@
 // console.log(Array.isArray(myfriends));
 
 let myfriends = ["ahmed", "mohamed", "sayed", "alaa"];
-console.log(myfriends.length);
-myfriends[myfriends.length - 1] = "faysal";
+// console.log(myfriends.length);
+// myfriends[myfriends.length - 1] = "faysal";
 console.log(myfriends);
+myfriends.unshift("faysal", "fifi");
+console.log(myfriends);
+myfriends.push("fifo", "fofo");
+console.log(myfriends);
+let first = myfriends.shift();
+console.log(myfriends);
+console.log(`first name is ${first}`);
+let last = myfriends.pop();
+console.log(myfriends);
+console.log(`first name is ${last}`);
