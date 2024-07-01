@@ -430,3 +430,31 @@ ex
 console.log(Array.isArray(myfriends));el myfriends hiya el name
 
 
+let myfriends = ["ahmed", "mohamed", "sayed", "alaa"];
+console.log(myfriends.length); el lenght bet2edeli 2adal el element bel array w hone 2adaden 4 FA LA YETAL2 4 BEL console
+
+let myfriends = ["ahmed" , "mohamed" , "sayed" , "alaa"]
+
+arrays methodes [adding and removing ]
+- unshift("","") add  element to the first 
+ex: myfriends.unshift("mimi","fahed")
+
+- push("","") add element to the end
+ex: myfriends.push("sisi","fifo")
+
+- shift() remove first element from array
+ex: myfriends.shift()
+
+- pop() remove last element from array+
+ex: myfriends.pop()
+
+
+let myfriends = ["ahmed", "mohamed", "sayed", "alaa", "ahmed"];
+console.log(myfriends.indexOf("ahmed")); hone laha yibarem 2ala ahmed bel array w bima inou ma hetaynelou en wen yebalesh fa yiblesh ya2mel search men eli index 0 wou bas yele2i ahmed behtelna bel console howa aya index
+console.log(myfriends.indexOf("ahmed", 2)); hek iza bedna nhaded men wen yebalesh ya2mel search el browzer men aya index ya2ni wou bas yele2i ahmed behtelna bel console howa aya index
+
+console.log(myfriends.lastIndexOf("ahmed", -2)); haydi iza badna nebalesh na2mel search men el e5er wou bas yele2i ahmed behtelna bel console howa aya index
+
+
+console.log(myfriends.includes("ahmed")); haydi betale2 ya true ya false ya2ni iza ahmed mawjoude bel array myfriends fa hayetala2 true wou iza menou mawjoude fa haytale2 false  w kamen fi nehadedlou men wen yebalesh tebrime 
+ex : console.log(myfriends.includes("ahmed", 2));
