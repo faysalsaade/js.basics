@@ -458,3 +458,8 @@ console.log(myfriends.lastIndexOf("ahmed", -2)); haydi iza badna nebalesh na2mel
 
 console.log(myfriends.includes("ahmed")); haydi betale2 ya true ya false ya2ni iza ahmed mawjoude bel array myfriends fa hayetala2 true wou iza menou mawjoude fa haytale2 false  w kamen fi nehadedlou men wen yebalesh tebrime 
 ex : console.log(myfriends.includes("ahmed", 2));
+
+let myfriends = [10, "sayed", "mohamed", "90", 1000, 100, 20, "10", -20, -10];
+console.log(myfriends);
+console.log(myfriends.sort()); haydi bet5ali yetla2 bel console awal shi el ar2am yali fiya na2es ba2den yali ma fiyon na2es wou i5er shi el string 
+console.log(myfriends.reverse()); haydi 2akes el sort ya2ni awal shi el string ......

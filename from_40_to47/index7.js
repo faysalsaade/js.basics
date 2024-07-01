@@ -27,13 +27,16 @@
 // console.log(myfriends);
 // console.log(`first name is ${last}`);
 
-let myfriends = ["ahmed", "mohamed", "sayed", "alaa", "ahmed"];
+// console.log(myfriends.indexOf("ahmed"));
+// console.log(myfriends.indexOf("ahmed", 2));
+
+// console.log(myfriends.lastIndexOf("ahmed"));
+// console.log(myfriends.lastIndexOf("ahmed", -2));
+
+// console.log(myfriends.includes("ahmed"));
+// console.log(myfriends.includes("ahmed", -2));
+
+let myfriends = [10, "sayed", "mohamed", "90", 1000, 100, 20, "10", -20, -10];
 console.log(myfriends);
-console.log(myfriends.indexOf("ahmed"));
-console.log(myfriends.indexOf("ahmed", 2));
-
-console.log(myfriends.lastIndexOf("ahmed"));
-console.log(myfriends.lastIndexOf("ahmed", -2));
-
-console.log(myfriends.includes("ahmed"));
-console.log(myfriends.includes("ahmed", -2));
+console.log(myfriends.sort());
+console.log(myfriends.reverse());
