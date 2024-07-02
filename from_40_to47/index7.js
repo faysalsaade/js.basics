@@ -36,7 +36,25 @@
 // console.log(myfriends.includes("ahmed"));
 // console.log(myfriends.includes("ahmed", -2));
 
-let myfriends = [10, "sayed", "mohamed", "90", 1000, 100, 20, "10", -20, -10];
+// let myfriends = [10, "sayed", "mohamed", "90", 1000, 100, 20, "10", -20, -10];
+// console.log(myfriends);
+// console.log(myfriends.sort());
+// console.log(myfriends.reverse());
+// let myfriends = ["Ahmed", "Mohamed", "Sayed", "faysal", "fifi", "foufou"];
+// console.log(myfriends);
+// console.log(myfriends.slice());
+// console.log(myfriends.slice(1));
+// console.log(myfriends.slice(1, 3));
+// console.log(myfriends.slice(-3));
+// console.log(myfriends.slice(1, -2));
+// console.log(myfriends);
+// myfriends.splice(1, 2, "fafi", "fifi");
+// console.log(myfriends);
+let myfriends = ["ahmed", "mohamed", "sayed", "faysal", "fifi", "foufou"];
+let mynewfriends = ["samer", "sameh"];
+let schoolfriends = ["ameer", "mimi"];
+
 console.log(myfriends);
-console.log(myfriends.sort());
-console.log(myfriends.reverse());
+let allfriendes = myfriends.concat(mynewfriends, schoolfriends, "fafo", [1, 2]);
+console.log(allfriendes);
+console.log(allfriendes.join("&"));

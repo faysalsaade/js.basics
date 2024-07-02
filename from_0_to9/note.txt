@@ -1,7 +1,10 @@
 <!--
 // cannot be a reserved keyword
 // should be meaningful
-// cannot start with a number (1name)
+// cannot start with a number
+
+
+console.log(allfriendes.join("&")); honr betraje2 allfriendes fi ben kel element & wou mena 2ala shekel array (1name)
 // cannot contain a space or hyphen
 // are case-sensitive
 fik tahet el script bel head aw bi 2e5are elbody w youfadal bel body lesh la2nou iza hatet el script bel head da2imen el 
@@ -463,3 +466,17 @@ let myfriends = [10, "sayed", "mohamed", "90", 1000, 100, 20, "10", -20, -10];
 console.log(myfriends);
 console.log(myfriends.sort()); haydi bet5ali yetla2 bel console awal shi el ar2am yali fiya na2es ba2den yali ma fiyon na2es wou i5er shi el string 
 console.log(myfriends.reverse()); haydi 2akes el sort ya2ni awal shi el string ......
+
+myfriends.splice(1, 2, "fafi", "fifi");
+
+
+let myfriends = ["ahmed", "mohamed", "sayed", "faysal", "fifi", "foufou"];
+let mynewfriends = ["samer", "sameh"];
+let schoolfriends = ["ameer", "mimi"];
+
+console.log(myfriends);
+let allfriendes = myfriends.concat(mynewfriends,schoolfriends,"fafo",[1,2])
+console.log(allfriendes) hone ya2ni el array myfriends dif 2alaya el array mynewfriends el aray schoolfriends , element jdide howa fafo wou nested array fiya 2 number
+
+
+console.log(allfriendes.join("&")); honr betraje2 allfriendes fi ben kel element & wou mena 2ala shekel array
