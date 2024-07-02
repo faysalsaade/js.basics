@@ -182,7 +182,7 @@ console -1
 fik kamen ta2mel search 2ala haref ya2ni ex console.log(a.indexOf("o")) iza hatyna haydi haya2tina 5 
 w iza ista2mlna console.log(a.lastIndexOf("o")); bibalesh ye5ede men el a5ir lal awal hata yile2i awal haref o
 
-console.log(a.slice(7)); haydi ya2n bye5ode kelshi ba2ade el index 7 w byektebou bel console 
+console.log(a.slice(7)); haydi ya2ni bye5ode kelshi ba2ade el index 7 w byektebou bel console 
 w hone byetla2 2ala nafes el ex yali fa2 web school bas 
 console.log(a.slice(7,13 )); w hone ya2ni bi2ede men el index 7 lal 12 ma el 13 la2nou el ending betkoun ma el ra2em zetou betkou yali 2ablou ya2ni 12 ya2ni web sc 
 w iza ista2mlna console.log(a.slice(-7,-3)); ya2ni bibalesh yi2ade men el index ra2em -7 bel 2akes la hata yewasal lal index yali ra2mou -3
@@ -400,8 +400,8 @@ Array:
 let my freinds = ["Ahmed","Mohamed","Sayed"]
 haydi isma array
 
-console.log(`hello ${myfriends[0]}`) 2ana haydi  betale2elna ahmed la2nou bel array kel string howa ra2em wel 2adde 2ala tari2ette el indexing yani (0 ,1, 2) wel 0 yaniahmed 
-console.log(`hello ${myfriends[2]}`) w hoen nafes el shi
+console.log(`hello ${myfriends[0]}`) 2ana haydi  betale2elna ahmed la2nou bel array kel string howa ra2em wel 2adde 2ala tari2ette el indexing yani (0 ,1, 2) wel 0 ya2ni ahmed 
+console.log(`hello ${myfriends[2]}`) w hone  nafes el shi
 console.log(`${myfriends[1][2]})  [1] haydi  ya2ni el string yali ra2mou 1 yeli howa Mohamed  wel [2] ya2ni tetba2 el haref el teni 
 
 

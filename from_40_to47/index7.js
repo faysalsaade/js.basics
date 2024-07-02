@@ -49,12 +49,50 @@
 // console.log(myfriends.slice(1, -2));
 // console.log(myfriends);
 // myfriends.splice(1, 2, "fafi", "fifi");
-// console.log(myfriends);
-let myfriends = ["ahmed", "mohamed", "sayed", "faysal", "fifi", "foufou"];
-let mynewfriends = ["samer", "sameh"];
-let schoolfriends = ["ameer", "mimi"];
+// // console.log(myfriends);
+// let myfriends = ["ahmed", "mohamed", "sayed", "faysal", "fifi", "foufou"];
+// let mynewfriends = ["samer", "sameh"];
+// let schoolfriends = ["ameer", "mimi"];
 
-console.log(myfriends);
-let allfriendes = myfriends.concat(mynewfriends, schoolfriends, "fafo", [1, 2]);
-console.log(allfriendes);
-console.log(allfriendes.join("&"));
+// console.log(myfriends);
+// let allfriendes = myfriends.concat(mynewfriends, schoolfriends, "fafo", [1, 2]);
+// console.log(allfriendes);
+// console.log(allfriendes.join("&"));
+
+// let myfriends = ["Ahmed", "Elham", "Osama", "Gamal"];
+// let num = 3;
+
+// // Method 1
+// console.log(myfriends.slice(0, 3)); // ["Ahmed", "Elham", "Osama"];
+
+// // Method 2
+// console.log(myfriends.slice(-4, -1)); // ["Ahmed", "Elham", "Osama"];
+
+// let friends = ["Ahmed", "Eman", "Osama", "Gamal"];
+
+// // Write Your Code Here
+
+// console.log(friends); // ["Eman", "Osama"]
+// friends.splice(0, 1);
+// friends.splice(2, 3);
+// console.log(friends);
+
+// let arrOne = ["C", "D", "X"];
+// let arrTwo = ["A", "B", "Z"];
+// let finalArr = [];
+
+// // Write One Single Line Of Code
+
+// finalArr = finalArr.concat(arrOne, arrTwo).sort().reverse();
+
+// console.log(finalArr); // ["Z", "X", "D", "C", "B", "A"]
+
+// let website = "Go";
+// let words = [`${website}ogle`, "Facebook", ["Elzero", "Web", "School"]];
+
+// console.log(`${words.pop()[0]}`); // ZERO
+
+let needle = "JS";
+let haystack = ["PHP", "JS", "Python"];
+console.log(needle == haystack);
+// Write 3 Solutions
