@@ -108,5 +108,6 @@ let arr2 = ["D", "E", "F", "Y"];
 let allArrs = [];
 
 // Your Code Here
-allArrs = arr1.pop().concat(arr2.pop());
+
+allArrs = [(arr2 = arr1.length)];
 console.log(allArrs); // fxy
