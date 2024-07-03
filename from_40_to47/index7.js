@@ -92,7 +92,21 @@
 
 // console.log(`${words.pop()[0]}`); // ZERO
 
-let needle = "JS";
-let haystack = ["PHP", "JS", "Python"];
-console.log(needle == haystack);
-// Write 3 Solutions
+// let needle = "JS";
+// let haystack = ["PHP", "JS", "Python"];
+
+// // Write 3 Solutions
+// console.log(haystack.includes(needle));
+// console.log(haystack.indexOf(needle));
+// if (haystack.includes(needle)) {
+//   console.log(true);
+//   console.log("found");
+// }
+
+let arr1 = ["A", "C", "X"];
+let arr2 = ["D", "E", "F", "Y"];
+let allArrs = [];
+
+// Your Code Here
+allArrs = arr1.pop().concat(arr2.pop());
+console.log(allArrs); // fxy
