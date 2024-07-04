@@ -26,15 +26,22 @@
 //     console.log(`- ${models[k]}`);
 //   }
 // }
-let products = ["keyboard", "mouse", "pen", "pad", "monitor"];
-let colors = ["red", "green", "black"];
+// let products = ["keyboard", "mouse", "pen", "pad", "monitor"];
+// let colors = ["red", "green", "black"];
 
-mainloop: for (let i = 0; i < products.length; i++) {
+// mainloop: for (let i = 0; i < products.length; i++) {
+//   console.log(products[i]);
+//   nestedloop: for (let j = 0; j < products.length; j++) {
+//     console.log(`- ${colors[j]}`);
+//     if (colors[j] === "green") {
+//       break mainloop;
+//     }
+//   }
+// }
+let products = ["keyboard", "mouse", "pen", "pad", "monitor", "fifi"];
+let i = 0;
+for (;;) {
   console.log(products[i]);
-  nestedloop: for (let j = 0; j < products.length; j++) {
-    console.log(`- ${colors[j]}`);
-    if (colors[j] === "green") {
-      break mainloop;
-    }
-  }
+  i++;
+  if (i === products.length) break;
 }
