@@ -100,16 +100,15 @@
 //   }
 // }
 
-// // let start = 1;
-// // let end = 6;
-// // let breaker = 2;
+let start = 1;
+let end = 6;
+let breaker = 2;
 
-// // for (let i = start; i < end + start; i++) {
-// //   console.log(i);
-// //   for (j = breaker; j < end - start; j = j + breaker) {
-// //     console.log(`--${j}`);
-// //   }
-// }
+for (let i = start; i < end + start; i++) {
+  console.log(i);
+  console.log(`--${breaker}`);
+  console.log(`--${end - breaker}`);
+}
 
 // Output
 // 1
