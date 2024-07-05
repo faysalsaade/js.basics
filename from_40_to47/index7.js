@@ -103,11 +103,11 @@
 //   console.log("found");
 // }
 
-let arr1 = ["A", "C", "X"];
-let arr2 = ["D", "E", "F", "Y"];
-let allArrs = [];
+// let arr1 = ["A", "C", "X"];
+// let arr2 = ["D", "E", "F", "Y"];
+// let allArrs = [];
 
-// Your Code Here
+// // Your Code Here
 
-allArrs = [(arr2 = arr1.length)];
-console.log(allArrs); // fxy
+// allArrs = [(arr2 = arr1.length)];
+// console.log(allArrs); // fxy
