@@ -78,24 +78,55 @@
 //   }
 //   console.log(i);
 // }
-let start = 10;
-let end = 0;
-let stop = 3;
+// let start = 10;
+// let end = 0;
+// let stop = 3;
+
+// // Output
+// // 10;
+// // 09;
+// // 08;
+// // 07;
+// // 06;
+// // 05;
+// // 04;
+// // 03;
+
+// for (let i = 10; i > 2; i--) {
+//   if (i < 10) {
+//     console.log(`${end}${i}`);
+//   } else if (i == start) {
+//     console.log(i);
+//   }
+// }
+
+// // let start = 1;
+// // let end = 6;
+// // let breaker = 2;
+
+// // for (let i = start; i < end + start; i++) {
+// //   console.log(i);
+// //   for (j = breaker; j < end - start; j = j + breaker) {
+// //     console.log(`--${j}`);
+// //   }
+// }
 
 // Output
-// 10;
-// 09;
-// 08;
-// 07;
-// 06;
-// 05;
-// 04;
-// 03;
-
-for (let i = 10; i > 2; i--) {
-  if (i < 10) {
-    console.log(`${end}${i}`);
-  } else if (i == start) {
-    console.log(i);
-  }
-}
+// 1
+// -- 2
+// -- 4
+// 2
+// -- 2
+// -- 4
+// 3
+// -- 2
+// -- 4
+// 4
+// -- 2
+// -- 4
+// 5
+// -- 2
+// -- 4
+// 6
+// -- 2
+// -- 4
