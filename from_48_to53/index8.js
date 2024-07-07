@@ -100,15 +100,15 @@
 //   }
 // }
 
-let start = 1;
-let end = 6;
-let breaker = 2;
+// let start = 1;
+// let end = 6;
+// let breaker = 2;
 
-for (let i = start; i < end + start; i++) {
-  console.log(i);
-  console.log(`--${breaker}`);
-  console.log(`--${end - breaker}`);
-}
+// for (let i = start; i < end + start; i++) {
+//   console.log(i);
+//   console.log(`--${breaker}`);
+//   console.log(`--${end - breaker}`);
+// }
 
 // Output
 // 1
@@ -124,8 +124,23 @@ for (let i = start; i < end + start; i++) {
 // -- 2
 // -- 4
 // 5
-// -- 2
-// -- 4
+// -- 2 4
 // 6
 // -- 2
 // -- 4
+let friends = ["Ahmed", "Sayed", "Eman", "Mahmoud", "Ameer", "Osama", "Sameh"];
+let letter = "a";
+
+// Output
+// ("1 => Sayed");
+// ("2 => Eman");
+// ("3 => Mahmoud");
+// ("4 => Osama");
+// ("5 => Sameh");
+
+for (let i = +false, j = +true; i < friends.length; i++) {
+  if (friends[i].charAt(+false).toUpperCase() === letter.toUpperCase()) {
+    continue;
+  }
+  console.log(`"${j++} => ${friends[i]}"`);
+}
