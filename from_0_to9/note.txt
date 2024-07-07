@@ -480,4 +480,3 @@ console.log(allfriendes) hone ya2ni el array myfriends dif 2alaya el array mynew
 
 
 console.log(allfriendes.join("&")); honr betraje2 allfriendes fi ben kel element & wou mena 2ala shekel array
-fifi
