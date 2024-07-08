@@ -139,7 +139,7 @@ let letter = "a";
 // ("5 => Sameh");
 
 for (let i = +false, j = +true; i < friends.length; i++) {
-  if (friends[i].charAt(+false).toUpperCase() === letter.toUpperCase()) {
+  if (friends[i].charAt(+false) === letter.toUpperCase()) {
     continue;
   }
   console.log(`"${j++} => ${friends[i]}"`);
