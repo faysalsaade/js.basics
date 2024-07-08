@@ -138,9 +138,9 @@ let letter = "a";
 // ("4 => Osama");
 // ("5 => Sameh");
 
-for (let i = +false, j = +true; i < friends.length; i++) {
-  if (friends[i].charAt(+false) === letter.toUpperCase()) {
-    continue;
-  }
-  console.log(`"${j++} => ${friends[i]}"`);
-}
+// for (let i = +false, j = +true; i < friends.length; i++) {
+//   if (friends[i].charAt(+false) === letter.toUpperCase()) {
+//     continue;
+//   }
+//   console.log(`"${j++} => ${friends[i]}"`);
+// }
