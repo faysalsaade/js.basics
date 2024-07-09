@@ -162,14 +162,14 @@ let letter = "a";
 // }
 
 // console.log(swappedName);
-let start = 0;
-let mix = [1, 2, 3, "A", "B", "C", 4];
-for (let i = start + true; i < mix.length - (true + true); i++) {
-  if (i === start + true) {
-    continue;
-  }
-  console.log(i);
-}
+// let start = 0;
+// let mix = [1, 2, 3, "A", "B", "C", 4];
+// for (let i = start + true; i < mix.length - (true + true); i++) {
+//   if (i === start + true) {
+//     continue;
+//   }
+//   console.log(i);
+// }
 // Output
 2;
 3;
