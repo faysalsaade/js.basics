@@ -1,6 +1,7 @@
 // function sayhello(username) {
 //   console.log(`hi ${username}`);
 // }
+
 // sayhello("fifi");
 // sayhello("foufi");
 // sayhello("fafi");
@@ -24,12 +25,18 @@
 //   }
 // }
 // generateyears(2005, 2025, 2021);
-function generate(start, end) {
-  for (let i = start; i <= end; i++) {
-    if (i === 15) {
-      return `interruptting`;
-    }
-    console.log(i);
-  }
+
+// function generate(start, end) {
+//   for (let i = start; i <= end; i++) {
+//     if (i === 15) {
+//       return `interruptting`;
+//     }
+//     console.log(i);
+//   }
+// }
+// generate(10, 20);
+
+function sayhello(name = "fifi", age = "16") {
+  return `hello ${name} your age is ${age}`;
 }
-generate(10, 20);
+console.log(sayhello());
