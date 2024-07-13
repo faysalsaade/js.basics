@@ -17,24 +17,22 @@
 //   console.log(i);
 // }
 
-let friends = ["amani", true, 5, "moemen", false];
-let index = 0;
-while (index < friends.length) {
-  if (friends[index] === "moemen") {
-    console.log(`"${friends[index]} loves"`);
-    index++;
-  } else {
-    index++;
-    continue;
-  }
-  if (friends[index] === "amani" || "number") {
-    console.log(`"${friends[index]} times"`);
-    index++;
-  } else {
-    index++;
-    continue;
-  }
-}
+// while (index < friends.length) {
+//   if (friends[index] === "moemen") {
+//     console.log(`${friends[index]} loves`);
+//     index++;
+//   } else {
+//     index++;
+//     continue;
+//   }
+//   if (friends[index] === false) {
+//     console.log(`${friends[+false]} ` + `${friends.length} ` + "times");
+//     index++;
+//   } else {
+//     index++;
+//     continue;
+//   }
+// }
 
 //output "moemen loves"
 //output "amani 5 times"
