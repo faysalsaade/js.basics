@@ -36,7 +36,16 @@
 // }
 // generate(10, 20);
 
-function sayhello(name = "fifi", age = "16") {
-  return `hello ${name} your age is ${age}`;
-}
-console.log(sayhello());
+// function sayhello(name = "fifi", age = "16") {
+//   return `hello ${name} your age is ${age}`;
+// }
+// console.log(sayhello());
+
+// function calc(...numbers) {
+//   let result = 0;
+//   for (let i = 0; i < numbers.length; i++) {
+//     result += numbers[i];
+//   }
+//   return `final result is ${result}`;
+// }
+// console.log(calc(10, 50, 20, 90, 79, 11, -60, -100));
