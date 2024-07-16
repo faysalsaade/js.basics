@@ -67,3 +67,19 @@
 //   document.write(`</div>`);
 // }
 // showinfo();
+
+function sayHello(theName, theGender = 0) {
+  if (theGender === "Male") {
+    document.write(`hello Mr ${theName}`);
+    document.write(`<br></br>`);
+  } else if (theGender === "Female") {
+    document.write(`hello Miss ${theName}`);
+    document.write(`<br></br>`);
+  } else {
+    document.write(`hello ${theName}`);
+  }
+}
+
+sayHello("Osama", "Male"); // "Hello Mr Osama"
+sayHello("Eman", "Female"); // "Hello Miss Eman"
+sayHello("Sameh"); // "Hello Sameh"
