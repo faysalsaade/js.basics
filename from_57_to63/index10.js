@@ -68,18 +68,42 @@
 // }
 // showinfo();
 
-function sayHello(theName, theGender = 0) {
-  if (theGender === "Male") {
-    document.write(`hello Mr ${theName}`);
-    document.write(`<br></br>`);
-  } else if (theGender === "Female") {
-    document.write(`hello Miss ${theName}`);
-    document.write(`<br></br>`);
-  } else {
-    document.write(`hello ${theName}`);
-  }
-}
+// function sayHello(theName, theGender = 0) {
+//   if (theGender === "Male") {
+//     document.write(`hello Mr ${theName}`);
+//     document.write(`<br></br>`);
+//   } else if (theGender === "Female") {
+//     document.write(`hello Miss ${theName}`);
+//     document.write(`<br></br>`);
+//   } else {
+//     document.write(`hello ${theName}`);
+//   }
+// }
 
-sayHello("Osama", "Male"); // "Hello Mr Osama"
-sayHello("Eman", "Female"); // "Hello Miss Eman"
-sayHello("Sameh"); // "Hello Sameh"
+// sayHello("Osama", "Male"); // "Hello Mr Osama"
+// sayHello("Eman", "Female"); // "Hello Miss Eman"
+// sayHello("Sameh"); // "Hello Sameh"
+
+// function calculate(firstNum, secondNum, operation) {
+//   if (!secondNum) {
+//     document.write(`<p>Second Number Not Found</p>`);
+//   } else if (!operation) {
+//     document.write(firstNum + secondNum);
+//     document.write(`<br></br>`);
+//   } else if (operation === "add") {
+//     document.write(firstNum + secondNum);
+//     document.write(`<br></br>`);
+//   } else if (operation === "subtract") {
+//     document.write(firstNum - secondNum);
+//     document.write(`<br></br>`);
+//   } else if (operation === "multiply") {
+//     document.write(firstNum * secondNum);
+//   }
+// }
+
+// // Needed Output
+// calculate(20); // Second Number Not Found
+// calculate(20, 30); // 50
+// calculate(20, 30, "add"); // 50
+// calculate(20, 30, "subtract"); // -10
+// calculate(20, 30, "multiply"); // 600
