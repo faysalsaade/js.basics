@@ -49,3 +49,21 @@
 //   return `final result is ${result}`;
 // }
 // console.log(calc(10, 50, 20, 90, 79, 11, -60, -100));
+
+// function showinfo(us = "un", ag = "un", rt = 0, show = "yes", ...sk) {
+//   document.write(`<div>`);
+//   document.write(`<h2>welcome, ${us}</h2>`);
+//   document.write(`<p>age: ${ag}</p>`);
+//   document.write(`<p>hour rate: $${rt}</p>`);
+//   if (show === "yes") {
+//     if (sk.length > 0) {
+//       document.write(`<p>skills: ${sk.join(" | ")}</p>`);
+//     } else {
+//       document.write(`<p>skills: no skills</p>`);
+//     }
+//   } else {
+//     document.write(`<p>skills is hidden </p>`);
+//   }
+//   document.write(`</div>`);
+// }
+// showinfo();
