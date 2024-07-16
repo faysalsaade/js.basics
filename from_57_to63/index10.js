@@ -107,3 +107,20 @@
 // calculate(20, 30, "add"); // 50
 // calculate(20, 30, "subtract"); // -10
 // calculate(20, 30, "multiply"); // 600
+
+// function ageInTime(theAge) {
+//   document.write(`${theAge * 12}` + " " + "Months");
+//   document.write(`<br></br>`);
+//   document.write(`${theAge * 52}` + " " + "weeks");
+//   document.write(`<br></br>`);
+//   document.write(`${theAge * 365}` + " " + "days");
+//   document.write(`<br></br>`);
+//   document.write(`${theAge * 8760}` + " " + "hours");
+//   document.write(`<br></br>`);
+//   document.write(`${theAge * 525600}` + " " + "minutes");
+//   document.write(`<br></br>`);
+//   document.write(`${theAge * 3.154e7}` + " " + "secondes");
+//   document.write(`<br></br>`);
+// }
+
+// ageInTime(16); // Months Example => 456 Months
