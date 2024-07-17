@@ -150,3 +150,13 @@
 // }
 
 // createSelectBox(2000, 2021);
+
+function multiply(...numbers) {
+  let result = 1;
+  for (let i = 0; i < numbers.lenght; i++) {
+    result += numbers[i];
+    console.log(i);
+  }
+  return result;
+}
+multiply(10, 20);
