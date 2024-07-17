@@ -123,4 +123,19 @@
 //   document.write(`<br></br>`);
 // }
 
-// ageInTime(16); // Months Example => 456 Months
+// ageInTime(67); // Months Example => 456 Months
+
+// function checkStatus(a, b, c) {
+//   if (a === true || b === true || c === true) {
+//     document.write(`"Hello Osama, Your Age Is 38, You Are Available For Hire"`);
+//     document.write(`<br></br>`);
+//   } else {
+//     document.write(
+//       `"Hello Osama, Your Age Is 38, You Are Not Available For Hire"`
+//     );
+//   }
+// }
+// checkStatus("Osama", 38, true); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// checkStatus(38, "Osama", true); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// checkStatus(true, 38, "Osama"); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// checkStatus(false, "Osama", 38); // "Hello Osama, Your Age Is 38, You Are Not Available For Hire"
