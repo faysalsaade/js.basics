@@ -153,10 +153,15 @@
 
 function multiply(...numbers) {
   let result = 1;
-  for (let i = 0; i < numbers.lenght; i++) {
-    result += numbers[i];
-    console.log(i);
+  for (let i = 0; i < numbers.length; i++) {
+    if (typeof numbers[i] === "string") {
+      continue;
+    }
+
+    result *= numbers[i];
   }
   return result;
 }
-multiply(10, 20);
+console.log(multiply(10, 20));
+console.log(multiply("A", 10, 30));
+console.log(multiply(parseInt("100.5"), 10, "B"));
