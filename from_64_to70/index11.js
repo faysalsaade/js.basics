@@ -68,12 +68,33 @@
 // let print = (num1, num2) => num1 + num2;
 // console.log(print(7, 6));
 
-var a = 1;
-let b = 2;
-function showtext() {
-  console.log(`function from local ${a} `);
-  console.log(`function from local ${b} `);
+// var a = 1;
+// let b = 2;
+// function showtext() {
+//   var a = 10;
+//   let b = 20;
+//   console.log(`function from local ${a} `);
+//   console.log(`function from local ${b} `);
+// }
+// console.log(`from global ${a} `);
+// console.log(`from global ${b} `);
+// showtext();
+
+// var a = 1;
+// let b = 2;
+// function showtext() {
+//   var a = 10;
+//   let b = 20;
+//   console.log(`function from local ${a} `);
+//   console.log(`function from local ${b} `);
+// }
+
+// console.log(`from global ${a} `);
+// console.log(`from global ${b} `);
+// showtext();
+var x = 10;
+if (10 === 10) {
+  let x = 50;
+  console.log(x);
 }
-console.log(`from global ${a} `);
-console.log(`from global ${b} `);
-showtext();
+console.log(x);
