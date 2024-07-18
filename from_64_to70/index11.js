@@ -38,14 +38,32 @@
 //
 //
 // example 3
-function saymessage(fname, lname) {
-  let message = `hello`;
-  function concatmsg() {
-    function getfullname() {
-      return `${fname} ${lname}`;
-    }
-    return `${message} ${getfullname()} `;
-  }
-  return concatmsg();
-}
-console.log(saymessage("faysal", "saadeh"));
+// function saymessage(fname, lname) {
+//   let message = `hello`;
+//   function concatmsg() {
+//     function getfullname() {
+//       return `${fname} ${lname}`;
+//     }
+//     return `${message} ${getfullname()} `;
+//   }
+//   return concatmsg();
+// }
+// console.log(saymessage("faysal", "saadeh"));
+
+// let print = function () {
+//   return 10;
+// };
+// let print = () => 10;
+
+// let print = function (num) {
+//   return num;
+// };
+// console.log(print(10));
+
+// let print = num => num;
+// let print = function (num1, num2) {
+//   return num1 + num2;
+// };
+
+let print = (num1, num2) => num1 + num2;
+console.log(print(7, 6));
