@@ -64,6 +64,16 @@
 // let print = function (num1, num2) {
 //   return num1 + num2;
 // };
-let faysal = mimi;
-let print = (num1, num2) => num1 + num2;
-console.log(print(7, 6));
+
+// let print = (num1, num2) => num1 + num2;
+// console.log(print(7, 6));
+
+var a = 1;
+let b = 2;
+function showtext() {
+  console.log(`function from local ${a} `);
+  console.log(`function from local ${b} `);
+}
+console.log(`from global ${a} `);
+console.log(`from global ${b} `);
+showtext();
