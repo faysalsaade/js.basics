@@ -64,6 +64,6 @@
 // let print = function (num1, num2) {
 //   return num1 + num2;
 // };
-
+let faysal = mimi;
 let print = (num1, num2) => num1 + num2;
 console.log(print(7, 6));
