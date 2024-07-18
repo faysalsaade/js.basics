@@ -1,12 +1,51 @@
-let calculator = function (num1, num2) {
-  return num1 + num2;
-};
-console.log(calculator(10, 3));
+// let calculator = function (num1, num2) {
+//   return num1 + num2;
+// };
+// console.log(calculator(10, 3));
 
-function sayhello() {
-  console.log("hello fifi");
+// function sayhello() {
+//   console.log("hello fifi");
+// }
+// document.getElementById("fafi").onclick = sayhello;
+// setTimeout(function () {
+//   console.log("the king faysal");
+// }, 6000);
+// example 1
+// function saymessage(fname, lname) {
+//   let message = `hello`;
+//   function concatmsg() {
+//     message = `${message} ${fname} ${lname}`;
+//   }
+//   concatmsg();
+//   return message;
+// }
+// console.log(saymessage("faysal", "saadeh"));
+//
+//
+//
+// example 2
+// function saymessage(fname, lname) {
+//   let message = `hello`;
+//   function concatmsg() {
+//     return `${message} ${fname} ${lname}`;
+//   }
+//   return concatmsg();
+// }
+// console.log(saymessage("faysal", "saadeh"));
+//
+//
+//
+//
+//
+// example 3
+function saymessage(fname, lname) {
+  let message = `hello`;
+  function concatmsg() {
+    function getfullname() {
+      return `${fname} ${lname}`;
+    }
+    return `${message} ${getfullname()} `;
+  }
+  return concatmsg();
 }
-document.getElementById("fafi").onclick = sayhello;
-setTimeout(function () {
-  console.log("the king faysal");
-}, 6000);
+console.log(saymessage("faysal", "saadeh"));
