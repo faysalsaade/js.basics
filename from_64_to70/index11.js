@@ -92,9 +92,26 @@
 // console.log(`from global ${a} `);
 // console.log(`from global ${b} `);
 // showtext();
-var x = 10;
-if (10 === 10) {
-  let x = 50;
-  console.log(x);
+// var x = 10;
+// if (10 === 10) {
+//   let x = 50;
+//   console.log(x);
+// }
+// console.log(x);
+
+function parent() {
+  let a = 10;
+
+  function child() {
+    console.log(a);
+    // console.log(`from child ${b}`);
+    function grand() {
+      let b = 100;
+      console.log(`from grand ${a}`);
+      console.log(`from grand ${b}`);
+    }
+    grand();
+  }
+  child();
 }
-console.log(x);
+parent();
