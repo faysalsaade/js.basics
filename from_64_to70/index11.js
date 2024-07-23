@@ -122,9 +122,10 @@ function getDetails(zName, zAge, zCountry) {
 
   function namePattern(zName) {
     
-    console.log(zName); 
-    // let name = zName
-    // const myarray = zName .split("");
+ 
+    const myarray = zName.split(" ");
+    console.log(myarray[0],myarray[1][0]);
+   
     // Osama Mohamed => Osama M.
     // Ahmed ali => Ahmed A.
   }
@@ -145,9 +146,9 @@ function getDetails(zName, zAge, zCountry) {
   return fullDetails(); // Do Not Edit This
 }
 
-console.log(getDetails("Osama Mohamed", "38 Is My Age", "Egypt"));
+console.log(getDetails("faysal saadeh", "38 Is My Age", "Egypt"));
 // Hello Osama M., Your Age Is 38, You Live In EG
 
-console.log(getDetails("Ahmed ali", "32 Is The Age", "Syria"));
+console.log(getDetails("kabten majed", "32 Is The Age", "Syria"));
 // Hello Ahmed A., Your Age Is 32, You Live In SY
 
