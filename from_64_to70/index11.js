@@ -99,19 +99,55 @@
 // }
 // console.log(x);
 
-function parent() {
-  let a = 10;
+// function parent() {
+//   let a = 10;
 
-  function child() {
-    console.log(a);
-    // console.log(`from child ${b}`);
-    function grand() {
-      let b = 100;
-      console.log(`from grand ${a}`);
-      console.log(`from grand ${b}`);
-    }
-    grand();
+//   function child() {
+//     console.log(a);
+//     // console.log(`from child ${b}`);
+//     function grand() {
+//       let b = 100;
+//       console.log(`from grand ${a}`);
+//       console.log(`from grand ${b}`);
+//     }
+//     grand();
+//   }
+//   child();
+// }
+// parent();
+
+
+function getDetails(zName, zAge, zCountry) {
+
+
+  function namePattern(zName) {
+    
+    console.log(zName);
+    // let name = zName
+    // const myarray = zName .split("");
+    // Osama Mohamed => Osama M.
+    // Ahmed ali => Ahmed A.
   }
-  child();
+  namePattern(zName);
+  function ageWithMessage(zAge) {
+    // Write Your Code Here
+    // 38 Is My Age => Your Age Is 38
+    // 32 Is The Age => Your Age Is 32
+  }
+  function countryTwoLetters(zCountry) {
+    // Write Your Code Here
+    // Egypt => You Live In EG
+    // Syria => You Live In SY
+  }
+  function fullDetails() {
+    // Write Your Code Here
+  }
+  return fullDetails(); // Do Not Edit This
 }
-parent();
+
+console.log(getDetails("Osama Mohamed", "38 Is My Age", "Egypt"));
+// Hello Osama M., Your Age Is 38, You Live In EG
+
+console.log(getDetails("Ahmed ali", "32 Is The Age", "Syria"));
+// Hello Ahmed A., Your Age Is 32, You Live In SY
+
