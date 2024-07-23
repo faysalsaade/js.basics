@@ -122,7 +122,7 @@ function getDetails(zName, zAge, zCountry) {
 
   function namePattern(zName) {
     
-    console.log(zName);
+    console.log(zName); 
     // let name = zName
     // const myarray = zName .split("");
     // Osama Mohamed => Osama M.
