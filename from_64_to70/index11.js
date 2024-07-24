@@ -162,7 +162,12 @@
   
 //   console.log(urlCreate("https", "elzero", "org")); // https://www.elzero.org
 
-  let  urlCreate = (protocol, web, tld) => `${protocol}://www.${web}.${tld}`;
+//   let  urlCreate = (protocol, web, tld) => `${protocol}://www.${web}.${tld}`;
   
   
-  console.log(urlCreate("https", "elzero", "org")); // https://www.elzero.org
+//   console.log(urlCreate("https", "elzero", "org")); // https://www.elzero.org
+
+let checker = (zName) => (status) => (salary) => "Available" ? `${zName}, My Salary Is ${salary}` : `Iam Not Avaialble`;
+
+  console.log(checker("Osama")("Available")(4000 )); // Osama, My Salary Is 4000
+  console.log(checker("Ahmed")("Not Available")()); // Iam Not Avaialble
