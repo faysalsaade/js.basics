@@ -147,5 +147,22 @@
 // // Hello Osama M., Your Age Is 38, You Live In EG
 // console.log(getDetails("ousamma saadeh", "22 Is The Age", "lebanon"));
 // // // // Hello Ahmed A., Your Age Is 32, You Live In SY
- let itsMe = () => 'Iam A Normal Function';
-  console.log(itsMe()); // Iam A Normal Function
+
+// function itsMe() {
+//     return `Iam A Normal Function`;
+//   }
+  
+//   console.log(itsMe()); // Iam A Normal Function
+//  let itsMe = () => 'Iam A Normal Function';
+//   console.log(itsMe()); // Iam A Normal Function
+
+// function urlCreate(protocol, web, tld) {
+//     return `${protocol}://www.${web}.${tld}`;
+//   }
+  
+//   console.log(urlCreate("https", "elzero", "org")); // https://www.elzero.org
+
+  let  urlCreate = (protocol, web, tld) => `${protocol}://www.${web}.${tld}`;
+  
+  
+  console.log(urlCreate("https", "elzero", "org")); // https://www.elzero.org
