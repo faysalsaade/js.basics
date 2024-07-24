@@ -118,37 +118,33 @@
 
 
 function getDetails(zName, zAge, zCountry) {
-
-
   function namePattern(zName) {
-    
- 
     const myarray = zName.split(" ");
-    console.log(myarray[0],myarray[1][0]);
-   
-    // Osama Mohamed => Osama M.
-    // Ahmed ali => Ahmed A.
+    return myarray;
+    
   }
-  namePattern(zName);
-  function ageWithMessage(zAge) {
-    // Write Your Code Here
-    // 38 Is My Age => Your Age Is 38
-    // 32 Is The Age => Your Age Is 32
+ // namePattern(zName);
+
+  function ageWithMessage(zAge) { 
+      const age = zAge.split(" ");
+      // console.log(`your age is ${age[0]}`);
   }
+    ageWithMessage(zAge)
+  
   function countryTwoLetters(zCountry) {
-    // Write Your Code Here
-    // Egypt => You Live In EG
-    // Syria => You Live In SY
+      // console.log(`you live in ${zCountry.slice(0,2).toUpperCase()
+      // }`);
   }
+  countryTwoLetters(zCountry)
+
+
   function fullDetails() {
-    // Write Your Code Here
+    return`hello ${namePattern(zName)[0]} ${namePattern(zName)[1][0]}, Your age is ${zAge.slice(0,3)},you live in ${zCountry.slice(0,2).toUpperCase()} `;
   }
   return fullDetails(); // Do Not Edit This
 }
-
 console.log(getDetails("faysal saadeh", "38 Is My Age", "Egypt"));
 // Hello Osama M., Your Age Is 38, You Live In EG
-
-console.log(getDetails("kabten majed", "32 Is The Age", "Syria"));
-// Hello Ahmed A., Your Age Is 32, You Live In SY
+console.log(getDetails("ousamma saadeh", "22 Is The Age", "lebanon"));
+// // // Hello Ahmed A., Your Age Is 32, You Live In SY
 
