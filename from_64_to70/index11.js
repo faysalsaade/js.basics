@@ -117,34 +117,35 @@
 // parent();
 
 
-function getDetails(zName, zAge, zCountry) {
-  function namePattern(zName) {
-    const myarray = zName.split(" ");
-    return myarray;
+// function getDetails(zName, zAge, zCountry) {
+//   function namePattern(zName) {
+//     const myarray = zName.split(" ");
+//     return myarray;
     
-  }
- // namePattern(zName);
+//   }
+//  // namePattern(zName);
 
-  function ageWithMessage(zAge) { 
-      const age = zAge.split(" ");
-      // console.log(`your age is ${age[0]}`);
-  }
-    ageWithMessage(zAge)
+//   function ageW ithMessage(zAge) { 
+//       const age = zAge.split(" ");
+//       // console.log(`your age is ${age[0]}`);
+//   }
+//     ageWithMessage(zAge)
   
-  function countryTwoLetters(zCountry) {
-      // console.log(`you live in ${zCountry.slice(0,2).toUpperCase()
-      // }`);
-  }
-  countryTwoLetters(zCountry)
+//   function countryTwoLetters(zCountry) {
+//       // console.log(`you live in ${zCountry.slice(0,2).toUpperCase()
+//       // }`);
+//   }
+//   countryTwoLetters(zCountry)
 
 
-  function fullDetails() {
-    return`hello ${namePattern(zName)[0]} ${namePattern(zName)[1][0]}, Your age is ${zAge.slice(0,3)},you live in ${zCountry.slice(0,2).toUpperCase()} `;
-  }
-  return fullDetails(); // Do Not Edit This
-}
-console.log(getDetails("faysal saadeh", "38 Is My Age", "Egypt"));
-// Hello Osama M., Your Age Is 38, You Live In EG
-console.log(getDetails("ousamma saadeh", "22 Is The Age", "lebanon"));
-// // // Hello Ahmed A., Your Age Is 32, You Live In SY
-
+//   function fullDetails() {
+//     return`hello ${namePattern(zName)[0]} ${namePattern(zName)[1][0]}, Your age is ${zAge.slice(0,3)},you live in ${zCountry.slice(0,2).toUpperCase()} `;
+//   }
+//   return fullDetails(); // Do Not Edit This
+// }
+// console.log(getDetails("faysal fadeh", "39 Is My Age", "egypt"));
+// // Hello Osama M., Your Age Is 38, You Live In EG
+// console.log(getDetails("ousamma saadeh", "22 Is The Age", "lebanon"));
+// // // // Hello Ahmed A., Your Age Is 32, You Live In SY
+ let itsMe = () => 'Iam A Normal Function';
+  console.log(itsMe()); // Iam A Normal Function
