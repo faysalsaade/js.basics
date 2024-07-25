@@ -179,19 +179,24 @@
     for (let i = 0; i < data.length; i++) { 
         if (typeof data[i] === "string") {
            if (!isNaN(parseFloat(data[i])) ) {
-               console.log(parseFloat(data[i])); 
+            sum +=  parseFloat(data[i]);
+            return sum; 
             }
         }
      if (typeof data[i] === "number") {
          fullDetails.push(data[i])
-         console.log(data[i]);
+         for (let j = 0; j < fullDetails.length; j++) {
+            sum += fullDetails[j];
+            return sum;
+         }
+        
     }
     sum += data[i]; 
   }
 
- return sum ;
+//  return sum ;
 }
- specialMix(10, 20, 30); // 60
-  specialMix("10Test", "Testing", "20Cool"); // 30
-  specialMix("Testing", "10Testing", "40Cool"); // 50
- specialMix("Test", "Cool", "Test"); // All Is Strings
+console.log(specialMix(10, 20, 30)); // 60
+// console.log(specialMix("10Test", "Testing", "20Cool")); // 30
+// console.log(specialMix("Testing", "10Testing", "40Cool")); // 50
+// console.log(specialMix("Test", "Cool", "Test")); // All Is Strings
