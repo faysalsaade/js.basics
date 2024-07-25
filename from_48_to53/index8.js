@@ -128,8 +128,8 @@
 // 6
 // -- 2
 // -- 4
-let friends = ["Ahmed", "Sayed", "Eman", "Mahmoud", "Ameer", "Osama", "Sameh"];
-let letter = "a";
+// let friends = ["Ahmed", "Sayed", "Eman", "Mahmoud", "Ameer", "Osama", "Sameh"];
+// let letter = "a";
 
 // Output
 // ("1 => Sayed");
