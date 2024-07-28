@@ -16,8 +16,21 @@ console.log(newarray);
 // console.log(addself);
 
 
-function add(ele) {
-    return ele + ele
-}
-let addition = mynums.map(add);
-console.log(addition);
+// function add(ele) {
+//     return ele + ele
+// }
+// let addition = mynums.map(add);
+// console.log(addition);
+
+let swappingCases = "elZERo";
+let invertednumbers = [1,-10,-20,15,100.-30];
+let ignorebooleans = "Elz123er4o";
+
+let sw = swappingCases
+.split("")
+    .map(function(ele)  {
+    return ele === ele.toUpperCase() ? ele.toLowerCase() : ele.toUpperCase();
+})
+.join("");    
+console.log(sw);
+
