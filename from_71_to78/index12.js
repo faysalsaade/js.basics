@@ -1,9 +1,9 @@
-let mynums = [1,2,3,4,5,6];
-let newarray = [];
-for (let index = 0; index < mynums.length; index++) {
-    newarray.push(mynums[index] + mynums[index])
-}
-console.log(newarray);
+    // let mynums = [1,2,3,4,5,6];
+// let newarray = [];
+// for (let index = 0; index < mynums.length; index++) {
+//     newarray.push(mynums[index] + mynums[index])
+// }
+// console.log(newarray);
 // let addself =mynums.map(function(element,index,arr){
 //     console.log(`current element  => ${element}`);
 //     console.log(`current index => ${index}`);
@@ -72,3 +72,8 @@ console.log(newarray);
     
 // });
 // console.log(evennumbers);
+let sentence = "i love food code to playing much";
+let ignorenumbers = "fa8y49s2s3a2l9"
+let ign = ignorenumbers.split("").map(function(ele){
+return isNaN(parseInt(ele))? ele : "" }).join("");
+console.log(ign); 
