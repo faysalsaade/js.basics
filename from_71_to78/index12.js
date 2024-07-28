@@ -56,4 +56,4 @@ let ign = ignorenumbers
     return isNaN(parseInt(ele)) ? ele : "";
 })
 .join("");
-console.log(ign);
+console.log(ign); 
