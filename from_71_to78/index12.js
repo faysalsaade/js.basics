@@ -22,9 +22,9 @@ console.log(newarray);
 // let addition = mynums.map(add);
 // console.log(addition);
 
-let swappingCases = "elZERo";
-let invertednumbers = [1,-10,-20,15,100,-30];
-let ignorenumbers = "Elz123er4o";
+// let swappingCases = "elZERo";
+// let invertednumbers = [1,-10,-20,15,100,-30];
+// let ignorenumbers = "Elz123er4o";
 
 // let sw = swappingCases
 // .split("")
@@ -39,21 +39,36 @@ let ignorenumbers = "Elz123er4o";
 // console.log(inv);
 
 // ==> arrow function
-let sw = swappingCases
-.split("")
-.map((a) => ( a === a.toUpperCase() ? a.toLowerCase() : a.toUpperCase()))
-.join("");    
-console.log(sw);
+// let sw = swappingCases
+// .split("")
+// .map((a) => ( a === a.toUpperCase() ? a.toLowerCase() : a.toUpperCase()))
+// .join("");    
+// console.log(sw);
 
-let inv = invertednumbers.map(function(ele){
-    return -ele;
+
+
+// let inv = invertednumbers.map(function(ele){
+//     return -ele;
+// });
+// console.log(inv);
+
+// let ign = ignorenumbers 
+// .split("")
+// .map(function(ele){
+//     return isNaN(parseInt(ele)) ? ele : "";
+// })
+// .join("");
+// console.log(ign); 
+
+let friends = ["fif","eof","eaf","euf","fef","frf"]
+let filterfriends = friends.filter(function(ele){
+    return ele.startsWith("f")
+    
 });
-console.log(inv);
-
-let ign = ignorenumbers 
-.split("")
-.map(function(ele){
-    return isNaN(parseInt(ele)) ? ele : "";
-})
-.join("");
-console.log(ign); 
+console.log(filterfriends);
+let numbers = [10,20,4,31,66,16 ]
+let evennumbers = numbers.filter(function(ele){
+    return ele % 2 === 0 ? true : false
+    
+});
+console.log(evennumbers);
