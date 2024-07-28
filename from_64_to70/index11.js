@@ -173,30 +173,30 @@
 // // //   console.log(checker("Ahmed")("Not Available")()); // Iam Not Avaialble
 
 
-     function specialMix(...data) {
-     let fullDetails  = [];
-    let sum = 0;
-    for (let i = 0; i < data.length; i++) { 
-        if (typeof data[i] === "string") {
-           if (!isNaN(parseFloat(data[i])) ) {
-            sum +=  parseFloat(data[i]);
-            return sum; 
-            }
-        }
-     if (typeof data[i] === "number") {
-         fullDetails.push(data[i])
-         for (let j = 0; j < fullDetails.length; j++) {
-            sum += fullDetails[j];
-            return sum;
-         }
+//      function specialMix(...data) {
+//      let fullDetails  = [];
+//     let sum = 0;
+//     for (let i = 0; i < data.length; i++) { 
+//         if (typeof data[i] === "string") {
+//            if (!isNaN(parseFloat(data[i])) ) {
+//             sum +=  parseFloat(data[i]);
+//             return sum; 
+//             }
+//         }
+//      if (typeof data[i] === "number") {
+//          fullDetails.push(data[i])
+//          for (let j = 0; j < fullDetails.length; j++) {
+//             sum += fullDetails[j];
+//             return sum;
+//          }
         
-    }
-    sum += data[i]; 
-  }
+//     }
+//     sum += data[i]; 
+//   }
 
-//  return sum ;
-}
-console.log(specialMix(10, 20, 30)); // 60
-// console.log(specialMix("10Test", "Testing", "20Cool")); // 30
-// console.log(specialMix("Testing", "10Testing", "40Cool")); // 50
-// console.log(specialMix("Test", "Cool", "Test")); // All Is Strings
+// //  return sum ;
+// }
+// console.log(specialMix(10, 20, 30)); // 60
+// // console.log(specialMix("10Test", "Testing", "20Cool")); // 30
+// // console.log(specialMix("Testing", "10Testing", "40Cool")); // 50
+// // console.log(specialMix("Test", "Cool", "Test")); // All Is Strings
