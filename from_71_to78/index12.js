@@ -23,15 +23,37 @@ console.log(newarray);
 // console.log(addition);
 
 let swappingCases = "elZERo";
-let invertednumbers = [1,-10,-20,15,100.-30];
-let ignorebooleans = "Elz123er4o";
+let invertednumbers = [1,-10,-20,15,100,-30];
+let ignorenumbers = "Elz123er4o";
 
+// let sw = swappingCases
+// .split("")
+//     .map(function(ele)  {
+//     return ele === ele.toUpperCase() ? ele.toLowerCase() : ele.toUpperCase();
+// })
+// .join("");    
+// console.log(sw);
+// let inv = invertednumbers.map(function(ele){
+//     return -ele;
+// });
+// console.log(inv);
+
+// ==> arrow function
 let sw = swappingCases
 .split("")
-    .map(function(ele)  {
-    return ele === ele.toUpperCase() ? ele.toLowerCase() : ele.toUpperCase();
-})
+.map((a) => ( a === a.toUpperCase() ? a.toLowerCase() : a.toUpperCase()))
 .join("");    
 console.log(sw);
 
+let inv = invertednumbers.map(function(ele){
+    return -ele;
+});
+console.log(inv);
 
+let ign = ignorenumbers 
+.split("")
+.map(function(ele){
+    return isNaN(parseInt(ele)) ? ele : "";
+})
+.join("");
+console.log(ign);
