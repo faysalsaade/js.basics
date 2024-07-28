@@ -60,15 +60,15 @@ console.log(newarray);
 // .join("");
 // console.log(ign); 
 
-let friends = ["fif","eof","eaf","euf","fef","frf"]
-let filterfriends = friends.filter(function(ele){
-    return ele.startsWith("f")
+// let friends = ["fif","eof","eaf","euf","fef","frf"]
+// let filterfriends = friends.filter(function(ele){
+//     return ele.startsWith("f")
     
-});
-console.log(filterfriends);
-let numbers = [10,20,4,31,66,16 ]
-let evennumbers = numbers.filter(function(ele){
-    return ele % 2 === 0 ? true : false
+// });
+// console.log(filterfriends);
+// let numbers = [10,20,4,31,66,16 ]
+// let evennumbers = numbers.filter(function(ele){
+//     return ele % 2 === 0 ? true : false
     
-});
-console.log(evennumbers);
+// });
+// console.log(evennumbers);
