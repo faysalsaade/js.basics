@@ -34,3 +34,4 @@ let sw = swappingCases
 .join("");    
 console.log(sw);
 
+
