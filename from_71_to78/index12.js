@@ -72,8 +72,27 @@
     
 // });
 // console.log(evennumbers);
-let sentence = "i love food code to playing much";
-let ignorenumbers = "fa8y49s2s3a2l9"
-let ign = ignorenumbers.split("").map(function(ele){
-return isNaN(parseInt(ele))? ele : "" }).join("");
-console.log(ign); 
+// let sentence = "i love foood code too playing much";
+// let smallwords = sentence
+// .split(" ")
+// .filter(function(ele){
+// return ele.length <= 4 ;
+// })
+// .join(" ");
+// console.log(smallwords);
+
+
+// let ignorenumbers = "fa8y49s2s3a2l9"
+// let ign = ignorenumbers.split("").filter(function(ele){
+// return isNaN(parseInt(ele))}).join("");
+// console.log(ign); 
+
+
+let mix = "a123be83l";
+let mixedcontent = mix.split("").filter(function(ele) {
+    return !isNaN(parseInt(ele))
+}).map(function(ele){
+   return ele * ele;
+})
+.join("")
+console.log(mixedcontent);
