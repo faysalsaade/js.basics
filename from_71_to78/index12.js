@@ -88,11 +88,25 @@
 // console.log(ign); 
 
 
-let mix = "a123be83l";
-let mixedcontent = mix.split("").filter(function(ele) {
-    return !isNaN(parseInt(ele))
-}).map(function(ele){
-   return ele * ele;
-})
-.join("")
-console.log(mixedcontent);
+// let mix = "a123be83l";
+// let mixedcontent = mix.split("").filter(function(ele) {
+//     return !isNaN(parseInt(ele))
+// }).map(function(ele){
+//    return ele * ele;
+// })
+// .join("")
+// console.log(mixedcontent);
+    
+
+
+let nums = [10,20,30,90];
+let add = nums.reduce(function(acc,current,index,arr){
+    console.log(`acc => ${acc}`);
+    console.log(`current element => ${current}`);
+    console.log(`current element index=> ${index}`);
+    console.log(`array => ${arr}`);
+    console.log(acc + current);
+    console.log(`##############`);
+    return acc + current
+},-4);
+console.log(add);

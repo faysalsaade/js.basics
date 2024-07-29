@@ -51,3 +51,4 @@
 // // Example usage:
 // printOddOrEven(4); // Output: "4 is even."
 // printOddOrEven(7); // Output: "7 is odd."
+
