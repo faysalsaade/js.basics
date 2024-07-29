@@ -130,3 +130,16 @@
 // }); 
 // console.log(finalstring);
 
+// let mix = [1, 2, 3, "E", 4, "l", "z", "e", "r", 5, "o"];
+// let finalstring = mix.map(function(ele){
+//     return isNaN(parseInt(ele)) ? ele : ""; 
+// }).join("");
+// console.log(finalstring);
+// // Elzero
+
+
+let myString = "EElllzzzzzzzeroo";
+let newstring = myString
+.split("")
+console.log(newstring);
+// Elzero
