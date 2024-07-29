@@ -111,19 +111,22 @@
 // },-4);
 // console.log(add);
 
-let thebiggest = ["bla","propaganda","other","aaa","battery","test",""]
- let check = thebiggest.reduce(function(acc,current){
-     console.log(`acc => ${acc}`);
-     console.log(`current element => ${current}`);
-     console.log(acc.length > current.length ? acc:current);    
-    console.log(`##############`);
-    return acc.length > current.length ? acc:current
- });
- console.log(check);
-let removechars = ["e","@","l","z","@","@","e","r","@","o"];  
-let finalstring = removechars.filter(function(ele){
-    return !ele.startsWith("@")
-}).reduce(function(acc,current){
-return acc+current;
-}); 
-console.log(finalstring);
+
+
+// let thebiggest = ["bla","propaganda","other","aaa","battery","test",""]
+//  let check = thebiggest.reduce(function(acc,current){
+//      console.log(`acc => ${acc}`);
+//      console.log(`current element => ${current}`);
+//      console.log(acc.length > current.length ? acc:current);    
+//     console.log(`##############`);
+//     return acc.length > current.length ? acc:current
+//  });
+//  console.log(check);
+// let removechars = ["e","@","l","z","@","@","e","r","@","o"];  
+// let finalstring = removechars.filter(function(ele){
+//     return !ele.startsWith("@")
+// }).reduce(function(acc,current){
+// return acc+current;
+// }); 
+// console.log(finalstring);
+
