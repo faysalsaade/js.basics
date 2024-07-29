@@ -99,14 +99,31 @@
     
 
 
-let nums = [10,20,30,90];
-let add = nums.reduce(function(acc,current,index,arr){
-    console.log(`acc => ${acc}`);
-    console.log(`current element => ${current}`);
-    console.log(`current element index=> ${index}`);
-    console.log(`array => ${arr}`);
-    console.log(acc + current);
+// let nums = [10,20,30,90];
+// let add = nums.reduce(function(acc,current,index,arr){
+//     console.log(`acc => ${acc}`);
+//     console.log(`current element => ${current}`);
+//     console.log(`current element index=> ${index}`);
+//     console.log(`array => ${arr}`);
+//     console.log(acc + current);
+//     console.log(`##############`);
+//     return acc + current
+// },-4);
+// console.log(add);
+
+let thebiggest = ["bla","propaganda","other","aaa","battery","test",""]
+ let check = thebiggest.reduce(function(acc,current){
+     console.log(`acc => ${acc}`);
+     console.log(`current element => ${current}`);
+     console.log(acc.length > current.length ? acc:current);    
     console.log(`##############`);
-    return acc + current
-},-4);
-console.log(add);
+    return acc.length > current.length ? acc:current
+ });
+ console.log(check);
+let removechars = ["e","@","l","z","@","@","e","r","@","o"];  
+let finalstring = removechars.filter(function(ele){
+    return !ele.startsWith("@")
+}).reduce(function(acc,current){
+return acc+current;
+}); 
+console.log(finalstring);
