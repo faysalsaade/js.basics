@@ -151,7 +151,7 @@ function joinArrayLetter(ele,index) {
     return myString.indexOf(ele) === index;
                                 //  ===   0
 }
-
+ 
 
 
     
