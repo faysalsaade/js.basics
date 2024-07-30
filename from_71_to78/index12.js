@@ -137,9 +137,21 @@
 // console.log(finalstring);
 // // Elzero
 
-
 let myString = "EElllzzzzzzzeroo";
+
 let newstring = myString
 .split("")
+.filter(joinArrayLetter).join("");
 console.log(newstring);
-// Elzero
+// Elzero'
+
+
+function joinArrayLetter(ele,index) {
+    console.log(myString.indexOf(ele));
+    return myString.indexOf(ele) === index;
+                                //  ===   0
+}
+
+
+
+    
