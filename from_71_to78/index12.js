@@ -151,12 +151,16 @@
 
 
 
-let myArray = ["E", "l", "z", ["e", "r"], "o" ];
-let newarray = myArray.reduce(function(ele,acc){
-    // console.log(ele);
-    console.log(acc);
-        return ele + acc 
-}).split("").join("")
-console.log(newarray);
+// let myArray = ["E", "l", "z", ["e", "r"], "o"];
+// let newarray = myArray.reduce(function(ele,acc){
+//         return ele + acc 
+// }).split("").filter(function(ele){
+// return ele !== ","
+// }).join("")
+//  console.log(newarray);
+// // Elzero
+
+
+
 
     
