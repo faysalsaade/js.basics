@@ -137,21 +137,26 @@
 // console.log(finalstring);
 // // Elzero
 
-let myString = "EElllzzzzzzzeroo";
-
-let newstring = myString
-.split("")
-.filter(joinArrayLetter).join("");
-console.log(newstring);
-// Elzero'
 
 
-function joinArrayLetter(ele,index) {
-    console.log(myString.indexOf(ele));
-    return myString.indexOf(ele) === index;
-                                //  ===   0
-}
- 
+// let myString = "EElllzzzzzzzeroo";
 
+// let newstring = myString
+// .split("")
+// .filter(function (ele,index) {
+//     return myString.indexOf(ele) === index;
+// }).join("");
+// console.log(newstring);
+// // Elzero'
+
+
+
+let myArray = ["E", "l", "z", ["e", "r"], "o" ];
+let newarray = myArray.reduce(function(ele,acc){
+    // console.log(ele);
+    console.log(acc);
+        return ele + acc 
+}).split("").join("")
+console.log(newarray);
 
     
