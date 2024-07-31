@@ -160,6 +160,16 @@
 //  console.log(newarray);
 // // Elzero
 
+let fifi = []
+let numsAndStrings = [1, 10, -10, -20, 5, "A", 3, "B", "C"];
+ let finalstring = numsAndStrings.map(function(ele){
+    return typeof ele === typeof 10 ? -ele : ""
+ }).filter(function(ele){
+    return ele !== ''
+ })
+ console.log(finalstring);
+
+// [-1, -10, 10, 20, -5, -3]
 
 
 
