@@ -9,10 +9,15 @@
 // console.log(user.thename);
 // console.log(user.theage);
 // console.log(user.sayhello());
+
+let myvar = "country";
 let user = {
     thename: "faysal",
-    "country of": "lebanon",
-}
-
+    country: "france",
+      // "country of": "lebanon",
+};
+console.log(user.country);
 console.log(user.thename);
-console.log(user["country of"]);
+console.log(user.myvar);
+console.log(user[myvar]);
+// console.log(user["country of"]);
