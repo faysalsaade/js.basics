@@ -25,7 +25,7 @@ let user = {
 name : "faysal",
 age : 16,
 skills : ["html","css","javascript"],
-available : false,
+available : true,
 addresses : {
   ksa : "riyadh",
   egypt: {
@@ -52,3 +52,4 @@ console.log(user.addresses.egypt.one);
 console.log(user["addresses"].egypt.one);
 console.log(user["addresses"]["egypt"]);
 console.log(user["addresses"]["egypt"]["one"]);
+console.log(user.checkav());
