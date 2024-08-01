@@ -99,3 +99,13 @@ console.log(sayhello() === window);
 document.getElementById("cl").onclick = function () {
   console.log(this);
 };
+
+
+let user = {
+  age : 38,
+  ageindays : function (){
+return user.age * 365
+  },
+};
+console.log(user.age);
+console.log(user.ageindays());
