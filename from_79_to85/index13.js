@@ -81,3 +81,21 @@
 // console.log(user.age);
 // console.log(user.country);
 // console.log(user.sayfifi());
+
+console.log(this);
+console.log(this === window);
+
+
+myvar = 100;
+
+console.log(window.myvar);
+console.log(this.myvar);
+function sayhello() {
+  console.log(this);
+}
+sayhello()
+
+console.log(sayhello() === window);
+document.getElementById("cl").onclick = function () {
+  console.log(this);
+};
