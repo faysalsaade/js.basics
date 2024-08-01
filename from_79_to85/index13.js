@@ -20,4 +20,4 @@ console.log(user.country);
 console.log(user.thename);
 console.log(user.myvar);
 console.log(user[myvar]);
-// console.log(user["country of"]);
+// console.log(user["country of"]); 
