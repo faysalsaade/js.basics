@@ -104,7 +104,8 @@ document.getElementById("cl").onclick = function () {
 let user = {
   age : 38,
   ageindays : function (){
-return user.age * 365
+    console.log(this);
+return this.age * 365
   },
 };
 console.log(user.age);
