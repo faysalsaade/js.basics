@@ -65,19 +65,19 @@
 // console.log(user.checkav());
 
 
-let user = {
-  age:20,
-};
+// let user = {
+//   age:20,
+// };
 
+
+// // console.log(user);
+// user.age = 92
+// user["country"] = "flfa"
+// user.sayfifi = function () {
+//   return `fifi`
+// }
 
 // console.log(user);
-user.age = 92
-user["country"] = "flfa"
-user.sayfifi = function () {
-  return `fifi`
-}
-
-console.log(user);
-console.log(user.age);
-console.log(user.country);
-console.log(user.sayfifi());
+// console.log(user.age);
+// console.log(user.country);
+// console.log(user.sayfifi());
