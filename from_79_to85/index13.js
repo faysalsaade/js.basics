@@ -21,35 +21,63 @@
 // console.log(user.myvar);
 // console.log(user[myvar]);
 // // console.log(user["country of"]); 
+// let user = {
+// name : "faysal",
+// age : 16,
+// skills : ["html","css","javascript"],
+// available : true,
+// addresses : {
+//   ksa : "riyadh",
+//   egypt: {
+//     one : "cAIRO",
+//     two : "giza",
+//   },
+// },
+// checkav :function () {
+//   if (user.available === true) {
+//     return `free for work`;
+//   }else{
+//     return `not free`;
+//   }
+// }
+// };
+
+// console.log(user.name);
+
+// console.log(user.age);
+
+// console.log(user.skills);
+
+// console.log(user.skills.join(" | "));
+
+// console.log(user.skills[2]);
+
+// console.log(user.addresses.ksa);
+
+// console.log(user.addresses.egypt.one);
+
+// console.log(user["addresses"].egypt.one);
+
+// console.log(user["addresses"]["egypt"]);
+
+// console.log(user["addresses"]["egypt"]["one"]);
+
+// console.log(user.checkav());
+
+
 let user = {
-name : "faysal",
-age : 16,
-skills : ["html","css","javascript"],
-available : true,
-addresses : {
-  ksa : "riyadh",
-  egypt: {
-    one : "cAIRO",
-    two : "giza",
-  },
-},
-checkav :function () {
-  if (user.available === true) {
-    return `free for work`;
-  }else{
-    return `not free`;
-  }
-}
+  age:20,
 };
 
-console.log(user.name);
+
+// console.log(user);
+user.age = 92
+user["country"] = "flfa"
+user.sayfifi = function () {
+  return `fifi`
+}
+
+console.log(user);
 console.log(user.age);
-console.log(user.skills);
-console.log(user.skills.join(" | "));
-console.log(user.skills[2]);
-console.log(user.addresses.ksa);
-console.log(user.addresses.egypt.one);
-console.log(user["addresses"].egypt.one);
-console.log(user["addresses"]["egypt"]);
-console.log(user["addresses"]["egypt"]["one"]);
-console.log(user.checkav());
+console.log(user.country);
+console.log(user.sayfifi());
