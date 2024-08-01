@@ -34,7 +34,7 @@ addresses : {
   },
 },
 checkav :function () {
-  if (available === true) {
+  if (user.available === true) {
     return `free for work`;
   }else{
     return `not free`;
