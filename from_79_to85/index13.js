@@ -82,31 +82,42 @@
 // console.log(user.country);
 // console.log(user.sayfifi());
 
-console.log(this);
-console.log(this === window);
+// console.log(this);
+// console.log(this === window);
 
 
-myvar = 100;
+// myvar = 100;
 
-console.log(window.myvar);
-console.log(this.myvar);
-function sayhello() {
-  console.log(this);
-}
-sayhello()
+// console.log(window.myvar);
+// console.log(this.myvar);
+// function sayhello() {
+//   console.log(this);
+// }
+// sayhello()
 
-console.log(sayhello() === window);
-document.getElementById("cl").onclick = function () {
-  console.log(this);
-};
+// console.log(sayhello() === window);
+// document.getElementById("cl").onclick = function () {
+//   console.log(this);
+// };
 
 
-let user = {
-  age : 38,
-  ageindays : function (){
-    console.log(this);
-return this.age * 365
+// let user = {
+//   age : 38,
+//   ageindays : function (){
+//     console.log(this);
+// return this.age * 365
+//   },
+// };
+// console.log(user.age);
+// console.log(user.ageindays());
+
+let user =  {
+  age : 40,
+  doubleage : function () {
+    return user.age * 2
   },
+  
 };
+console.log(user);
 console.log(user.age);
-console.log(user.ageindays());
+console.log(user.doubleage());
