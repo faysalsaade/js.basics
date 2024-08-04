@@ -170,4 +170,17 @@
 // let newobject = Object.assign({},obj1,{prop5 : 5,prop6 : 6})
 // console.log(newobject);
 
-
+// Create Your Object Here
+// let member = {
+//   name : "elzero",
+//   age : 38,
+//   country : "egypt",
+//   fullDetails : function () {
+//     return `my name is  ${member.name} my age is ${member.age} I live in  ${member.country}`
+//   }
+// }
+// console.log(member.name); // Elzero
+// console.log(member.age); // 38
+// console.log(member.country); // Egypt
+// console.log(member.fullDetails());
+// My Name Is Elzero, My Age Is 38, I Live in Egypt
