@@ -130,44 +130,44 @@
 // console.log(copyobj.age);
 // console.log(copyobj.doubleage());
 
-let obj1 = {
-  prop1 : 1,
-  meth1: function () {
-    return this.prop1;
-  },
-};
+// let obj1 = {
+//   prop1 : 1,
+//   meth1: function () {
+//     return this.prop1;
+//   },
+// };
 
 
-let obj2 = {
-  prop1 : 2,
-  meth1: function () {
-    return this.prop1;
-  },
-};
+// let obj2 = {
+//   prop1 : 2,
+//   meth1: function () {
+//     return this.prop1;
+//   },
+// };
 
 
-let obj3 = {
-  prop1: 3,
-  meth1: function () {
-    return this.prop1;
-  },
-};
+// let obj3 = {
+//   prop1: 3,
+//   meth1: function () {
+//     return this.prop1;
+//   },
+// };
 
 
 
-let targetobject = {
-    prop1 : 100,
-    prop3 : 3,
+// let targetobject = {
+//     prop1 : 100,
+//     prop3 : 3,
 
-};
-let finalobject = Object.assign(targetobject,obj1,obj2);
+// };
+// let finalobject = Object.assign(targetobject,obj1,obj2);
 
 
-finalobject.prop1 = 200;
-finalobject.prop3 = 4;
-console.log(finalobject);
+// finalobject.prop1 = 200;
+// finalobject.prop3 = 4;
+// console.log(finalobject);
 
-let newobject = Object.assign({},obj1,{prop5 : 5,prop6 : 6})
-console.log(newobject);
+// let newobject = Object.assign({},obj1,{prop5 : 5,prop6 : 6})
+// console.log(newobject);
 
 
