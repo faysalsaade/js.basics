@@ -122,7 +122,7 @@
 // console.log(user.doubleage());
 
 // let obj = Object.create(user);
-// obj.a = 100;
+// obj.age = 100;
 // console.log(obj);
 // let copyobj = Object.create(user);
 // copyobj.age = 50 ;
@@ -184,3 +184,37 @@
 // console.log(member.country); // Egypt
 // console.log(member.fullDetails());
 // My Name Is Elzero, My Age Is 38, I Live in Egypt
+
+
+
+let objMethodOne = {
+  property : "method one",
+}
+
+console.log(objMethodOne.property); // "Method One"
+
+
+
+   let objMethodTwo  = Object.assign({property   : "method two"})
+
+console.log(objMethodTwo.property); // "Method Two
+
+
+
+let user = {
+  property  : "fff",
+}
+let objMethodThree = Object.create(user);
+objMethodThree.property = "method three";
+
+console.log(objMethodThree.property); // "Method Three"
+let objMethodFour= {
+property : 'ddd'
+}
+
+objMethodFour.property = function () {
+  return `method four`
+}
+  
+
+console.log(objMethodFour.property()); // "Method Four"
