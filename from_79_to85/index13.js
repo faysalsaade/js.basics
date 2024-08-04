@@ -276,7 +276,7 @@ let myFavGames = {
 let objectLength = "???????";
 
 for (let i = 0; i < objectLength; i++) {
-  console.log(`The Game Name Is ???????`);
+  console.log(`The Game Name Is ???????`);    
   console.log(`The Publisher Is ???????`);
   console.log(`The Price Is ???????`);
 
@@ -292,23 +292,23 @@ for (let i = 0; i < objectLength; i++) {
 
 // Ouput
 
-"The Game Name Is Trinity Universe"
-"The Publisher Is NIS America"
-"The Price Is 40"
-"####################"
-"The Game Name Is Titan Quest"
-"The Publisher Is THQ"
-"The Price Is 50"
-"- Game Has Releases"
-"First => Immortal Throne"
-"Second => Ragnarök"
-"Third => Atlantis"
-"####################"
-"The Game Name Is YS"
-"The Publisher Is Falcom"
-"The Price Is 40"
-"- Game Has Releases"
-"First => Oath in Felghana"
-"Second => Ark Of Napishtim"
-"Third => origin"
-"####################"
+// "The Game Name Is Trinity Universe"
+// "The Publisher Is NIS America"
+// "The Price Is 40"
+// "####################"
+// "The Game Name Is Titan Quest"
+// "The Publisher Is THQ"
+// "The Price Is 50"
+// "- Game Has Releases"
+// "First => Immortal Throne"
+// "Second => Ragnarök"
+// "Third => Atlantis"
+// "####################"
+// "The Game Name Is YS"
+// "The Publisher Is Falcom"
+// "The Price Is 40"
+// "- Game Has Releases"
+// "First => Oath in Felghana"
+// "Second => Ark Of Napishtim"
+// "Third => origin"
+// "####################"
