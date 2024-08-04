@@ -114,11 +114,20 @@
 let user =  {
   age : 40,
   doubleage : function () {
-    return user.age * 2
+    return this.age * 2
   },
-  
 };
 console.log(user);
 console.log(user.age);
 console.log(user.doubleage());
+
+let obj = Object.create(user);
+obj.a = 100;
+console.log(obj);
+let copyobj = Object.create(user);
+copyobj.age = 50 ;
+console.log(copyobj);
+console.log(copyobj.age);
+console.log(copyobj.doubleage());
+
 
