@@ -187,34 +187,61 @@
 
 
 
-let objMethodOne = {
-  property : "method one",
-}
+// let objMethodOne = {
+//   property : "method one",
+// }
 
-console.log(objMethodOne.property); // "Method One"
-
-
-
-   let objMethodTwo  = Object.assign({property   : "method two"})
-
-console.log(objMethodTwo.property); // "Method Two
+// console.log(objMethodOne.property); // "Method One"
 
 
 
-let user = {
-  property  : "fff",
-}
-let objMethodThree = Object.create(user);
-objMethodThree.property = "method three";
+//    let objMethodTwo  = Object.assign({property   : "method two"})
 
-console.log(objMethodThree.property); // "Method Three"
-let objMethodFour= {
-property : 'ddd'
-}
+// console.log(objMethodTwo.property); // "Method Two
 
-objMethodFour.property = function () {
-  return `method four`
-}
+
+
+// let user = {
+//   property  : "fff",
+// }
+// let objMethodThree = Object.create(user);
+// objMethodThree.property = "method three";
+
+// console.log(objMethodThree.property); // "Method Three"
+// let objMethodFour= {
+// property : 'ddd'
+// }
+
+// objMethodFour.property = function () {
+//   return `method four`
+// }
   
 
-console.log(objMethodFour.property()); // "Method Four"
+// console.log(objMethodFour.property()); // "Method Four"
+
+
+let a = 1;
+
+let threeNums = {
+  b: 2,
+  c: 3,
+  d: 4,
+};
+
+let twoNums = {
+  e: 5,
+  f: 6,
+};
+
+// Create Your Object Here in One Line
+
+console.log(finalObject);
+
+/*
+  a: 1
+  b: 2
+  c: 3
+  d: 4
+  e: 5
+  f: 6
+*/
