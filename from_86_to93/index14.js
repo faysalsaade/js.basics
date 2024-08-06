@@ -19,18 +19,22 @@
 
 // //append element to body 
 // document.body.appendChild(myelement)
-let mymainelement = document.createElement("div")
-let myheading = document.createElement("h1")
-let myparagraph = document.createElement("p")
 
-let myheadingtext = document.createTextNode('product title');
-let myparagraphtext = document.createTextNode('product description');
 
-myheading.appendChild(myheadingtext);
-mymainelement.appendChild(myheading);
 
-myparagraph.appendChild(myparagraphtext);
-mymainelement.appendChild(myparagraph)
 
-mymainelement.className = "product";
-document.body.appendChild(mymainelement)
+// let mymainelement = document.createElement("div")
+// let myheading = document.createElement("h1")
+// let myparagraph = document.createElement("p")
+
+// let myheadingtext = document.createTextNode('product title');
+// let myparagraphtext = document.createTextNode('product description');
+
+// myheading.appendChild(myheadingtext);
+// mymainelement.appendChild(myheading);
+
+// myparagraph.appendChild(myparagraphtext);
+// mymainelement.appendChild(myparagraph)
+
+// mymainelement.className = "product";
+// document.body.appendChild(mymainelement)
