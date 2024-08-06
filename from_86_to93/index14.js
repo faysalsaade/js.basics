@@ -19,3 +19,11 @@
 
 // //append element to body 
 // document.body.appendChild(myelement)
+let mymainelement = document.createElement("div")
+let myheading = document.createElement("h1")
+let myparagraph = document.createElement("p")
+
+let myheadingtext = document.createTextNode('product title');
+let myparagraphtext = document.createTextNode('product description');
+
+mymainelement.className = "product"
