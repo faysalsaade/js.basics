@@ -26,4 +26,11 @@ let myparagraph = document.createElement("p")
 let myheadingtext = document.createTextNode('product title');
 let myparagraphtext = document.createTextNode('product description');
 
-mymainelement.className = "product"
+myheading.appendChild(myheadingtext);
+mymainelement.appendChild(myheading);
+
+myparagraph.appendChild(myparagraphtext);
+mymainelement.appendChild(myparagraph)
+
+mymainelement.className = "product";
+document.body.appendChild(mymainelement)
