@@ -40,13 +40,13 @@
 // document.body.appendChild(mymainelement)
 
 
-let myelement = document.querySelector("div")
-console.log(myelement);
-console.log(myelement.children);
-console.log(myelement.children[1]);
-console.log(myelement.childNodes);
-console.log(myelement.childNodes[2]);
-console.log(myelement.firstChild);
-console.log(myelement.lastChild);
-console.log(myelement.firstElementChild);
-console.log(myelement.lastElementChild);
+// let myelement = document.querySelector("div")
+// console.log(myelement);
+// console.log(myelement.children);
+// console.log(myelement.children[1]);
+// console.log(myelement.childNodes);
+// console.log(myelement.childNodes[2]);
+// console.log(myelement.firstChild);
+// console.log(myelement.lastChild);
+// console.log(myelement.firstElementChild);
+// console.log(myelement.lastElementChild);
