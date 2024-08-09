@@ -53,9 +53,7 @@
 let mybtn = document.getElementById("btn")
 mybtn.onmouseleave= function () {
     console.log("gg");
-    
 }
 window.onscroll = function () {
     console.log("scroll");
-    
 }
