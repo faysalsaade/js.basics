@@ -57,27 +57,27 @@
 // window.onscroll = function () {
 //     console.log("scroll");
 // }
-let userinput = document.querySelector('[name = "username"]');
-let ageinput = document.querySelector("[name ='age']");
+// let userinput = document.querySelector('[name = "username"]');
+// let ageinput = document.querySelector("[name ='age']");
 
-document.forms[0].onsubmit = function (e) {
-    let uservalid = false ; 
-    let agevalid = false ;
+// document.forms[0].onsubmit = function (e) {
+//     let uservalid = false ; 
+//     let agevalid = false ;
 
-    if (userinput.value !== "" && userinput.value.length <= 10) {
-        uservalid = true;
-    }
+//     if (userinput.value !== "" && userinput.value.length <= 10) {
+//         uservalid = true;
+//     }
 
-   if (ageinput.value !== "") {
-    agevalid = true;
-}
+//    if (ageinput.value !== "") {
+//     agevalid = true;
+// }
 
- if (uservalid === false || agevalid === false) {
-    e.preventDefault();
- }
-}; 
+//  if (uservalid === false || agevalid === false) {
+//     e.preventDefault();
+//  }
+// }; 
 
-document.links[0].onclick = function (event) {
-    console.log(event);
-    event.preventDefault();  
-};
+// document.links[0].onclick = function (event) {
+//     console.log(event);
+//     event.preventDefault();  
+// };
