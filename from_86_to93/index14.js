@@ -77,3 +77,7 @@ document.forms[0].onsubmit = function (e) {
  }
 }; 
 
+document.links[0].onclick = function (event) {
+    console.log(event);
+    event.preventDefault();  
+};
