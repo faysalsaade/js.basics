@@ -50,10 +50,10 @@
 // console.log(myelement.lastChild);
 // console.log(myelement.firstElementChild);
 // console.log(myelement.lastElementChild);
-let mybtn = document.getElementById("btn")
-mybtn.onmouseleave= function () {
-    console.log("gg");
-}
-window.onscroll = function () {
-    console.log("scroll");
-}
+// let mybtn = document.getElementById("btn")
+// mybtn.onmouseleave= function () {
+//     console.log("gg");   
+// }
+// window.onscroll = function () {
+//     console.log("scroll");
+// }
