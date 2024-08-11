@@ -103,37 +103,36 @@
  
 
 
-function myFunction() {
-    document.getElementById("myImg").src = "hackanm.gif";
-  }
-/*{<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div> }*/
 
+/*<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div> */
+ <div>
+   <img decoding="async" src="#" alt="" />
+</div> 
+
+let ffo = document.getElementsByTagName("").src="../template/save.png";
