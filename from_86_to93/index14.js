@@ -110,7 +110,12 @@
 // for (let index = 0; index < faa.length; index++) {
 // faa[index].src="https://elzero.org/wp-content/themes/elzero/imgs/logo.png";
 // faa[index].alt="Elzero Logo";
-}
+// }
+
+<form action="">
+  <input type="number" name="dollar" placeholder="USD Dollar" />
+  <div class="result">{0} USD Dollar = {0} Egyptian Pound</div>
+</form>
     
 
 
