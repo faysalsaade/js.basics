@@ -102,3 +102,38 @@
 // console.log(document.querySelectorAll("body > div")[0]);
  
 
+
+function myFunction() {
+    document.getElementById("myImg").src = "hackanm.gif";
+  }
+/*{<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div>
+<div>
+  <img decoding="async" src="#" alt="" />
+</div> }*/
+
