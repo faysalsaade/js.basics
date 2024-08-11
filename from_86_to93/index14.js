@@ -91,12 +91,11 @@ console.log(document.querySelector("div"));
 console.log(document.querySelector(".element"));
 console.log(document.querySelector("div.element"));
 console.log(document.querySelector("#elzero"));
-console.log(document.querySelector("body > div"));
 
 
 console.log(document.querySelectorAll("div")[0]);
 console.log(document.querySelectorAll(".element")[0]); 
 console.log(document.querySelectorAll("div.element")[0]);
-
+console.log(document.querySelectorAll("body > div")[0]);
  
 
