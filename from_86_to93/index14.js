@@ -101,11 +101,17 @@
 // console.log(document.querySelectorAll("div.element")[0]);
 // console.log(document.querySelectorAll("body > div")[0]);
 
-for (let index = 0; index < 15; index++) {
-    
-    
+
+
+
+// let faa = document.querySelectorAll("img");
+// console.log(faa);
+
+// for (let index = 0; index < faa.length; index++) {
+// faa[index].src="https://elzero.org/wp-content/themes/elzero/imgs/logo.png";
+// faa[index].alt="Elzero Logo";
 }
-document.getElementsByTagName("img")[0].src="https://elzero.org/wp-content/themes/elzero/imgs/logo.png";
+    
 
 
 
