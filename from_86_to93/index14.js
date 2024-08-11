@@ -100,39 +100,14 @@
 // console.log(document.querySelectorAll(".element")[0]); 
 // console.log(document.querySelectorAll("div.element")[0]);
 // console.log(document.querySelectorAll("body > div")[0]);
- 
+
+for (let index = 0; index < 15; index++) {
+    
+    
+}
+document.getElementsByTagName("img")[0].src="https://elzero.org/wp-content/themes/elzero/imgs/logo.png";
 
 
 
-/*<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div>
-<div>
-  <img decoding="async" src="#" alt="" />
-</div> */
- <div>
-   <img decoding="async" src="#" alt="" />
-</div> 
 
-let ffo = document.getElementsByTagName("").src="../template/save.png";
+
