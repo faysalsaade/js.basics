@@ -112,11 +112,13 @@
 // faa[index].alt="Elzero Logo";
 // }
 
+let ff = document.querySelector("input");
+ff.oninput=  function()  {
+       let number = document.getElementById("myInput").value;
+    let number2 = number * 15.6
+     document.getElementById("demo").innerHTML = number  +  "USD Dollar = " +  number2.toFixed(2) +" Egyptian Pound";
+}
 
-function myFunction() {
-    let number = document.getElementById("myInput").value;
-    document.getElementById("demo").innerHTML = number + "USD Dollar = " + number * 15.6 +" Egyptian Pound";
-  }
     
     
 
