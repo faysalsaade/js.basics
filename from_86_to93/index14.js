@@ -112,10 +112,12 @@
 // faa[index].alt="Elzero Logo";
 // }
 
-<form action="">
-  <input type="number" name="dollar" placeholder="USD Dollar" />
-  <div class="result">{0} USD Dollar = {0} Egyptian Pound</div>
-</form>
+
+function myFunction() {
+    let number = document.getElementById("myInput").value;
+    document.getElementById("demo").innerHTML = number + "USD Dollar = " + number * 15.6 +" Egyptian Pound";
+  }
+    
     
 
 
