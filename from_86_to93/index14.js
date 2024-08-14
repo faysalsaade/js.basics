@@ -120,10 +120,19 @@
 //     let number2 = number * 15.6
 //      document.getElementById("demo").innerHTML = number  +  "USD Dollar = " +  number2.toFixed(2) +" Egyptian Pound";
 // }
-console.log(document.querySelector(`[title="one"]`));
+
+
+
+
+document.querySelector(`[title="two"]`).textContent = document.querySelector(`[title="one"]`).getAttribute("title");
+
+
+document.querySelector(`[title="one"]`).textContent = document.querySelector(`[title="two"]`).getAttribute("title");
 
 
 
 
 
 
+
+''
