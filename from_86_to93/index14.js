@@ -120,11 +120,19 @@
 //     let number2 = number * 15.6
 //      document.getElementById("demo").innerHTML = number  +  "USD Dollar = " +  number2.toFixed(2) +" Egyptian Pound";
 // }
+console.log(document.getElementsByTagName("div").length());
 
-    
-    
+ let fif = document.getElementsByTagName("div")[0];
+fif.innerHTML = "one" ;
+
+let fifi = document.getElementsByTagName("div")[1];
+fifi.innerHTML = "two 2 " ;
+
+fif.title=("one")
+fifi.title=("two")
 
 
 
 
 
+''
