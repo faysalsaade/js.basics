@@ -131,8 +131,7 @@ document.querySelector(`[title="one"]`).textContent = document.querySelector(`[t
 
 
     document.querySelector(`[title="two"]`).title = document.querySelector(`[title='two']`).textContent
-    ;
-console.log(document.querySelector(`[title="one"]`).textContent);
+    ;document.querySelector(".two").title = document.querySelector(".two").className;
 
 
 
