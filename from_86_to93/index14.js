@@ -130,9 +130,12 @@ document.querySelector(`[title="two"]`).textContent = document.querySelector(`[t
 document.querySelector(`[title="one"]`).textContent = document.querySelector(`[title="two"]`).getAttribute("title");
 
 
+    document.querySelector(`[title="two"]`).title = document.querySelector(`[title='two']`).textContent
+    ;
+console.log(document.querySelector(`[title="one"]`).textContent);
 
 
 
 
 
-''
+
