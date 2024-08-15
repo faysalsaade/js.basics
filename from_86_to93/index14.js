@@ -133,6 +133,12 @@
 //     document.querySelector(`[title="two"]`).title = document.querySelector(`[title='two']`).textContent
 //     ;document.querySelector(".two").title = document.querySelector(".two").className;
 
+for (let index = 0; index < 6; index++) {
+    if (index.hasAttribute("alt")) {
+       console.log(333);
+    }
+    }
+
 
 
 
