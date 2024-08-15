@@ -124,14 +124,14 @@
 
 
 
-document.querySelector(`[title="two"]`).textContent = document.querySelector(`[title="one"]`).getAttribute("title");
+// document.querySelector(`[title="two"]`).textContent = document.querySelector(`[title="one"]`).getAttribute("title");
 
 
-document.querySelector(`[title="one"]`).textContent = document.querySelector(`[title="two"]`).getAttribute("title");
+// document.querySelector(`[title="one"]`).textContent = document.querySelector(`[title="two"]`).getAttribute("title");
 
 
-    document.querySelector(`[title="two"]`).title = document.querySelector(`[title='two']`).textContent
-    ;document.querySelector(".two").title = document.querySelector(".two").className;
+//     document.querySelector(`[title="two"]`).title = document.querySelector(`[title='two']`).textContent
+//     ;document.querySelector(".two").title = document.querySelector(".two").className;
 
 
 
