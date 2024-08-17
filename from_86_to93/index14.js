@@ -132,13 +132,14 @@
 
 //     document.querySelector(`[title="two"]`).title = document.querySelector(`[title='two']`).textContent
 //     ;document.querySelector(".two").title = document.querySelector(".two").className;
-
-for (let i = 0; i < document.getElementsByTagName("img").length; i++) {
-    if (document.getElementsByTagName("img").length[i].hasAttribute("alt")) {
-       console.log(333);
+let images = document.getElementsByTagName("img");
+for (let i = 0; i < images.length; i++) {
+    if (images[i].hasAttribute("alt")) {
+        images[i].alt = ("old")
+    }else{
+        images[i].alt = ("elzero new")
     }
-    }
-
+}
 
 
 
