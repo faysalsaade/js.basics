@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+form {    
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 200px;
+}
+input{
+    margin-left:450px;
+    margin-right:150px;
+    width:400px;
+    height: 50px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+  
+}
+select{
+    margin-left:450px;
+    margin-right:150px;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    color: #676565;
+}
+  ::-ms-input-placeholder { /* Edge 12-18 */
+   font-size: 20px;
+} 
+ ::placeholder {
+    font-size: 20px;
+  }
+  input:last-of-type{
+background-color: #00907A;
+font-size: 20px;
+border: none;
+border-radius: 10px;
+color: white;
+  }  
+  input, textarea{
+    color: #000000;
+}
