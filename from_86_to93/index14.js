@@ -143,7 +143,5 @@
 let fifi= document.getElementsByTagName("input").value
 console.log(fifi);
 
- 
-
 
 
