@@ -140,8 +140,10 @@
 //         images[i].alt = ("elzero new")
 //     }
     // }
+let fifi= document.getElementsByTagName("input").value
+console.log(fifi);
 
-
+ 
 
 
 
