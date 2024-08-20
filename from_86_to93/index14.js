@@ -142,6 +142,4 @@
     // }
 let fifi= document.getElementsByTagName("input").value
 console.log(fifi);
-
-
-
+let cre = document.getElementsByName("create")[0];
