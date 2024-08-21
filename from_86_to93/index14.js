@@ -143,17 +143,14 @@
 function myfunction(e) {
     let fofo = document.getElementsByName("texts")[0].value
 let ff = `<div class = "sis">${fofo}</div>`
-document.getElementsByClassName("results")[0].innerHTML = ff
+
 
 let fofi = document.getElementsByName("elements")[0].value
-let ffi = fofi
-document.getElementsByClassName("results")[0].innerHTML = ffi
-for (let index = 0; index < ffi ; index++) {
-    let ffi = `<div class = "sis">${ffi}</div>`
-    document.getElementsByClassName("results")[0].innerHTML = ffi
+for (let index = 0; index < fofi; index++) {
+    document.getElementsByClassName("results")[0].innerHTML = ff
 }
-console.log("ffff");
-
     return false;
 }
+
+
 
