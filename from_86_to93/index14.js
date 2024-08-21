@@ -140,6 +140,16 @@
 //         images[i].alt = ("elzero new")
 //     }
     // }
-let fifi= document.getElementsByTagName("input").value
-console.log(fifi);
-let cre = document.getElementsByName("create")[0].onclick.value;
+function myfunction(e) {
+    let fofo = document.getElementsByName("texts")[0].value
+let ff = fofo
+// console.log(document.getElementsByClassName("results"));
+
+document.getElementsByClassName("results")[0].innerHTML = ff
+
+
+    return false;
+    
+    // e.preventDefault();
+    // document.write("<input></input>")
+}
