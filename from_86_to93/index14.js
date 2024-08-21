@@ -142,15 +142,19 @@
     // }
 function myfunction(e) {
     let fofo = document.getElementsByName("texts")[0].value
-let ff = `<div class = "sis">${fofo}</div>`
+let ff = ``
 
 
 let fofi = document.getElementsByName("elements")[0].value
 for (let index = 0; index < fofi; index++) {
-    document.getElementsByClassName("results")[0].innerHTML = ff
+    // document.getElementsByClassName("results")[0].innerHTML = ff
+    // console.log(document.getElementsByClassName("results")[0]);
+    ff += `<div class = "sis">${fofo}</div>`;
 }
+document.getElementsByClassName("results")[0].innerHTML = ff
     return false;
 }
+
 
 
 
