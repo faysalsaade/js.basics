@@ -150,13 +150,12 @@ let ff = ``;
 let fofi = document.getElementsByName("elements")[0].value
 for (let index = 0; index < fofi; index++) {
     ff += `<div class = "sis">${fofo}</div>`;
-}
-
-if (document.getElementsByName("type")[0].value === "Div") {
-    ff += `<div class = "sis">${fofo}</div>`;   
-}
-if (document.getElementsByName("type")[0].value === "Section") {
-    ff += `<section class = "sis">${fofo}</section>`;  
+    if (document.getElementsByName("type")[0].value === "Div") {
+        ff += `<div class = "sis">${fofo}</div>`;   
+    }
+    if (document.getElementsByName("type")[0].value === "Section") {
+        ff += `<section class = "sis">${fofo}</section>`;  
+    }
 }
 document.getElementsByClassName("results")[0].innerHTML = ff        
     return false;
