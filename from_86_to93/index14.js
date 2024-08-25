@@ -142,8 +142,7 @@
     // }
 function myfunction(e) {
     let fofo = document.getElementsByName("texts")[0].value
-let ff = ``
-
+let ff = ``;
 let fofi = document.getElementsByName("elements")[0].value
 for (let index = 0; index < fofi; index++) {
     ff += `<div class = "sis">${fofo}</div>`;
