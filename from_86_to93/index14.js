@@ -158,7 +158,7 @@ if (document.getElementsByName("type")[0].value === "Div") {
 if (document.getElementsByName("type")[0].value === "Section") {
     ff += `<section class = "sis">${fofo}</section>`;  
 }
-document.getElementsByClassName("results")[0].innerHTML = ff
+document.getElementsByClassName("results")[0].innerHTML = ff        
     return false;
 }
 
