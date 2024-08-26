@@ -46,3 +46,5 @@
  let createdp = document.createElement("p");
  element.after("hi fifi")
  element.prepend("Ger ")
+ 
+ element.remove();
