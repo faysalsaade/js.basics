@@ -72,9 +72,14 @@ myp.onclick = one ;
 myp.onclick = two ;
 function one() {
     console.log("message from onclick 1");
-    
 }
 function two() {
     console.log("message from onclick 2");
-    
 }
+
+window.onload = "fifi"
+myp.addEventListener("click", function () {
+    console.log(`message from onclick 1 event`);
+})
+myp.addEventListener("click",one)
+myp.addEventListener("click",two)
