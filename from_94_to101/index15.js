@@ -20,3 +20,6 @@ console.log(element.classList.contains("show"));
 
 console.log(element.classList.item(2));
 
+element.onclick = function () {
+    element.classList.add("fif","ofo")
+}
