@@ -43,3 +43,5 @@
 // document.styleSheets[0].rules[0].style.setProperty("background-color","red");
 
  let element = document.getElementById("my-div")
+ let createdp = document.createElement("p");
+ element.before("hi fifi")
