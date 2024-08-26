@@ -89,10 +89,16 @@ myp.onclick = function () {
     let newp = myp.cloneNode(true);
     newp.className = "clone"
     document.body.appendChild(newp)
-}
+};
 
 // let cloned  = document.querySelector(".clone"); //error
 // cloned.onclick = function () {
 //     console.log(i am cloned);
     
 // }
+
+document.addEventListener("click", function(e)  {
+    if (e.target.className === "clone") {
+        console.log("i am cloned");
+    }
+});
