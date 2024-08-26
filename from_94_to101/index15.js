@@ -29,3 +29,6 @@
 // }
 
 let element = document.getElementById("my-div")
+element.style.color = "blue";
+element.style.backgroundColor = "red";
+element.style.fontWeight = "bold";
