@@ -1,5 +1,5 @@
-let f = document.querySelector(".one")
+let two = document.querySelector(".two")
 
 window.onload = function () {
-    f.focus();
+    two.focus();
 }
