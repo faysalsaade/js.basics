@@ -9,7 +9,7 @@
 // }
 
 
-let element = document.getElementById("my-div")
+// let element = document.getElementById("my-div")
 // console.log(element.classList);
 // console.log(typeof element.classList);
 
@@ -27,3 +27,5 @@ let element = document.getElementById("my-div")
 // element.onclick = function () {
 //     element.classList.toggle("fif")
 // }
+
+let element = document.getElementById("my-div")
