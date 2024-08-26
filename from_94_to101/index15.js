@@ -42,9 +42,9 @@
 // document.styleSheets[0].rules[0].style.removeProperty("line-height");
 // document.styleSheets[0].rules[0].style.setProperty("background-color","red");
 
- let element = document.getElementById("my-div")
- let createdp = document.createElement("p");
- element.after("hi fifi")
- element.prepend("Ger ")
- 
- element.remove();
+//  let element = document.getElementById("my-div")
+//  let createdp = document.createElement("p");
+//  element.after("hi fifi")
+//  element.prepend("Ger ")
+
+//  element.remove();
