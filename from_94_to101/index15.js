@@ -66,6 +66,7 @@
 // mydiv.appendChild(myp)
 
 
+
 let myp = document.querySelector("P")
 
 // myp.onclick = one ;
@@ -89,3 +90,9 @@ myp.onclick = function () {
     newp.className = "clone"
     document.body.appendChild(newp)
 }
+
+// let cloned  = document.querySelector(".clone"); //error
+// cloned.onclick = function () {
+//     console.log(i am cloned);
+    
+// }
