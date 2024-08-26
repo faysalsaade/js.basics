@@ -37,3 +37,5 @@ element.style.cssText = "font-weight : bold; color:green; opacity : 0.1;"
 
 element.style.removeProperty("color")
 element.style.setProperty("font-size","20px","important")
+
+document.styleSheets[0].rules[0].style.removeProperty("line-height");
