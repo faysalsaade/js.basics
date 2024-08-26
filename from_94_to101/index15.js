@@ -44,4 +44,5 @@
 
  let element = document.getElementById("my-div")
  let createdp = document.createElement("p");
- element.before("hi fifi")
+ element.after("hi fifi")
+ element.prepend("Ger ")
