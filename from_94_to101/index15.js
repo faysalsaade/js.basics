@@ -28,15 +28,18 @@
 //     element.classList.toggle("fif")
 // }
 
-let element = document.getElementById("my-div")
-element.style.color = "blue";
-element.style.backgroundColor = "red";
-element.style.fontWeight = "bold";
 
-element.style.cssText = "font-weight : bold; color:green; opacity : 0.9;"
+// let element = document.getElementById("my-div")
+// element.style.color = "blue";
+// element.style.backgroundColor = "red";
+// element.style.fontWeight = "bold";
 
-element.style.removeProperty("color")
-element.style.setProperty("font-size","20px","important")
+// element.style.cssText = "font-weight : bold; color:green; opacity : 0.9;"
 
-document.styleSheets[0].rules[0].style.removeProperty("line-height");
-document.styleSheets[0].rules[0].style.setProperty("background-color","red");
+// element.style.removeProperty("color")
+// element.style.setProperty("font-size","20px","important")
+
+// document.styleSheets[0].rules[0].style.removeProperty("line-height");
+// document.styleSheets[0].rules[0].style.setProperty("background-color","red");
+
+ let element = document.getElementById("my-div")
