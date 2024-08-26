@@ -10,16 +10,20 @@
 
 
 let element = document.getElementById("my-div")
-console.log(element.classList);
-console.log(typeof element.classList);
+// console.log(element.classList);
+// console.log(typeof element.classList);
 
-console.log(element.classList.length);
+// console.log(element.classList.length);
 
-console.log(element.classList.contains("fofoi"));
-console.log(element.classList.contains("show"));
+// console.log(element.classList.contains("fofoi"));
+// console.log(element.classList.contains("show"));
 
-console.log(element.classList.item(2));
+// console.log(element.classList.item(2));
 
-element.onclick = function () {
-    element.classList.add("fif","ofo")
-}
+// element.onclick = function () {
+//     element.classList.add("fif","ofo")
+// }
+
+// element.onclick = function () {
+//     element.classList.toggle("fif")
+// }
