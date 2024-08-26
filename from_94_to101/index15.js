@@ -67,7 +67,7 @@
 
 
 
-let myp = document.querySelector("P")
+// let myp = document.querySelector("P")
 
 // myp.onclick = one ;
 // myp.onclick = two ;
@@ -85,11 +85,12 @@ let myp = document.querySelector("P")
 // myp.addEventListener("click",one)
 // myp.addEventListener("click",two)
 // myp.addEventListener("click","string") // error 
-myp.onclick = function () {
-    let newp = myp.cloneNode(true);
-    newp.className = "clone"
-    document.body.appendChild(newp)
-};
+
+// myp.onclick = function () {
+//     let newp = myp.cloneNode(true);
+//     newp.className = "clone"
+//     document.body.appendChild(newp)
+// };
 
 // let cloned  = document.querySelector(".clone"); //error
 // cloned.onclick = function () {
@@ -97,8 +98,8 @@ myp.onclick = function () {
     
 // }
 
-document.addEventListener("click", function(e)  {
-    if (e.target.className === "clone") {
-        console.log("i am cloned");
-    }
-});  
+// document.addEventListener("click", function(e)  {
+//     if (e.target.className === "clone") {
+//         console.log("i am cloned");
+//     }
+// });
