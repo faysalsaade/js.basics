@@ -56,3 +56,7 @@
 // span.onclick = function () {
 //     span.parentElement.remove()
 // }
+
+let myp = document.querySelector("p")
+let mydiv = document.querySelector("div")
+mydiv.appendChild(myp)
