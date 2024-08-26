@@ -48,3 +48,7 @@
 //  element.prepend("Ger ")
 
 //  element.remove();
+
+
+let span = document.querySelector(".two")
+console.log(span.nextElementSibling);
