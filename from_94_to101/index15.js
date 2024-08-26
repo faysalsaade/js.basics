@@ -68,18 +68,24 @@
 
 let myp = document.querySelector("P")
 
-myp.onclick = one ;
-myp.onclick = two ;
-function one() {
-    console.log("message from onclick 1");
-}
-function two() {
-    console.log("message from onclick 2");
-}
+// myp.onclick = one ;
+// myp.onclick = two ;
+// function one() {
+//     console.log("message from onclick 1");
+// }
+// function two() {
+//     console.log("message from onclick 2");
+// }
 
-window.onload = "fifi"
-myp.addEventListener("click", function () {
-    console.log(`message from onclick 1 event`);
-})
-myp.addEventListener("click",one)
-myp.addEventListener("click",two)
+// window.onload = "fifi"
+// myp.addEventListener("click", function () {
+//     console.log(`message from onclick 1 event`);
+// })
+// myp.addEventListener("click",one)
+// myp.addEventListener("click",two)
+// myp.addEventListener("click","string") // error 
+myp.onclick = function () {
+    let newp = myp.cloneNode(true);
+    newp.className = "clone"
+    document.body.appendChild(newp)
+}
