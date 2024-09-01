@@ -103,3 +103,10 @@
 //         console.log("i am cloned");
 //     }
 // });
+
+function myFunction() {
+    let x = document.getElementsByTagName("input")[0].cloneNode(true).value;
+    let dd = document.getElementsByTagName("div")[3].value;
+    x.appendChild(dd);
+}
+
