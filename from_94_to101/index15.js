@@ -104,9 +104,19 @@
 //     }
 // });
 
+// function myFunction() {
+//     let x = document.getElementsByTagName("input")[0];
+//     let f = document.getElementsByTagName("div")[3];
+//     f.classList.add(x)
+// }
+document.getElementsByTagName("input")[0].addEventListener("blur", myFunction);
 function myFunction() {
-    let x = document.getElementsByTagName("input")[0].cloneNode(true).value;
-    let dd = document.getElementsByTagName("div")[3].value;
-    x.appendChild(dd);
+    let x = document.getElementsByTagName("input")[0].value;
+    let f = document.getElementsByTagName("div")[3];
+    let dd = [];
+for (let i= 0; i < dd.length; i++) {
+x.pu
 }
+}  
+
 
