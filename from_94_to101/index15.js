@@ -109,14 +109,25 @@
 //     let f = document.getElementsByTagName("div")[3];
 //     f.classList.add(x)
 // }
-document.getElementsByTagName("input")[0].addEventListener("blur", myFunction);
-function myFunction() {
-    let x = document.getElementsByTagName("input")[0].value;
-    let f = document.getElementsByTagName("div")[3];
-    let dd = [];
-    dd.push(x)
-    console.log(dd);
-    
-}  
+let dd = []; // Declare the array outside of the function to preserve data
+let f = document.getElementsByTagName("div")[3];
 
+
+document.getElementsByTagName("input")[0].addEventListener("blur", myFunction);
+
+
+
+function myFunction() {
+     ff = ``;
+    let x = document.getElementsByTagName("input")[0].value;
+    dd.push(x); // Push the new value into the array
+    
+    
+    for (let i = 0; i < dd.length; i++) {
+        ff += `<div>${dd[i]}</div>`
+    }
+    
+    f.innerHTML = ff;
+   
+}
 
