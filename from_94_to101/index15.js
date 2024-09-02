@@ -114,9 +114,9 @@ function myFunction() {
     let x = document.getElementsByTagName("input")[0].value;
     let f = document.getElementsByTagName("div")[3];
     let dd = [];
-for (let i= 0; i < dd.length; i++) {
-x.pu
-}
+    dd.push(x)
+    console.log(dd);
+    
 }  
 
 
