@@ -111,6 +111,7 @@ document.getElementsByTagName("input")[0].addEventListener("blur", myFunction);
 function myFunction() {
   ff = ``;
   let x = document.getElementsByTagName("input")[0].value;
+
   dd.push(x); // Push the new value into the array
 
   for (let i = 0; i < dd.length; i++) {
@@ -119,4 +120,8 @@ function myFunction() {
 
   f.innerHTML = ff;
 }
-for (let j = 0; j < dd.length; j++) {}
+for (let j = 0; j < dd.length; j++) {
+  let r = document.getElementsByTagName("input")[1].value;
+  if (r === dd[j]) {
+  }
+}
