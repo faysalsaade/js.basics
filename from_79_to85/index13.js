@@ -1,7 +1,7 @@
 // let user = {
 //     thename: "faysal",
 //     theage: 16,
-  
+
 //     sayhello: function () {
 //        return `hello`;
 //     },
@@ -20,7 +20,7 @@
 // console.log(user.thename);
 // console.log(user.myvar);
 // console.log(user[myvar]);
-// // console.log(user["country of"]); 
+// // console.log(user["country of"]);
 // let user = {
 // name : "faysal",
 // age : 16,
@@ -64,11 +64,9 @@
 
 // console.log(user.checkav());
 
-
 // let user = {
 //   age:20,
 // };
-
 
 // // console.log(user);
 // user.age = 92
@@ -85,7 +83,6 @@
 // console.log(this);
 // console.log(this === window);
 
-
 // myvar = 100;
 
 // console.log(window.myvar);
@@ -99,7 +96,6 @@
 // document.getElementById("cl").onclick = function () {
 //   console.log(this);
 // };
-
 
 // let user = {
 //   age : 38,
@@ -137,14 +133,12 @@
 //   },
 // };
 
-
 // let obj2 = {
 //   prop1 : 2,
 //   meth1: function () {
 //     return this.prop1;
 //   },
 // };
-
 
 // let obj3 = {
 //   prop1: 3,
@@ -153,15 +147,12 @@
 //   },
 // };
 
-
-
 // let targetobject = {
 //     prop1 : 100,
 //     prop3 : 3,
 
 // };
 // let finalobject = Object.assign(targetobject,obj1,obj2);
-
 
 // finalobject.prop1 = 200;
 // finalobject.prop3 = 4;
@@ -185,21 +176,15 @@
 // console.log(member.fullDetails());
 // My Name Is Elzero, My Age Is 38, I Live in Egypt
 
-
-
 // let objMethodOne = {
 //   property : "method one",
 // }
 
 // console.log(objMethodOne.property); // "Method One"
 
-
-
 //    let objMethodTwo  = Object.assign({property   : "method two"})
 
 // console.log(objMethodTwo.property); // "Method Two
-
-
 
 // let user = {
 //   property  : "fff",
@@ -215,10 +200,8 @@
 // objMethodFour.property = function () {
 //   return `method four`
 // }
-  
 
 // console.log(objMethodFour.property()); // "Method Four"
-
 
 // let a = 1;
 
@@ -243,8 +226,6 @@
   e: 5
   f: 6
 */
-
-
 
 // The Object To Work With
 // let myFavGames = {
@@ -276,7 +257,7 @@
 // let objectLength = "???????";
 
 // for (let i = 0; i < objectLength; i++) {
-//   console.log(`The Game Name Is ???????`);    
+//   console.log(`The Game Name Is ???????`);
 //   console.log(`The Publisher Is ???????`);
 //   console.log(`The Price Is ???????`);
 

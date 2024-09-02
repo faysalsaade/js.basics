@@ -116,27 +116,25 @@
 // // // }
 // // // parent();
 
-
 // // // function getDetails(zName, zAge, zCountry) {
 // // //   function namePattern(zName) {
 // // //     const myarray = zName.split(" ");
 // // //     return myarray;
-    
+
 // // //   }
 // // //  // namePattern(zName);
 
-// // //   function ageW ithMessage(zAge) { 
+// // //   function ageW ithMessage(zAge) {
 // // //       const age = zAge.split(" ");
 // // //       // console.log(`your age is ${age[0]}`);
 // // //   }
 // // //     ageWithMessage(zAge)
-  
+
 // // //   function countryTwoLetters(zCountry) {
 // // //       // console.log(`you live in ${zCountry.slice(0,2).toUpperCase()
 // // //       // }`);
 // // //   }
 // // //   countryTwoLetters(zCountry)
-
 
 // // //   function fullDetails() {
 // // //     return`hello ${namePattern(zName)[0]} ${namePattern(zName)[1][0]}, Your age is ${zAge.slice(0,3)},you live in ${zCountry.slice(0,2).toUpperCase()} `;
@@ -151,7 +149,7 @@
 // // // function itsMe() {
 // // //     return `Iam A Normal Function`;
 // // //   }
-  
+
 // // //   console.log(itsMe()); // Iam A Normal Function
 // // //  let itsMe = () => 'Iam A Normal Function';
 // // //   console.log(itsMe()); // Iam A Normal Function
@@ -159,12 +157,11 @@
 // // // function urlCreate(protocol, web, tld) {
 // // //     return `${protocol}://www.${web}.${tld}`;
 // // //   }
-  
+
 // // //   console.log(urlCreate("https", "elzero", "org")); // https://www.elzero.org
 
 // // //   let  urlCreate = (protocol, web, tld) => `${protocol}://www.${web}.${tld}`;
-  
-  
+
 // // //   console.log(urlCreate("https", "elzero", "org")); // https://www.elzero.org
 
 // // // let checker = (zName) => (status) => (salary) === "Available" ? `${zName}, My Salary Is ${salary}` : `Iam Not Avaialble`;
@@ -172,15 +169,14 @@
 // // //   console.log(checker("Osama")("Available")(4000 )); // Osama, My Salary Is 4000
 // // //   console.log(checker("Ahmed")("Not Available")()); // Iam Not Avaialble
 
-
 //      function specialMix(...data) {
 //      let fullDetails  = [];
 //     let sum = 0;
-//     for (let i = 0; i < data.length; i++) { 
+//     for (let i = 0; i < data.length; i++) {
 //         if (typeof data[i] === "string") {
 //            if (!isNaN(parseFloat(data[i])) ) {
 //             sum +=  parseFloat(data[i]);
-//             return sum; 
+//             return sum;
 //             }
 //         }
 //      if (typeof data[i] === "number") {
@@ -189,9 +185,9 @@
 //             sum += fullDetails[j];
 //             return sum;
 //          }
-        
+
 //     }
-//     sum += data[i]; 
+//     sum += data[i];
 //   }
 
 // //  return sum ;
