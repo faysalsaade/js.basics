@@ -8,7 +8,6 @@
 //     document.links[0].click()
 // }
 
-
 // let element = document.getElementById("my-div")
 // console.log(element.classList);
 // console.log(typeof element.classList);
@@ -27,7 +26,6 @@
 // element.onclick = function () {
 //     element.classList.toggle("fif")
 // }
-
 
 // let element = document.getElementById("my-div")
 // element.style.color = "blue";
@@ -49,14 +47,12 @@
 
 //  element.remove();
 
-
 // let span = document.querySelector(".two")
- // console.log(span.nextElementSibling.remove());
+// console.log(span.nextElementSibling.remove());
 // console.log(span.parentElement);
 // span.onclick = function () {
 //     span.parentElement.remove()
 // }
-
 
 // let myp = document.querySelector("p").cloneNode(true)
 // let mydiv = document.querySelector("div")
@@ -64,8 +60,6 @@
 // myp.id = `${myp.id}-clone`
 
 // mydiv.appendChild(myp)
-
-
 
 // let myp = document.querySelector("P")
 
@@ -84,7 +78,7 @@
 // })
 // myp.addEventListener("click",one)
 // myp.addEventListener("click",two)
-// myp.addEventListener("click","string") // error 
+// myp.addEventListener("click","string") // error
 
 // myp.onclick = function () {
 //     let newp = myp.cloneNode(true);
@@ -95,7 +89,7 @@
 // let cloned  = document.querySelector(".clone"); //error
 // cloned.onclick = function () {
 //     console.log(i am cloned);
-    
+
 // }
 
 // document.addEventListener("click", function(e)  {
@@ -112,22 +106,16 @@
 let dd = []; // Declare the array outside of the function to preserve data
 let f = document.getElementsByTagName("div")[3];
 
-
 document.getElementsByTagName("input")[0].addEventListener("blur", myFunction);
 
-
-
 function myFunction() {
-     ff = ``;
-    let x = document.getElementsByTagName("input")[0].value;
-    dd.push(x); // Push the new value into the array
-    
-    
-    for (let i = 0; i < dd.length; i++) {
-        ff += `<div>${dd[i]}</div>`
-    }
-    
-    f.innerHTML = ff;
-   
-}
+  ff = ``;
+  let x = document.getElementsByTagName("input")[0].value;
+  dd.push(x); // Push the new value into the array
 
+  for (let i = 0; i < dd.length; i++) {
+    ff += `<div>${dd[i]}</div>`;
+  }
+
+  f.innerHTML = ff;
+}

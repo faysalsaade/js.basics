@@ -1,57 +1,58 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-form {    
-    display:flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 200px;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 200px;
 }
-input{
-    margin-left:450px;
-    margin-right:150px;
-    width:400px;
-    height: 50px;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-  
+input {
+  margin-left: 450px;
+  margin-right: 150px;
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
 }
-select{
-    margin-left:450px;
-    margin-right:150px;
-    width: 400px;
-    height: 50px;
-    padding: 10px;
-    font-size: 20px;
-    color: #676565;
+select {
+  margin-left: 450px;
+  margin-right: 150px;
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  color: #676565;
 }
-  ::-ms-input-placeholder { /* Edge 12-18 */
-   font-size: 20px;
-} 
- ::placeholder {
-    font-size: 20px;
-  }
-  input:last-of-type{
-background-color: #00907A;
-font-size: 20px;
-border: none;
-border-radius: 10px;
-color: white;
-  }  
-  input, textarea{
-    color: #000000;
+::-ms-input-placeholder {
+  /* Edge 12-18 */
+  font-size: 20px;
 }
-.sis{ 
-  background-color:#FC5E21;
+::placeholder {
+  font-size: 20px;
+}
+input:last-of-type {
+  background-color: #00907a;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+input,
+textarea {
+  color: #000000;
+}
+.sis {
+  background-color: #fc5e21;
   margin-left: 140px;
   font-size: 20px;
   padding: 15px 100px;
   color: white;
   border-radius: 10px;
 }
-.results{
+.results {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 20px;
