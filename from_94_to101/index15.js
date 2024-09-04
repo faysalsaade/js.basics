@@ -120,9 +120,5 @@ function myFunction() {
 
   f.innerHTML = ff;
 }
-for (let j = 0; j < dd.length; j++) {
-  let r = document.getElementsByTagName("input")[1].value;
-  if (r === dd[j]) {
-    console.log(true);
-  }
+
 }
