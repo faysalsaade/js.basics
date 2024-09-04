@@ -120,3 +120,13 @@ function myFunction() {
 
   f.innerHTML = ff;
 }
+
+document.getElementsByTagName("input")[1].addEventListener("blur", myFunction2);
+function myFunction2() {
+  let r = document.getElementsByTagName("input")[1].value;
+  for (let j = 0; j < dd.length; j++) {
+    if (r === dd[j]) {
+      console.log(true);
+    }
+  }
+}
