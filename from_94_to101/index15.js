@@ -109,9 +109,11 @@ let f = document.getElementsByTagName("div")[3];
 document.getElementsByTagName("input")[0].addEventListener("blur", myFunction);
 
 function myFunction() {
-  ff = ``;
   let x = document.getElementsByTagName("input")[0].value;
-
+  if (x === "") {
+    return null;
+  }
+  ff = ``;
   dd.push(x); // Push the new value into the array
 
   for (let i = 0; i < dd.length; i++) {
@@ -124,9 +126,11 @@ function myFunction() {
 document.getElementsByTagName("input")[1].addEventListener("blur", myFunction2);
 function myFunction2() {
   let r = document.getElementsByTagName("input")[1].value;
+  if (r === "") {
+    return null;
+  }
   //   let ht = f.innerHTML
-  let ht = dd.filter(check);
-  console.log(ht);
+  f.innerHTML = dd.filter(check);
 
   function check(str) {
     return str !== r;
