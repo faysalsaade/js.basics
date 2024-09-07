@@ -8,6 +8,12 @@
 // }
 // let promptMsg = prompt("do you love fifi", "sure");
 // console.log(promptMsg);
+
+// setTimeout(saymsg, 2000, "fifi", 16);
+// function saymsg(user, age) {
+//   console.log(`i am msg from (${user})   his age is : ${age}`);
+// }
+
 setTimeout(saymsg, 2000, "fifi", 16);
 function saymsg(user, age) {
   console.log(`i am msg from (${user})   his age is : ${age}`);
