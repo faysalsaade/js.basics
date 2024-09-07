@@ -26,3 +26,8 @@
 // setInterval(function () {
 //   document.write("<p>dd</p>");
 // }, 2000);
+
+// setInterval(saymsg, 2000);
+// function saymsg() {
+//   console.log(`i am msg `);
+// }
