@@ -6,5 +6,5 @@
 // } else {
 //   console.log("you are donkey");
 // }
-let promptMsg = prompt("do you love fifi");
+let promptMsg = prompt("do you love fifi", "sure");
 console.log(promptMsg);
