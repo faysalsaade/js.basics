@@ -103,36 +103,35 @@
 //     let f = document.getElementsByTagName("div")[3];
 //     f.classList.add(x)
 // }
-let dd = []; // Declare the array outside of the function to preserve data
-let f = document.getElementsByTagName("div")[3];
+// let dd = []; // Declare the array outside of the function to preserve data
+// let f = document.getElementsByTagName("div")[3];
 
-document.getElementsByTagName("input")[0].addEventListener("blur", myFunction);
+// document.getElementsByTagName("input")[0].addEventListener("blur", myFunction);
 
-function myFunction() {
-  let x = document.getElementsByTagName("input")[0].value;
-  if (x === "") {
-    return null;
-  }
-  ff = ``;
-  dd.push(x); // Push the new value into the array
+// function myFunction() {
+//   let x = document.getElementsByTagName("input")[0].value;
+//   if (x === "") {
+//     return null;
+//   }
+//   ff = ``;
+//   dd.push(x); // Push the new value into the array
 
-  for (let i = 0; i < dd.length; i++) {
-    ff += `<div>${dd[i]}</div>`;
-  }
+//   for (let i = 0; i < dd.length; i++) {
+//     ff += `<div>${dd[i]}</div>`;
+//   }
 
-  f.innerHTML = ff;
-}
+//   f.innerHTML = ff;
+//   console.log(dd);
+// }
 
-document.getElementsByTagName("input")[1].addEventListener("blur", myFunction2);
-function myFunction2() {
-  let r = document.getElementsByTagName("input")[1].value;
-  if (r === "") {
-    return null;
-  }
-  //   let ht = f.innerHTML
-  f.innerHTML = dd.filter(check);
+// document.getElementsByTagName("input")[1].addEventListener("blur", myFunction2);
+// function myFunction2() {
+//   let r = document.getElementsByTagName("input")[1].value;
+//   if (r === "") {
+//     return null;
+//   }
+// }
 
-  function check(str) {
-    return str !== r;
-  }
-}
+// if (f.textContent === "") {
+//   f.innerHTML = "No Classes To Show";
+// }
