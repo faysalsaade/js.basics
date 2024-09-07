@@ -129,8 +129,8 @@ function myFunction2() {
   if (r === "") {
     return null;
   }
-  let ht = f.innerHTML;
-  ht = dd.filter(check);
+  //   let ht = f.innerHTML
+  f.innerHTML = dd.filter(check);
 
   function check(str) {
     return str !== r;
