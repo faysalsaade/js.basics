@@ -31,3 +31,8 @@
 // function saymsg() {
 //   console.log(`i am msg `);
 // }
+
+// setInterval(saymsg, 2000, "fifi", 16);
+// function saymsg(user, age) {
+//   console.log(`i am msg from (${user})   his age is : ${age}`);
+// }
