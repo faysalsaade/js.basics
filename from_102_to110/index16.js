@@ -39,6 +39,10 @@
 
 let div = document.querySelector("div");
 function down() {
-  div.innerHTML -= "5";
+  div.innerHTML -= "1";
+  if (div.innerHTML === "0") {
+    clearInterval(counter);
+  }
 }
 down();
+let counter = setInterval(down, 2000);
