@@ -22,3 +22,7 @@
 // btn.onclick = function () {
 //   clearTimeout(1);
 // };
+
+// setInterval(function () {
+//   document.write("<p>dd</p>");
+// }, 2000);
