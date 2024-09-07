@@ -36,3 +36,9 @@
 // function saymsg(user, age) {
 //   console.log(`i am msg from (${user})   his age is : ${age}`);
 // }
+
+let div = document.querySelector("div");
+function down() {
+  div.innerHTML -= "5";
+}
+down();
