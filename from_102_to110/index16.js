@@ -52,3 +52,4 @@ console.log(location.href);
 // location.href = "https://google.com";
 console.log(location.host);
 console.log(location.hostname);
+console.log(location.protocol);
