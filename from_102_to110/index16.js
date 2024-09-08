@@ -56,3 +56,7 @@ console.log(location.href);
 // console.log(location.hash);
 // location.replace();
 // location.assign();
+
+setTimeout(function () {
+  window.open("https://google.com", "_blank", "width=400,height=400");
+}, 2000);
