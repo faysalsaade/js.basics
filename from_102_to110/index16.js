@@ -58,5 +58,9 @@ console.log(location.href);
 // location.assign();
 
 setTimeout(function () {
-  window.open("https://google.com", "_blank", "width=400,height=400");
+  window.open(
+    "https://google.com",
+    "_blank",
+    "width=400,height=400,left=500,top=100"
+  );
 }, 2000);
