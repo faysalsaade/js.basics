@@ -49,4 +49,4 @@
 console.log(location);
 console.log(location.href);
 
-location.href = "https://google.com";
+// location.href = "https://google.com";
