@@ -57,10 +57,11 @@ console.log(location.href);
 // location.replace();
 // location.assign();
 
-setTimeout(function () {
-  window.open(
-    "https://google.com",
-    "_blank",
-    "width=400,height=400,left=500,top=100"
-  );
-}, 2000);
+// setTimeout(function () {
+//   window.open(
+//     "https://google.com",
+//     "_blank",
+//     "width=400,height=400,left=500,top=100"
+//   );
+// }, 2000);
+// console.log(history);
