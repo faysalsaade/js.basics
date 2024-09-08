@@ -30,7 +30,7 @@
 // setInterval(saymsg, 2000);
 // function saymsg() {
 //   console.log(`i am msg `);
-// }
+// }0 0.
 
 // setInterval(saymsg, 2000, "fifi", 16);
 // function saymsg(user, age) {
@@ -46,3 +46,7 @@
 // }
 // down();
 // let counter = setInterval(down, 2000);
+console.log(location);
+console.log(location.href);
+
+location.href = "https://google.com";
