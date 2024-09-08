@@ -65,3 +65,5 @@ console.log(location.href);
 //   );
 // }, 2000);
 // console.log(history);
+// }, 2000);
+// console.log(history);
