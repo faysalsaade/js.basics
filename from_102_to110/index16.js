@@ -37,12 +37,12 @@
 //   console.log(`i am msg from (${user})   his age is : ${age}`);
 // }
 
-let div = document.querySelector("div");
-function down() {
-  div.innerHTML -= "1";
-  if (div.innerHTML === "0") {
-    clearInterval(counter);
-  }
-}
-down();
-let counter = setInterval(down, 2000);
+// let div = document.querySelector("div");
+// function down() {
+//   div.innerHTML -= "1";
+//   if (div.innerHTML === "0") {
+//     clearInterval(counter);
+//   }
+// }
+// down();
+// let counter = setInterval(down, 2000);
