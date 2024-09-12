@@ -46,13 +46,8 @@
 // }
 // down();
 // let counter = setInterval(down, 2000);
-<<<<<<< HEAD
 // console.log(location);
 // console.log(location.href);
-=======
-console.log(location);
-console.log(location.href);
->>>>>>> dc4c59d37ba03544da32a88a4e3fab6cdd097959
 
 // location.href = "https://google.com";
 // console.log(location.host);
@@ -70,7 +65,6 @@ console.log(location.href);
 //   );
 // }, 2000);
 // console.log(history);
-<<<<<<< HEAD
 // let myNewWindow = window.open("https://google.com", "", "width=500,height=500");
 // window.scrollTo({
 //   left: 1200,
@@ -153,5 +147,3 @@ let video = "book";
 [book, video] = [video, book];
 console.log(book);
 console.log(video);
-=======
->>>>>>> dc4c59d37ba03544da32a88a4e3fab6cdd097959
