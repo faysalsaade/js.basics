@@ -138,12 +138,23 @@
 // console.log(a);
 // console.log(b);
 
-let book = "video";
-let video = "book";
+// let book = "video";
+// let video = "book";
 
 // let stash = book;
 // book = video;
 // video = stash;
-[book, video] = [video, book];
-console.log(book);
-console.log(video);
+// [book, video] = [video, book];
+// console.log(book);
+// console.log(video);
+
+const user = {
+  theName: "faysal",
+  theAge: 16,
+  theTitle: "Fifi",
+  theCountry: "lebanon",
+};
+console.log(user.theName);
+console.log(user.theAge);
+console.log(user.theTitle);
+console.log(user.theCountry);
