@@ -153,8 +153,10 @@ const user = {
   theAge: 16,
   theTitle: "Fifi",
   theCountry: "lebanon",
+  theColor: "black",
 };
-console.log(user.theName);
-console.log(user.theAge);
-console.log(user.theTitle);
-console.log(user.theCountry);
+const { theName: a, theAge: b, theCountry, theColor: Co = "red" } = user;
+console.log(a);
+console.log(b);
+console.log(theCountry);
+console.log(co);
