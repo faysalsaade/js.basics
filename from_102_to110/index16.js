@@ -203,7 +203,6 @@ const user = {
     ksa: "riyadh",
   },
 };
-
 // const {
 //   addresses: { egypt: e },
 // } = user;
