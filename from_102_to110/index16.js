@@ -148,15 +148,74 @@
 // console.log(book);
 // console.log(video);
 
+// const user = {
+//   theName: "faysal",
+//   theAge: 16,
+//   theTitle: "Fifi",
+//   theCountry: "lebanon",
+//   theColor: "black",
+//   skills: {
+//     html: 70,
+//     css: 80,
+//   },
+// };
+// const {
+//   theName: n,
+//   theAge: a,
+//   theCountry,
+//   theColor: co = "red",
+//   skills: { html, css },
+// } = user;
+// console.log(n);
+// console.log(a);
+// console.log(theCountry);
+// console.log(co);
+// console.log(`my html skills progress is ${html}`);
+// console.log(`my css skills progress is ${css}`);
+
+// const user = {
+//   theName: "faysal",
+//   theAge: 16,
+//   skills: {
+//     html: 70,
+//     css: 80,
+//   },
+// };
+// showDetails(user);
+// function showDetails(obj) {
+//   console.log(`your name is ${obj.theName}`);
+//   console.log(`your age is ${obj.theAge}`);
+//   console.log(`your skills is ${obj.skills.css}`);
+// }
+
+// function showDetails({ theName: n, theAge: a, skills: { css: c } } = user) {
+//   console.log(`your name is ${n}`);
+//   console.log(`your age is ${a}`);
+//   console.log(`your skills is ${c}`);
+// }
+
 const user = {
   theName: "faysal",
   theAge: 16,
-  theTitle: "Fifi",
-  theCountry: "lebanon",
-  theColor: "black",
+  skills: ["html", "css", "javascript"],
+  addresses: {
+    egypt: "cairo",
+    ksa: "riyadh",
+  },
 };
-const { theName: a, theAge: b, theCountry, theColor: Co = "red" } = user;
-console.log(a);
-console.log(b);
-console.log(theCountry);
-console.log(co);
+
+// const {
+//   addresses: { egypt: e },
+// } = user;
+// console.log(`${e}`);
+
+const {
+  theName: n,
+  theAge: a,
+  skills: [one, two, three],
+  addresses: { egypt: e },
+} = user;
+console.log(`your name is ${n}`);
+console.log(`your age is ${a}`);
+console.log(`your skills is : ${one},${two},${three}`);
+console.log(`your live in ${e}`);
