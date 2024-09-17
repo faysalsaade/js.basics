@@ -207,14 +207,3 @@ const user = {
 //   addresses: { egypt: e },
 // } = user;
 // console.log(`${e}`);
-
-const {
-  theName: n,
-  theAge: a,
-  skills: [one, two, three],
-  addresses: { egypt: e },
-} = user;
-console.log(`your name is ${n}`);
-console.log(`your age is ${a}`);
-console.log(`your skills is : ${one},${two},${three}`);
-console.log(`your live in ${e}`);
