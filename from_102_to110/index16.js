@@ -234,7 +234,11 @@ console.log(myUniquedata.size);
 console.log(mydata[0]);
 console.log(myUniquedata[0]);
 
-myUniquedata.delete(2);
+// myUniquedata.delete(2);
 console.log(myUniquedata.delete(2));
+console.log(myUniquedata);
+console.log(myUniquedata.size);
+
+myUniquedata.clear();
 console.log(myUniquedata);
 console.log(myUniquedata.size);
