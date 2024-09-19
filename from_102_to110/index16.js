@@ -194,27 +194,35 @@
 //   console.log(`your skills is ${c}`);
 // }
 
-const user = {
-  theName: "faysal",
-  theAge: 16,
-  skills: ["html", "css", "javascript"],
-  addresses: {
-    egypt: "cairo",
-    ksa: "riyadh",
-  },
-};
+// const user = {
+//   theName: "faysal",
+//   theAge: 16,
+//   skills: ["html", "css", "javascript"],
+//   addresses: {
+//     egypt: "cairo",
+//     ksa: "riyadh",
+//   },
+// };
 // const {
 //   addresses: { egypt: e },
 // } = user;
 // console.log(`${e}`);
 
-const {
-  theName: n,
-  theAge: a,
-  skills: [one, two, three],
-  addresses: { egypt: e },
-} = user;
-console.log(`your name is ${n}`);
-console.log(`your age is ${a}`);
-console.log(`your skills is : ${one},${two},${three}`);
-console.log(`your live in ${e}`);
+// const {
+//   theName: n,
+//   theAge: a,
+//   skills: [one, two, three],
+//   addresses: { egypt: e },
+// } = user;
+// console.log(`your name is ${n}`);
+// console.log(`your age is ${a}`);
+// console.log(`your skills is : ${one},${two},${three}`);
+// console.log(`your live in ${e}`);
+
+let mydata = [1, 1, 1, 2, 3];
+let myUniquedata = new Set([1, 1, 1, 2, 3]);
+console.log(mydata);
+console.log(myUniquedata);
+console.log(myUniquedata.size);
+console.log(mydata[0]);
+console.log(myUniquedata[0]);
