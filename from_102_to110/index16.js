@@ -218,3 +218,11 @@
 // console.log(`your age is ${a}`);
 // console.log(`your skills is : ${one},${two},${three}`);
 // console.log(`your live in ${e}`);
+
+// let mydata = [1, 1, 1, 2, 3];
+// let myUniquedata = new Set([1, 1, 1, 2, 3]);
+// console.log(mydata);
+// console.log(myUniquedata);
+// console.log(myUniquedata.size);
+// console.log(mydata[0]);
+// console.log(myUniquedata[0]);
