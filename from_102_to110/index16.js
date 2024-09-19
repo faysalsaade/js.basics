@@ -219,14 +219,15 @@
 // console.log(`your skills is : ${one},${two},${three}`);
 // console.log(`your live in ${e}`);
 
-let mydata = [1, 1, 1, 2, 3];
+let mydata = [1, 1, 1, 2, 3, "A"];
 // let myUniquedata = new Set([1, 1, 1, 2, 3]);
 // let myUniquedata = new Set([mydata]);
 // let myUniquedata = new Set().add(1).add(1).add(1).add(2).add(3);
 let myUniquedata = new Set();
 
 myUniquedata.add(1).add(1).add(1);
-myUniquedata.add(2).add(3);
+myUniquedata.add(2).add(3).add("A");
+console.log(`is set has => A (${myUniquedata.has("a".toUpperCase())})`);
 
 console.log(mydata);
 console.log(myUniquedata);
