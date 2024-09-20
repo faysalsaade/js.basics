@@ -263,23 +263,23 @@
 // let myws = new WeakSet([{ a: 1, b: 2 }]);
 // console.log(myws);
 
-let myMap = new Map([
-  [10, "number"],
-  ["fifi", 16],
-  ["false", true],
-]);
-myMap.set(10, "number");
-myMap.set("fifi", 16);
-console.log(myMap);
-console.log(myMap.get(10));
-console.log(myMap.get("fifi"));
-console.log(myMap.get("false"));
-console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-console.log(myMap.has("false"));
-console.log("##############################");
+// let myMap = new Map([
+//   [10, "number"],
+//   ["fifi", 16],
+//   ["false", true],
+// ]);
+// myMap.set(10, "number");
+// myMap.set("fifi", 16);
+// console.log(myMap);
+// console.log(myMap.get(10));
+// console.log(myMap.get("fifi"));
+// console.log(myMap.get("false"));
+// console.log("$$$$$$$$$$$$$$ $$$$$$$$$$$$$$$$");
+// console.log(myMap.has("false"));
+// console.log("##############################");
 
-console.log(myMap.size);
-console.log(myMap.delete("false"));
-console.log(myMap.size);
-myMap.clear();
-console.log(myMap.size);
+// console.log(myMap.size);
+// console.log(myMap.delete("false"));
+// console.log(myMap.size);
+// myMap.clear();
+// console.log(myMap.size);
