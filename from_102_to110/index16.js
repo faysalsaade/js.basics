@@ -219,27 +219,67 @@
 // console.log(`your skills is : ${one},${two},${three}`);
 // console.log(`your live in ${e}`);
 
-let mydata = [1, 1, 1, 2, 3, "A"];
-// let myUniquedata = new Set([1, 1, 1, 2, 3]);
-// let myUniquedata = new Set([mydata]);
-// let myUniquedata = new Set().add(1).add(1).add(1).add(2).add(3);
-let myUniquedata = new Set();
+// let mydata = [1, 1, 1, 2, 3, "A"];
+// // let myUniquedata = new Set([1, 1, 1, 2, 3]);
+// // let myUniquedata = new Set([mydata]);
+// // let myUniquedata = new Set().add(1).add(1).add(1).add(2).add(3);
+// let myUniquedata = new Set();
 
-myUniquedata.add(1).add(1).add(1);
-myUniquedata.add(2).add(3).add("A");
-console.log(`is set has => A (${myUniquedata.has("a".toUpperCase())})`);
+// myUniquedata.add(1).add(1).add(1);
+// myUniquedata.add(2).add(3).add("A");
+// console.log(`is set has => A (${myUniquedata.has("a".toUpperCase())})`);
 
-console.log(mydata);
-console.log(myUniquedata);
-console.log(myUniquedata.size);
-console.log(mydata[0]);
-console.log(myUniquedata[0]);
+// console.log(mydata);
+// console.log(myUniquedata);
+// console.log(myUniquedata.size);
+// console.log(mydata[0]);
+// console.log(myUniquedata[0]);
 
-// myUniquedata.delete(2);
-console.log(myUniquedata.delete(2));
-console.log(myUniquedata);
-console.log(myUniquedata.size);
+// // myUniquedata.delete(2);
+// console.log(myUniquedata.delete(2));
+// console.log(myUniquedata);
+// console.log(myUniquedata.size);
 
-myUniquedata.clear();
-console.log(myUniquedata);
-console.log(myUniquedata.size);
+// myUniquedata.clear();
+// console.log(myUniquedata);
+// console.log(myUniquedata.size);
+
+// let myset = new Set([1, 1, 1, 2, 3, "A", "A", "A"]);
+// console.log(myset);
+// console.log(`numbers of elements inside  Set is ${myset.size}`);
+// let iterator = myset.keys();
+// console.log(iterator.next().value);
+// console.log(iterator.next().value);
+// console.log(iterator.next().value);
+// console.log(iterator.next().value);
+// console.log(iterator.next());
+
+// console.log(myset);
+
+// console.log(myset.keys());
+// myset.forEach((el) => console.log(el));
+// console.log("#".repeat(20));
+
+// let myws = new WeakSet([{ a: 1, b: 2 }]);
+// console.log(myws);
+
+let myMap = new Map([
+  [10, "number"],
+  ["fifi", 16],
+  ["false", true],
+]);
+myMap.set(10, "number");
+myMap.set("fifi", 16);
+console.log(myMap);
+console.log(myMap.get(10));
+console.log(myMap.get("fifi"));
+console.log(myMap.get("false"));
+console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+console.log(myMap.has("false"));
+console.log("##############################");
+
+console.log(myMap.size);
+console.log(myMap.delete("false"));
+console.log(myMap.size);
+myMap.clear();
+console.log(myMap.size);
