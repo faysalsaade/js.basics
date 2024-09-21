@@ -283,3 +283,9 @@
 // console.log(myMap.size);
 // myMap.clear();
 // console.log(myMap.size);
+
+let mapUser = { thename: "fifi" };
+let mymap = new Map();
+mymap.set(mapUser, "object value");
+mapUser = null;
+console.log(mymap);
