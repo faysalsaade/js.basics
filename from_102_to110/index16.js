@@ -303,3 +303,6 @@ console.log(
   })
 );
 console.log(Array.from("12345", (n) => +n + +n));
+let myarray = [1, 1, 1, 2, 3];
+let newset = new Set(myarray);
+console.log(newset);
