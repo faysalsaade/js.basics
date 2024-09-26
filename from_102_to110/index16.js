@@ -284,14 +284,14 @@
 // myMap.clear();
 // console.log(myMap.size);
 
-let mapUser = { thename: "fifi" };
-let mymap = new Map();
-mymap.set(mapUser, "object value");
-mapUser = null;
-console.log(mymap);
-console.log("###################################");
-let wMapUser = { thename: "faysal" };
-let myWeakMap = new Map();
-myWeakMap.set(wMapUser, "value");
-wMapUser = null;
-console.log(myWeakMap);
+// let mapUser = { thename: "fifi" };
+// let mymap = new Map();
+// mymap.set(mapUser, "object value");
+// mapUser = null;
+// console.log(mymap);
+// console.log("###################################");
+// let wMapUser = { thename: "faysal" };
+// let myWeakMap = new Map();
+// myWeakMap.set(wMapUser, "value");
+// wMapUser = null;
+// console.log(myWeakMap);
