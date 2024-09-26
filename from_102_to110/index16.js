@@ -302,3 +302,4 @@ console.log(
     return +n + +n;
   })
 );
+console.log(Array.from("12345", (n) => +n + +n));
