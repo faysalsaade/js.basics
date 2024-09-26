@@ -295,3 +295,10 @@
 // myWeakMap.set(wMapUser, "value");
 // wMapUser = null;
 // console.log(myWeakMap);
+
+console.log(Array.from("faysal"));
+console.log(
+  Array.from("12345", function (n) {
+    return +n + +n;
+  })
+);
