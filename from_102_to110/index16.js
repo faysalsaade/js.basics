@@ -306,3 +306,8 @@ console.log(Array.from("12345", (n) => +n + +n));
 let myarray = [1, 1, 1, 2, 3];
 let newset = new Set(myarray);
 console.log(newset);
+
+function af() {
+  return Array.from(arguments);
+}
+console.log(af("fff", "3333", 2, 22, 1));
