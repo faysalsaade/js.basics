@@ -311,3 +311,83 @@
 //   return Array.from(arguments);
 // }
 // console.log(af("fff", "3333", 2, 22, 1));
+
+// let myarray = [10, 20, 30, 40, 50, "a", "b"];
+// myarray.copyWithin(3);
+// myarray.copyWithin(4, 6);
+// myarray.copyWithin(4, -1);
+// myarray.copyWithin(1, -2);
+// myarray.copyWithin(1, -2, -1);
+// console.log(myarray);
+// let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let fifi = 4;
+// let check = nums.some(function (e) {
+//   console.log("test");
+//   return e > 5;
+// });
+// let check = nums.some(function (e) {
+//   return e > this;
+// }, fifi);
+// let check = nums.some((e) => e > 5);
+// console.log(check);
+// function checkvalues(arr, val) {
+//   return arr.some(function (e) {
+//     return e === val;
+//   });
+// }
+
+// console.log(checkvalues(nums, 20));
+// console.log(checkvalues(nums, 10));
+// let range = {
+//   min: 10,
+//   max: 20,
+// };
+// let checkNumbersInRange = nums.some(function (e) {
+//     console.log(this.min);
+//     console.log(this.max);
+//   return e >= this.min && e <= this.max;
+// }, range);
+// console.log(checkNumbersInRange);
+// const locations = {
+//   15: "Lebanon",
+//   20: "German",
+//   30: "France",
+//   40: "Egypt",
+// };
+// let mainLocation = 15;
+
+// let locationArray = Object.keys(locations);
+// console.log(locationArray);
+// let locationArrayNumbers = locationArray.map((n) => +n);
+// console.log(locationArrayNumbers);
+// let check = locationArrayNumbers.every(function (e) {
+//   return e > this;
+// }, mainLocation);
+// console.log(check);
+
+console.log("faysal");
+console.log(..."faysal");
+console.log([..."faysal"]);
+let myarray1 = [1, 2, 3];
+let myarray2 = [4, 5, 6];
+let myarrays = [...myarray1, ...myarray2];
+console.log(myarrays);
+let copiedarray = [...myarray1];
+console.log(copiedarray);
+let allfri = ["ff", "gg", "ee"];
+let somefri = ["dd", "qq", "ss"];
+// allfri.push(...somefri);
+allfri = [...allfri, ...somefri];
+console.log(allfri);
+let mynums = [10, 2, -22, 132, -3333, 424];
+console.log(Math.max(...mynums));
+let objone = {
+  a: "?",
+  b: "@",
+};
+let objtwo = {
+  c: "#",
+  d: "&",
+};
+
+console.log({ ...objone, ...objtwo, f: "%" });
