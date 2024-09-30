@@ -365,29 +365,29 @@
 // }, mainLocation);
 // console.log(check);
 
-console.log("faysal");
-console.log(..."faysal");
-console.log([..."faysal"]);
-let myarray1 = [1, 2, 3];
-let myarray2 = [4, 5, 6];
-let myarrays = [...myarray1, ...myarray2];
-console.log(myarrays);
-let copiedarray = [...myarray1];
-console.log(copiedarray);
-let allfri = ["ff", "gg", "ee"];
-let somefri = ["dd", "qq", "ss"];
-// allfri.push(...somefri);
-allfri = [...allfri, ...somefri];
-console.log(allfri);
-let mynums = [10, 2, -22, 132, -3333, 424];
-console.log(Math.max(...mynums));
-let objone = {
-  a: "?",
-  b: "@",
-};
-let objtwo = {
-  c: "#",
-  d: "&",
-};
+// console.log("faysal");
+// console.log(..."faysal");
+// console.log([..."faysal"]);
+// let myarray1 = [1, 2, 3];
+// let myarray2 = [4, 5, 6];
+// let myarrays = [...myarray1, ...myarray2];
+// console.log(myarrays);
+// let copiedarray = [...myarray1];
+// console.log(copiedarray);
+// let allfri = ["ff", "gg", "ee"];
+// let somefri = ["dd", "qq", "ss"];
+// // allfri.push(...somefri);
+// allfri = [...allfri, ...somefri];
+// console.log(allfri);
+// let mynums = [10, 2, -22, 132, -3333, 424];
+// console.log(Math.max(...mynums));
+// let objone = {
+//   a: "?",
+//   b: "@",
+// };
+// let objtwo = {
+//   c: "#",
+//   d: "&",
+// };
 
 console.log({ ...objone, ...objtwo, f: "%" });
