@@ -465,15 +465,15 @@
 // console.log(/(\bspam|spam\b)/gi.test("fifi"));
 // console.log(/(\bspam|spam\b)/gi.test("spam4"));
 
-let mails = "o@nn.sa osama@gmail.com elzero@gmail.net osama@gmail.ru";
-// let mailsre = /\w+@\w+.(com|net)/gi;
-let mailsre = /\w+@\w+.\w+/gi;
-console.log(mails.match(mailsre));
+// let mails = "o@nn.sa osama@gmail.com elzero@gmail.net osama@gmail.ru";
+// // let mailsre = /\w+@\w+.(com|net)/gi;
+// let mailsre = /\w+@\w+.\w+/gi;
+// console.log(mails.match(mailsre));
 
-let nums = "0110 10 150 05120 0560 350 00";
-let numsRe = /0\d*0/gi;
-console.log(nums.match(numsRe));
+// let nums = "0110 10 150 05120 0560 350 00";
+// let numsRe = /0\d*0/gi;
+// console.log(nums.match(numsRe));
 
-let urls = "https://google.com http://www.website.net web.com";
-let urlsRe = /(https?:\/\/)?(www.)?\w+.\w+/gi;
-console.log(urls.match(urlsRe));
+// let urls = "https://google.com http://www.website.net web.com";
+// let urlsRe = /(https?:\/\/)?(www.)?\w+.\w+/gi;
+// console.log(urls.match(urlsRe));
