@@ -390,4 +390,90 @@
 //   d: "&",
 // };
 
-console.log({ ...objone, ...objtwo, f: "%" });
+// console.log({ ...objone, ...objtwo, f: "%" });
+// let str1 = "10 20 1011 2200";
+// let str2 = "os1 os23 os123 os122os os12os323";
+
+// let mystring = "faysal saadeh Faysal";
+// let regex = /faysal/gi;
+// console.log(mystring.match(regex));
+
+// let tld = "com Net org Info Code Io";
+// let tldRe = /(info|org|io)/gi;
+// console.log(tld.match(tldRe));
+
+// let nums = "12345678910";
+// let numsRe = /[0-2]/g;
+// console.log(nums.match(numsRe));
+
+// let notNums = "12345678910";
+// let notNsRe = /[^0-2]/g;
+// console.log(notNums.match(notNsRe));
+
+// let specialNums = "1!2@3#4$5%6&789";
+// let specialNumsRe = /[^0-9]/g;
+// console.log(specialNums.match(specialNumsRe));
+
+// let practice = "os1 os1os os2 os8 os8os";
+// let practiceRe = /os[5-9]os/g;
+// console.log(practice.match(practiceRe));
+
+// let mystring = "AaBbcdefG123!234%^&*";
+// let aTOzSmall = /[a-z]/g;
+// let NotaTOzSmall = /[^a-z]/g;
+// let aTOzCapital = /[A-Z]/g;
+// let NotAtoZCapital = /[^A-Z]/g;
+// let aAndcAnde = /[ace]/g;
+// let NotaAndcAnde = /[^ace]/g;
+// let fif = /[a-z]/gi;
+// let LettersCapsAndSmall = /[a-zA-Z]/g;
+// let NumsAndSpecials = /[^a-zA-Z]/g;
+// let specials = /[^a-z0-9]/gi;
+
+// console.log(mystring);
+
+// console.log(mystring.match(aTOzSmall));
+// console.log(mystring.match(NotaTOzSmall));
+
+// console.log(mystring.match(aTOzCapital));
+// console.log(mystring.match(NotAtoZCapital));
+
+// console.log(mystring.match(aAndcAnde));
+// console.log(mystring.match(NotaAndcAnde));
+
+// console.log(mystring.match(fif));
+// console.log(mystring.match(LettersCapsAndSmall));
+// console.log(mystring.match(NumsAndSpecials));
+
+// console.log(mystring.match(specials));
+
+// let email = "o@@@g...com o@g.com o@g.net A@Y.com O-g.com o@s.org 1@1.com";
+// let dot = /./g;
+// let SmaWord = /\w/g;
+// let capWord = /\W/g;
+// let valid = /\w@\w.(com|net)/g;
+// console.log(email.match(dot));
+// console.log(email.match(SmaWord));
+// console.log(email.match(capWord));
+// console.log(email.match(valid));
+
+// let names = "sayed 1spam 2spam 3spam spam4 spam5 osama ahmed wspamd";
+// let re = /(\bspam|spam\b)/gi;
+// console.log(names.match(re));
+// console.log(re.test(names));
+// console.log(/(\bspam|spam\b)/gi.test(names));
+// console.log(/(\bspam|spam\b)/gi.test("fifi"));
+// console.log(/(\bspam|spam\b)/gi.test("spam4"));
+
+let mails = "o@nn.sa osama@gmail.com elzero@gmail.net osama@gmail.ru";
+// let mailsre = /\w+@\w+.(com|net)/gi;
+let mailsre = /\w+@\w+.\w+/gi;
+console.log(mails.match(mailsre));
+
+let nums = "0110 10 150 05120 0560 350 00";
+let numsRe = /0\d*0/gi;
+console.log(nums.match(numsRe));
+
+let urls = "https://google.com http://www.website.net web.com";
+let urlsRe = /(https?:\/\/)?(www.)?\w+.\w+/gi;
+console.log(urls.match(urlsRe));

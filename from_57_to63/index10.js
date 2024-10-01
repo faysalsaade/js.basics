@@ -151,17 +151,17 @@
 
 // createSelectBox(2000, 2021);
 
-function multiply(...numbers) {
-  let result = 1;
-  for (let i = 0; i < numbers.length; i++) {
-    if (typeof numbers[i] === "string") {
-      continue;
-    }
+// function multiply(...numbers) {
+//   let result = 1;
+//   for (let i = 0; i < numbers.length; i++) {
+//     if (typeof numbers[i] === "string") {
+//       continue;
+//     }
 
-    result *= numbers[i];
-  }
-  return result;
-}
-console.log(multiply(10, 20));
-console.log(multiply("A", 10, 30));
-console.log(multiply(parseInt("100.5"), 10, "B"));
+//     result *= numbers[i];
+//   }
+//   return result;
+// }
+// console.log(multiply(10, 20));
+// console.log(multiply("A", 10, 30));
+// console.log(multiply(parseInt("100.5"), 10, "B"));
