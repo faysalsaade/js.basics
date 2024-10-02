@@ -19,12 +19,12 @@
 // console.log(txt.replaceAll(re, "javascript"));
 // console.log(txt.replaceAll(/@/gi, "javascript"));
 
-document.getElementById("register").onsubmit = function () {
-  let phoneInput = document.getElementById("phone").value;
-  let phonere = /\(\d{4}\)\s\d{3}-\d{4}/gi;
-  let validtionResult = phonere.test(phoneInput);
-  if (validtionResult === false) {
-    return false;
-  }
-  return false;
-};
+// document.getElementById("register").onsubmit = function () {
+//   let phoneInput = document.getElementById("phone").value;
+//   let phonere = /\(\d{4}\)\s\d{3}-\d{4}/gi;
+//   let validtionResult = phonere.test(phoneInput);
+//   if (validtionResult === false) {
+//     return false;
+//   }
+//   return false;
+// };
