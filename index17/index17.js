@@ -28,3 +28,66 @@
 //   }
 //   return false;
 // };
+
+// function User(id, username, salary) {
+//   this.i = id;
+//   this.u = username;
+//   this.s = salary + 1000;
+// }
+// let userone = new User(100, "elzero", 5000);
+// let usertwo = new User(101, "hassan", 6000);
+// let userthree = new User(102, "sayed", 7000);
+
+// console.log(userone.i);
+// console.log(userone.u);
+// console.log(userone.s);
+
+// console.log(usertwo.i);
+// console.log(usertwo.u);
+// console.log(usertwo.s);
+
+// console.log(userthree.i);
+// console.log(userthree.u);
+// console.log(userthree.s);
+
+// class User {
+//   constructor(id, username, salary) {
+//     console.log(this);
+//     this.i = id;
+//     this.u = username;
+//     this.s = salary + 1000;
+//   }
+// }
+// let userone = new User(100, "elzero", 5000);
+// console.log(userone.i);
+// console.log(userone.u);
+// console.log(userone.s);
+// console.log(userone instanceof User);
+// conso9le.log(userone.constructor === User);
+
+// class User {
+//   constructor(id, username, salary) {
+//     this.i = id;
+//     this.u = username || "Unknown";
+//     this.s = salary < 6000 ? salary + 500 : salary;
+//     this.msg = function () {
+//       return `hello ${this.u} your salary is ${this.s}`;
+//     };
+//   }
+//   writeMsg() {
+//     return `hello ${this.u} your salary is ${this.s}`;
+//   }
+// }
+
+// let userone = new User(100, "elzero", 5000);
+// let usertwo = new User(101, "", 6000);
+
+// console.log(userone.u);
+// console.log(userone.s);
+// console.log(userone.msg());
+// console.log(userone.writeMsg());
+
+// console.log(usertwo.u);
+// console.log(usertwo.s);
+// console.log(userone.msg);
+// console.log(userone.writeMsg);
