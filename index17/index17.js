@@ -82,5 +82,12 @@
 // let userone = new User(100, "elzero", 5000);
 // let usertwo = new User(101, "", 6000);
 
-// c
+// console.log(userone.u);
+// console.log(userone.s);
+// console.log(userone.msg());
+// console.log(userone.writeMsg());
+
+// console.log(usertwo.u);
+// console.log(usertwo.s);
+// console.log(userone.msg);
 // console.log(userone.writeMsg);
