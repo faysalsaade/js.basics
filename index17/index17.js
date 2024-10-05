@@ -91,3 +91,30 @@
 // console.log(usertwo.s);
 // console.log(userone.msg);
 // console.log(userone.writeMsg);
+
+class User {
+  constructor(id, username, salary) {
+    this.i = id;
+    this.u = username;
+    this.s = salary;
+  }
+  updateName(newName) {
+    this.u = newName;
+  }
+}
+let userone = new User(100, "Elzero", 5000);
+console.log(userone.u);
+userone.updateName("Faysal Saadeh");
+console.log(userone.u);
+
+let strone = "Elzero";
+let strtwo = new String("Elzero");
+
+console.log(typeof strone);
+console.log(typeof strtwo);
+
+console.log(strone instanceof String);
+console.log(strtwo instanceof String);
+
+console.log(strone.constructor === String);
+console.log(strtwo.constructor === String);
