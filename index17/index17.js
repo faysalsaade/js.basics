@@ -116,5 +116,5 @@ console.log(typeof strtwo);
 console.log(strone instanceof String);
 console.log(strtwo instanceof String);
 
-console.log(strone.constructor === String);
+console.log(strone.\ === String);
 console.log(strtwo.constructor === String);
