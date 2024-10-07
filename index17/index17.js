@@ -145,30 +145,31 @@
 
 //   let productOne = new Sell("IPHONE X", 30, "Lebanon", 2);
 //   productOne.displayProduct();
-class User {
-  constructor(id, username, salary) {
-    this.i = id;
-    this.u = username;
-    this.s = salary;
-    console.log(this);
-  }
-  updateName(newName) {
-    this.u = newName;
-  }
-}
-let userone = new User(100, "Elzero", 5000);
-console.log(userone.u);
-userone.updateName("Faysal Saadeh");
-console.log(userone.u);
+// class User {
+//   constructor(id, username, salary) {
+//     this.i = id;
+//     this.u = username;
+//     this.s = salary;
+//     console.log(this);
+//   }
+//   updateName(newName) {
+//     this.u = newName;
+//   }
+// }
+// let userone = new User(100, "Elzero", 5000);
 
-let strone = "Elzero";
-let strtwo = new String("Elzero");
+// console.log(userone.u);
+// userone.updateName("Faysal Saadeh");
+// console.log(userone.u);
 
-console.log(typeof strone);
-console.log(typeof strtwo);
+// let strone = "Elzero";
+// let strtwo = new String("Elzero");
 
-console.log(strone instanceof String);
-console.log(strtwo instanceof String);
+// console.log(typeof strone);
+// console.log(typeof strtwo);
 
-console.log(strone.constructor === String);
-console.log(strtwo.constructor === String);
+// console.log(strone instanceof String);
+// console.log(strtwo instanceof String);
+
+// console.log(strone.constructor === String);
+// console.log(strtwo.constructor === String);
