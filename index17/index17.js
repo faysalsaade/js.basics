@@ -225,3 +225,30 @@
 // console.log(User.count);
 // console.log(User.sayhello());
 // console.log(User.countMemb());
+
+class User {
+  constructor(id, username) {
+    this.i = id;
+    this.u = username;
+  }
+  sayhello() {
+    return `hello ${this.u}`;
+  }
+}
+class Admin extends User {
+  constructor(id, username, permissions) {
+    super(id, username);
+    this.p = permissions;
+  }
+}
+
+let userOne = new User(100, "Elzero");
+let adminOne = new Admin(110, "Faysal", 1);
+
+console.log(userOne.u);
+console.log(userOne.sayhello());
+console.log("#".repeat(20));
+console.log(adminOne.i);
+console.log(adminOne.u);
+console.log(adminOne.p);
+console.log(adminOne.sayhello());
