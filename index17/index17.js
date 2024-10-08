@@ -242,13 +242,13 @@ class Admin extends User {
   }
 }
 
-let userOne = new User(100, "Elzero");
-let adminOne = new Admin(110, "Faysal", 1);
+// let userOne = new User(100, "Elzero");
+// let adminOne = new Admin(110, "Faysal", 1);
 
-console.log(userOne.u);
-console.log(userOne.sayhello());
-console.log("#".repeat(20));
-console.log(adminOne.i);
-console.log(adminOne.u);
-console.log(adminOne.p);
-console.log(adminOne.sayhello());
+// console.log(userOne.u);
+// console.log(userOne.sayhello());
+// console.log("#".repeat(20));
+// console.log(adminOne.i);
+// console.log(adminOne.u);
+// console.log(adminOne.p);
+// console.log(adminOne.sayhello());
