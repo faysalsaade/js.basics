@@ -174,26 +174,26 @@
 // console.log(strone.constructor === String);
 // console.log(strtwo.constructor === String);
 
-class User {
-  static m = 1;
-  static n = 2;
-  constructor(num1, num2) {
-    this.num1 = num1;
-    this.num2 = num2;
+// class User {
+//   static m = 1;
+//   static n = 2;
+//   constructor(num1, num2) {
+//     this.num1 = num1;
+//     this.num2 = num2;
 
-    console.log("mm");
-  }
+//     console.log("mm");
+//   }
 
-  static sum() {
-    return this.m + this.n;
-  }
+//   static sum() {
+//     return this.m + this.n;
+//   }
 
-  static addTax(num) {
-    return num;
-  }
-}
-let asli = User.addTax(2);
-console.log(asli);
+//   static addTax(num) {
+//     return num;
+//   }
+// }
+// let asli = User.addTax(2);
+// console.log(asli);
 
 // console.log(userOne.addTax());
 
