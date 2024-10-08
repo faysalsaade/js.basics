@@ -201,3 +201,27 @@
 
 // console.log(userOne.u);
 // console.log(userTwo.u);
+// class User {
+//   static count = 0;
+//   constructor(id, username, salary) {
+//     this.i = id;
+//     this.u = username;
+//     this.s = salary;
+//     User.count++;
+//   }
+//   static sayhello() {
+//     return `hello from js`;
+//   }
+//   static countMemb() {
+//     return `${this.count} members called `;
+//   }
+// }
+// let userOne = new User(100, "Elzero", 5000);
+// let usertwo = new User(101, "FAYSAL", 5000);
+
+// console.log(userOne.u);
+// console.log(usertwo.u);
+// console.log(userOne.count);
+// console.log(User.count);
+// console.log(User.sayhello());
+// console.log(User.countMemb());
