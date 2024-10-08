@@ -226,21 +226,21 @@
 // console.log(User.sayhello());
 // console.log(User.countMemb());
 
-class User {
-  constructor(id, username) {
-    this.i = id;
-    this.u = username;
-  }
-  sayhello() {
-    return `hello ${this.u}`;
-  }
-}
-class Admin extends User {
-  constructor(id, username, permissions) {
-    super(id, username);
-    this.p = permissions;
-  }
-}
+// class User {
+//   constructor(id, username) {
+//     this.i = id;
+//     this.u = username;
+//   }
+//   sayhello() {
+//     return `hello ${this.u}`;
+//   }
+// }
+// class Admin extends User {
+//   constructor(id, username, permissions) {
+//     super(id, username);
+//     this.p = permissions;
+//   }
+// }
 
 // let userOne = new User(100, "Elzero");
 // let adminOne = new Admin(110, "Faysal", 1);
