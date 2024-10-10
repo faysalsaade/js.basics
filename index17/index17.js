@@ -252,3 +252,13 @@
 // console.log(adminOne.u);
 // console.log(adminOne.p);
 // console.log(adminOne.sayhello());
+
+class User {
+  constructor(id, username, eSalary) {
+    this.i = id;
+    this.u = username;
+    this.e = eSalary;
+  }
+}
+let userOne = new User(100, "Elzero");
+console.log(userOne.u);
