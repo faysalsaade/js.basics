@@ -283,25 +283,25 @@
 // let strone = "ffff";
 // console.log(String.prototype);
 
-class User {
-  constructor(id, username) {
-    this.i = id;
-    this.u = username;
-  }
-  sayhello() {
-    return `hello ${this.u}`;
-  }
-}
-let userOne = new User(100, "Elzero");
-console.log(userOne.u);
-console.log(User.prototype);
-console.log(userOne);
-User.prototype.sayWelcome = function () {
-  return `Welcome ${this.u}`;
-};
-console.log(userOne.sayWelcome());
-Object.prototype.love = "faysal";
-String.prototype.addDotBeforeAndAfter = function (val) {
-  return `.${this}.`;
-};
-let mystring = "Elzero";
+// class User {
+//   constructor(id, username) {
+//     this.i = id;
+//     this.u = username;
+//   }
+//   sayhello() {
+//     return `hello ${this.u}`;
+//   }
+// }
+// let userOne = new User(100, "Elzero");
+// console.log(userOne.u);
+// console.log(User.prototype);
+// console.log(userOne);
+// User.prototype.sayWelcome = function () {
+//   return `Welcome ${this.u}`;
+// };
+// console.log(userOne.sayWelcome());
+// Object.prototype.love = "faysal";
+// String.prototype.addDotBeforeAndAfter = function (val) {
+//   return `.${this}.`;
+// };
+// let mystring = "Elzero";
