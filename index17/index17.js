@@ -328,6 +328,7 @@
 //   console.log(prop, myObject[prop]);
 // }
 // console.log(myObject);
+
 // const myObject = {
 //   a: 1,
 //   b: 2,
