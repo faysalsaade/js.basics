@@ -306,18 +306,25 @@
 // };
 // let mystring = "Elzero";
 
-const myObject = {
-  a: 1,
-  b: 2,
-};
-Object.defineProperty(myObject, "c", {
-  writable: false,
-  enumerable: true,
-  configurable: true,
-  value: 3,
-});
-myObject.c = 100;
-for (let prop in myObject) {
-  console.log(prop, myObject[prop]);
-}
-console.log(myObject);
+// const myObject = {
+//   a: 1,
+//   b: 2,
+// };
+// Object.defineProperty(myObject, "c", {
+//   writable: true,
+//   enumerable: true,
+//   configurable: false,
+//   value: 3,
+// });
+
+// Object.defineProperty(myObject, "c", {
+//   writable: false,
+//   enumerable: true,
+//   configurable: true,
+//   value: 300, //Cannot redefine property
+// });
+// myObject.c = 100;
+// for (let prop in myObject) {
+//   console.log(prop, myObject[prop]);
+// }
+// console.log(myObject);
