@@ -350,13 +350,20 @@
 // });
 // console.log(Object.getOwnPropertyDescriptor(myObject, "d"));
 // console.log(Object.getOwnPropertyDescriptors(myObject));
-let dateNow = new Date();
-console.log(dateNow);
+// let dateNow = new Date();
+// console.log(dateNow);
 
-console.log(Date.now());
-let seconds = Date.now() / 1000;
-console.log(`secondes ${seconds}`);
-let minutes = Date.now() / 60;
-console.log(`minutes ${minutes}`);
-let hours = Date.now() / 60;
-console.log(`hours ${hours}`);
+// console.log(Date.now());
+// let seconds = Date.now() / 1000;
+// console.log(`secondes ${seconds}`);
+
+// let minutes = Date.now() / 60;
+// console.log(`minutes ${minutes}`);
+
+// let hours = Date.now() / 60;
+// console.log(`hours ${hours}`);
+
+// let Days = Date.now() / 24;
+// console.log(`Days ${Days}`);
+// let years = Date.now() / 365;
+// console.log(`years ${years}`);
