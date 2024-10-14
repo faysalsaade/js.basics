@@ -350,3 +350,5 @@
 // });
 // console.log(Object.getOwnPropertyDescriptor(myObject, "d"));
 // console.log(Object.getOwnPropertyDescriptors(myObject));
+let date = new Date();
+console.log(date);
