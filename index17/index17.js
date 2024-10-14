@@ -350,5 +350,13 @@
 // });
 // console.log(Object.getOwnPropertyDescriptor(myObject, "d"));
 // console.log(Object.getOwnPropertyDescriptors(myObject));
-let date = new Date();
-console.log(date);
+let dateNow = new Date();
+console.log(dateNow);
+
+console.log(Date.now());
+let seconds = Date.now() / 1000;
+console.log(`secondes ${seconds}`);
+let minutes = Date.now() / 60;
+console.log(`minutes ${minutes}`);
+let hours = Date.now() / 60;
+console.log(`hours ${hours}`);
