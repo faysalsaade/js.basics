@@ -368,7 +368,7 @@
 // console.log(`years ${years}`);
 
 let dateNow = new Date();
-let birthday = new Date("1982-10-25");
+let birthday = new Date("1982-10-15");
 console.log(birthday);
 let dateDiff = dateNow - birthday;
 
@@ -384,3 +384,4 @@ console.log(dateNow.getDay());
 console.log(dateNow.getHours());
 console.log(dateNow.getMinutes());
 console.log(dateNow.getSeconds());
+console.log(Date.now());
