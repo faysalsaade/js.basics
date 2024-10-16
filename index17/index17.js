@@ -353,7 +353,6 @@
 // let dateNow = new Date();
 // console.log(dateNow);
 
-// console.log(Date.now());
 // let seconds = Date.now() / 1000;
 // console.log(`secondes ${seconds}`);
 
@@ -367,3 +366,8 @@
 // console.log(`Days ${Days}`);
 // let years = Date.now() / 365;
 // console.log(`years ${years}`);
+
+let dateNow = new Date();
+let birthday = new Date("oct 25,82");
+let dateDiff = dateNow - birthday;
+console.log(dateDiff / 1000 / 60 / 60 / 24 / 365);
