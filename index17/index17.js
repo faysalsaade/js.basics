@@ -385,4 +385,3 @@
 // console.log(dateNow.getMinutes());
 // console.log(dateNow.getSeconds());
 // console.log(Date.now());
-سسسسسسسسسسسسسسسسسسسسسسسسسسس;
