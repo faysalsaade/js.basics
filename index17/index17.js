@@ -385,3 +385,107 @@
 // console.log(dateNow.getMinutes());
 // console.log(dateNow.getSeconds());
 // console.log(Date.now());
+
+// let dateNow = new Date();
+// console.log(dateNow);
+
+// console.log("#".repeat(66));
+
+// dateNow.setTime(0);
+// console.log(dateNow);
+
+// console.log("#".repeat(66));
+
+// dateNow.setTime(10000);
+// console.log(dateNow);
+
+// console.log("#".repeat(66));
+
+// dateNow.setTime(35);
+// console.log(dateNow);
+
+// dateNow.setFullYear(2020, 13);
+// console.log(dateNow);
+
+// dateNow.setMonth(2020, 13);
+
+// // console.log(dateNow);
+// console.log(Date.parse("may 13 2009"));
+// let date1 = new Date(0);
+// console.log(date1);
+
+// let date2 = new Date("10-25-1982");
+// console.log(date2);
+
+// let date3 = new Date("10$25$1982");
+// console.log(date3);
+
+// let date4 = new Date("1982");
+// console.log(date4);
+
+// let date5 = new Date("82");
+// console.log(date5);
+
+// let date6 = new Date("1982-10-25");
+// console.log(date6);
+
+// let date7 = new Date("1982-10");
+// console.log(date7);
+
+// let date8 = new Date(1982, 9, 25, 2, 10);
+// console.log(date8);
+
+// let date9 = new Date("1982-10-25T06:10:00Z");
+// console.log(date9);
+
+// function* generateNumbers() {
+//   yield 1;
+//   alert("fifi");
+//   yield 2;
+//   yield 3;
+//   yield 4;
+// }
+// let generator = generateNumbers();
+// console.log(typeof generator);
+// console.log(generator);
+
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+
+// for (let value of generateNumbers()) {
+//   console.log(value);
+// }
+
+// function* generateNums() {
+//   yield 1;
+//   yield 2;
+//   yield 3;
+// }
+
+// function* generateLetters() {
+//   yield "A";
+//   yield "B";
+//   yield "C ";
+// }
+// function* generateALL() {
+//   yield* generateNums();
+//   yield* generateLetters();
+//   yield* [1, 2, 3];
+// }
+// let generator = generateALL();
+
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+
+// console.log(generator.return("ff"));
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
