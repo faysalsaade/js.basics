@@ -458,3 +458,34 @@
 // for (let value of generateNumbers()) {
 //   console.log(value);
 // }
+
+// function* generateNums() {
+//   yield 1;
+//   yield 2;
+//   yield 3;
+// }
+
+// function* generateLetters() {
+//   yield "A";
+//   yield "B";
+//   yield "C ";
+// }
+// function* generateALL() {
+//   yield* generateNums();
+//   yield* generateLetters();
+//   yield* [1, 2, 3];
+// }
+// let generator = generateALL();
+
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+
+// console.log(generator.return("ff"));
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
