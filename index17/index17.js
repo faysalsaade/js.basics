@@ -506,3 +506,11 @@
 // console.log(generator.next());
 // console.log(generator.next());
 // console.log(generator.next());
+
+// let a = 10;
+// let arr = [2, 3, 4];
+
+// function saysomething() {
+//   return `fifi`;
+// }
+// export { a, arr, saysomething };
