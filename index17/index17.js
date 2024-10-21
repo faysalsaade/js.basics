@@ -489,3 +489,15 @@
 // console.log(generator.next());
 // console.log(generator.next());
 // console.log(generator.next());
+
+function* generateNumbers() {
+  yield 1;
+  yield 2;
+  yield 3;
+  yield 4;
+}
+let generator = generateNumbers();
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
