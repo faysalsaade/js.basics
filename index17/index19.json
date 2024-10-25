@@ -1,0 +1,11 @@
+{
+  "string": "fifi",
+  "number": 10,
+  "object": {
+    "leb": "Bei",
+    "Palestine": "Jerusalem"
+  },
+  "array": ["html", "css", "js"],
+  "boolean": "true",
+  "null": "null"
+}
