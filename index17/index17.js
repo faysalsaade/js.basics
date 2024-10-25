@@ -522,3 +522,6 @@ function saysomething() {
   return `fifi`;
 }
 export { a, arr, saysomething };
+export default function () {
+  return `fafi`;
+}
