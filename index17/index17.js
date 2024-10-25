@@ -515,13 +515,13 @@
 // }
 // export { a, arr, saysomething };
 
-let a = 10;
-let arr = [2, 3, 4];
+// let a = 10;
+// let arr = [2, 3, 4];
 
-function saysomething() {
-  return `fifi`;
-}
-export { a, arr, saysomething };
-export default function () {
-  return `fafi`;
-}
+// function saysomething() {
+//   return `fifi`;
+// }
+// export { a, arr, saysomething };
+// export default function () {
+//   return `fafi`;
+// }

@@ -9,6 +9,6 @@
 // console.log(s());
 // console.log(fifi());
 
-import * as all from "./index17.js";
-console.log(all);
-console.log(all.arr);
+// import * as all from "./index17.js";
+// console.log(all);
+// console.log(all.arr);
