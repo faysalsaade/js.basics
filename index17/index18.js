@@ -41,3 +41,19 @@
 //   console.log("ooo");
 // }, 1000);
 // console.log("z");
+// setTimeout(() => {
+//   console.log("Web API");
+// }, 0);
+// function one() {
+//   console.log("one");
+// }
+// function two() {
+//   one();
+//   console.log("two");
+// }
+
+// function three() {
+//   two();
+//   console.log("three");
+// }
+// three();
