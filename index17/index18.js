@@ -37,6 +37,7 @@
 // Asynchronous
 // console.log("mm");
 // console.log("pp");
+
 // setTimeout(() => {
 //   console.log("ooo");
 // }, 1000);
@@ -57,3 +58,18 @@
 //   console.log("three");
 // }
 // three();
+
+// console.log("one");
+// setTimeout(() => {
+//   console.log("three");
+// }, 0);
+// setTimeout(() => {
+//   console.log("four");
+// }, 0);
+// console.log("two");
+
+setTimeout(() => {
+  console.log(myvar);
+}, 0);
+let myvar = 100;
+myvar += 100;
