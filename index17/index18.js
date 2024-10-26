@@ -13,17 +13,17 @@
 // console.log(all);
 // console.log(all.arr);
 
-const myJsonObjectFromServer = '{"Username":"faysal","Age":16}';
-console.log(typeof myJsonObjectFromServer);
-console.log(myJsonObjectFromServer);
+// const myJsonObjectFromServer = '{"Username":"faysal","Age":16}';
+// console.log(typeof myJsonObjectFromServer);
+// console.log(myJsonObjectFromServer);
 
-const myJsonObject = JSON.parse(myJsonObjectFromServer);
-console.log(typeof myJsonObject);
-console.log(myJsonObject);
+// const myJsonObject = JSON.parse(myJsonObjectFromServer);
+// console.log(typeof myJsonObject);
+// console.log(myJsonObject);
 
-myJsonObject["Username"] = "Elzero";
-myJsonObject["Age"] = 40;
+// myJsonObject["Username"] = "Elzero";
+// myJsonObject["Age"] = 40;
 
-const myJsonObjecttoServer = JSON.stringify(myJsonObject);
-console.log(typeof myJsonObjecttoServer);
-console.log(myJsonObjecttoServer);
+// const myJsonObjecttoServer = JSON.stringify(myJsonObject);
+// console.log(typeof myJsonObjecttoServer);
+// console.log(myJsonObjecttoServer);
