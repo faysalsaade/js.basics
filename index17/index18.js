@@ -27,3 +27,17 @@
 // const myJsonObjecttoServer = JSON.stringify(myJsonObject);
 // console.log(typeof myJsonObjecttoServer);
 // console.log(myJsonObjecttoServer);
+
+// Synchronous
+// console.log("mm");
+// console.log("pp");
+// window.alert("fifi");
+// console.log("z");
+
+// Asynchronous
+// console.log("mm");
+// console.log("pp");
+// setTimeout(() => {
+//   console.log("ooo");
+// }, 1000);
+// console.log("z");
