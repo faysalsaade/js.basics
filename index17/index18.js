@@ -68,8 +68,13 @@
 // }, 0);
 // console.log("two");
 
-setTimeout(() => {
-  console.log(myvar);
-}, 0);
-let myvar = 100;
-myvar += 100;
+// setTimeout(() => {
+//   console.log(myvar);
+// }, 0);
+// let myvar = 100;
+// myvar += 100;
+const numbersOne = [1, 2, 3];
+const numbersTwo = [4, 5, 6];
+const numbersCombined = [...numbersOne, ...numbersTwo];
+
+document.write(numbersCombined);
