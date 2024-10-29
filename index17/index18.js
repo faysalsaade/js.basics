@@ -126,3 +126,19 @@
 //     console.log(this.responseText);
 //   }
 // };
+let myRequest = new XMLHttpRequest();
+myRequest.open("GET", "https://api.github.com/users/elzerowebschool/repos");
+myRequest.send();
+myRequest.onreadystatechange = function () {
+  if (this.readyState === 4 && this.status === 200) {
+    // console.log(this.responseText);
+    let jsdata = JSON.parse(this.responseText);
+    // console.log(jsdata);
+    for (let i = 0; i < jsdata.length; i++) {
+      let div = document.createElement("div");
+      let repoName = document.createTextNode(jsdata[i].full_name);
+      div.appendChild(repoName);
+      document.body.appendChild(div);
+    }
+  }
+};
