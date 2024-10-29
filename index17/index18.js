@@ -111,9 +111,17 @@
 //   }
 // };
 
+// let myRequest = new XMLHttpRequest();
+// myRequest.open(
+//   "Get",
+//   "http://wanderwise.backend.wanderwise.space/api/trips?category=&stars="
+// );
+// myRequest.send();
+// console.log(myRequest);
+
 // myRequest.onreadystatechange = function () {
-//   //   console.log(myRequest.readyState);
-//   //   console.log(myRequest.status);
+//   // console.log(myRequest.readyState);
+//   // console.log(myRequest.status);
 //   if (this.readyState === 4 && this.status === 200) {
 //     console.log(this.responseText);
 //   }
