@@ -85,10 +85,32 @@
 
 // Request And Respond API
 
-let myRequest = new XMLHttpRequest();
-myRequest.open("GET", "https://api.github.com/users/elzerowebschool/repos");
-myRequest.send();
-console.log(myRequest);
+// let myRequest = new XMLHttpRequest();
+// myRequest.open(
+//   "GET",
+//   "http://wanderwise.backend.wanderwise.space/api/trips?category=&stars="
+// );
+// myRequest.send();
+
+// let countryList = document.getElementsByTagName("ul")[0];
+
+// myRequest.onload = function () {
+//   if (myRequest.status >= 200 && myRequest.status < 300) {
+//     let objectofData = JSON.parse(myRequest.responseText);
+
+//     let countryArray = objectofData.trips.countries;
+//     console.log(countryArray);
+
+//     // Loop through the country array and create list items
+//     for (let index = 0; index < countryArray.length; index++) {
+//       let country = countryArray[index];
+//       countryList.innerHTML += `<li>${country}</li>`;
+//     }
+//   } else {
+//     console.error("Request failed with status:", myRequest.status);
+//   }
+// };
+
 // myRequest.onreadystatechange = function () {
 //   //   console.log(myRequest.readyState);
 //   //   console.log(myRequest.status);
