@@ -143,3 +143,83 @@
 //     }
 //   }
 // };
+
+// function makeItred(e) {
+//   e.target.style.color = "Red";
+// }
+// let p = document.querySelector("p");
+// p.addEventListener("click", makeItred);
+
+// function iamAcallback() {
+//   console.log("iam A callback");
+// }
+// setTimeout(iamAcallback, 2000);
+
+// setTimeout(() => {
+//   console.log("I");
+//   setTimeout(() => {
+//     console.log("am");
+//     setTimeout(() => {
+//       console.log("faysal");
+//       setTimeout(() => {
+//         console.log("saadeh");
+//       }, 1000);
+//     }, 1000);
+//   }, 1000);
+// }, 1000);
+
+// const myPromise = new Promise((resolvefunction, rejectfunction) => {
+//   let connect = false;
+//   if (connect) {
+//     resolvefunction("connection Established");
+//   } else {
+//     rejectfunction(Error("Connection bad"));
+//   }
+// }).then(
+//   (resolveValue) => console.log(`Good ${resolveValue}`),
+//   (rejectValue) => console.log(`bad ${rejectValue}`)
+// );
+// console.log(myPromise);
+
+// const myPromise = new Promise((resolvefunction, rejectfunction) => {
+//   let employees = [ ];
+//   if (employees.length === 4) {
+//     resolvefunction(employees);
+//   } else {
+//     rejectfunction(Error("Numbers of employees is not four "));
+//   }
+// });
+
+// myPromise
+//   .then((resolveValue) => {
+//     resolveValue.length = 2;
+//     return resolveValue;
+//   })
+//   .then((resolveValue) => {
+//     resolveValue.length = 1;
+//     return resolveValue;
+//   })
+//   .then((resolveValue) => {
+//     console.log(`the better employe is ${resolveValue}`);
+//   })
+//   .catch((rejectReason) => console.log(rejectReason))
+//   .finally(console.log("the test is finishing"));
+const getData = (apilink) => {
+  return new Promise((resolve, reject) => {});
+  let myRequest = new XMLHttpRequest();
+  myRequest.onreadystatechange = function () {
+    if ((this.readyState === 4) & (this.status === 200)) {
+      let jsData = JSON.parse(this.responseText);
+      for (let index = 0; index < jsData.length; index++) {
+        let div = document.createElement("div");
+        let repoName = document.createTextNode(jsData[index].name);
+        div.appendChild(repoName);
+        document.body.appendChild(div);
+      }
+    }
+  };
+
+  myRequest.open("GET", apilink);
+  myRequest.send();
+};
+// https://api.github.com/users/elzerowebschool/repos
