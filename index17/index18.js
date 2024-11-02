@@ -217,3 +217,13 @@
 //         document.body.appendChild(div);
 //       }
 //     }
+
+  let myRequest = new XMLHttpRequest();
+  myRequest.onreadystatechange = function () {
+    if ((this.readyState === 4) & (this.status === 200)) {
+      let jsData = JSON.parse(this.responseText);
+      for (let index = 0; index < jsData.length; index++) {
+        let div = document.createElement("div");
+        let repoName = document.createTextNode(jsData[index].name);
+        div.appendChild(repoName);
+        document.body.appendChild(div);
