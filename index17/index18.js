@@ -217,23 +217,27 @@
 //         document.body.appendChild(div);
 //       }
 //     }
-const getData = (apilink) => {
-  return new Promise((resolve, reject) => {
-    let myRequest = new XMLHttpRequest();
-    myRequest.onload = function () {
-      if (this.readyState === 4 && this.status === 200) {
-        resolve(JSON.parse(this.responseText));
-      } else {
-        reject(Error("no data found"));
-      }
-    };
 
-    myRequest.open("GET", apilink);
-    myRequest.send();
-  });
-};
+// const getData = (apilink) => {
+//   return new Promise((resolve, reject) => {
+//     let myRequest = new XMLHttpRequest();
+//     myRequest.onload = function () {
+//       if (this.readyState === 4 && this.status === 200) {
+//         resolve(JSON.parse(this.responseText));
+//       } else {
+//         reject(Error("no data found"));
+//       }
+//     };
 
-getData("https://api.github.com/users/elzerowebschool/repos").then((result) => {
-  result.length = 10;
-  return result;
-});
+//     myRequest.open("GET", apilink);
+//     myRequest.send();
+//   });
+// };
+
+// getData("https://api.github.com/users/elzerowebschool/repos")
+//   .then((result) => {
+//     result.length = 10;
+//     return result;
+//   })
+//   .then((result) => console.log(result[0].name))
+//   .catch((rej) => console.log(rej));
