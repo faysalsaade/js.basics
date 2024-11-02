@@ -217,9 +217,3 @@
 //         document.body.appendChild(div);
 //       }
 //     }
-//   };
-
-//   myRequest.open("GET", apilink);
-//   myRequest.send();
-// };
-// https://api.github.com/users/elzerowebschool/repos
