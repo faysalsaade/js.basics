@@ -204,22 +204,22 @@
 //   })
 //   .catch((rejectReason) => console.log(rejectReason))
 //   .finally(console.log("the test is finishing"));
-const getData = (apilink) => {
-  return new Promise((resolve, reject) => {});
-  let myRequest = new XMLHttpRequest();
-  myRequest.onreadystatechange = function () {
-    if ((this.readyState === 4) & (this.status === 200)) {
-      let jsData = JSON.parse(this.responseText);
-      for (let index = 0; index < jsData.length; index++) {
-        let div = document.createElement("div");
-        let repoName = document.createTextNode(jsData[index].name);
-        div.appendChild(repoName);
-        document.body.appendChild(div);
-      }
-    }
-  };
+// const getData = (apilink) => {
+//   return new Promise((resolve, reject) => {});
+//   let myRequest = new XMLHttpRequest();
+//   myRequest.onreadystatechange = function () {
+//     if ((this.readyState === 4) & (this.status === 200)) {
+//       let jsData = JSON.parse(this.responseText);
+//       for (let index = 0; index < jsData.length; index++) {
+//         let div = document.createElement("div");
+//         let repoName = document.createTextNode(jsData[index].name);
+//         div.appendChild(repoName);
+//         document.body.appendChild(div);
+//       }
+//     }
+//   };
 
-  myRequest.open("GET", apilink);
-  myRequest.send();
-};
+//   myRequest.open("GET", apilink);
+//   myRequest.send();
+// };
 // https://api.github.com/users/elzerowebschool/repos
