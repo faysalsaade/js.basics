@@ -218,6 +218,18 @@
 //       }
 //     }
 
+fetch("https://api.github.com/users/elzerowebschool/repos")
+  .then((result) => {
+    let myData = result.json();
+    return myData;
+  })
+  .then((full) => {
+    full.length = 10;
+    return full;
+  })
+  .then((ten) => {
+    console.log(ten[0].name);
+  });
 // const getData = (apilink) => {
 //   return new Promise((resolve, reject) => {
 //     let myRequest = new XMLHttpRequest();
