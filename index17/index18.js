@@ -269,3 +269,18 @@
 //   setTimeout(() => {
 //     rej("i am the third promise ");
 //   }, 2000);
+// });
+// Promise.all([myfirstpromise, mysecondpromise, mythirdpromise]).then(
+//   (resolvedValue) => console.log(resolvedValue),
+//   (rejectedvalue) => console.log(`rejected: ${rejectedvalue}`)
+// );
+
+// Promise.allSettled([myfirstpromise, mysecondpromise, mythirdpromise]).then(
+//   (resolvedValue) => console.log(resolvedValue),
+//   (rejectedvalue) => console.log(`rejected: ${rejectedvalue}`)
+// );
+
+// Promise.race([myfirstpromise, mysecondpromise, mythirdpromise]).then(
+//   (resolvedValue) => console.log(resolvedValue),
+//   (rejectedvalue) => console.log(`rejected: ${rejectedvalue}`)
+// );
