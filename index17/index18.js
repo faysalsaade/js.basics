@@ -253,24 +253,34 @@
 //   })
 //   .then((result) => console.log(result[0].name))
 //   .catch((rej) => console.log(rej));
-const myfirstpromise = new Promise((res, rej) => {
-  setTimeout(() => {
-    res("i am the first promise");
-  }, 5000);
-});
+// const myfirstpromise = new Promise((res, rej) => {
+//   setTimeout(() => {
+//     res("i am the first promise");
+//   }, 5000);
+// });
 
-const mysecondpromise = new Promise((res, rej) => {
-  setTimeout(() => {
-    res("i am the second promise");
-  }, 1000);
-});
+// const mysecondpromise = new Promise((res, rej) => {
+//   setTimeout(() => {
+//     res("i am the second promise");
+//   }, 1000);
+// });
 
-const mythirdpromise = new Promise((res, rej) => {
-  setTimeout(() => {
-    res("i am the third promise ");
-  }, 2000);
-});
-Promise.all([myfirstpromise, mysecondpromise, mythirdpromise]).then(
-  (resolvedValue) => console.log(resolvedValue),
-  (rejectedvalue) => console.log(`rejected: ${rejectedvalue}`)
-);
+// const mythirdpromise = new Promise((res, rej) => {
+//   setTimeout(() => {
+//     rej("i am the third promise ");
+//   }, 2000);
+// });
+// Promise.all([myfirstpromise, mysecondpromise, mythirdpromise]).then(
+//   (resolvedValue) => console.log(resolvedValue),
+//   (rejectedvalue) => console.log(`rejected: ${rejectedvalue}`)
+// );
+
+// Promise.allSettled([myfirstpromise, mysecondpromise, mythirdpromise]).then(
+//   (resolvedValue) => console.log(resolvedValue),
+//   (rejectedvalue) => console.log(`rejected: ${rejectedvalue}`)
+// );
+
+// Promise.race([myfirstpromise, mysecondpromise, mythirdpromise]).then(
+//   (resolvedValue) => console.log(resolvedValue),
+//   (rejectedvalue) => console.log(`rejected: ${rejectedvalue}`)
+// );
