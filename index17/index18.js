@@ -285,18 +285,46 @@
 //   (rejectedvalue) => console.log(`rejected: ${rejectedvalue}`)
 // );
 
-function getData() {
-  return new Promise((res, rej) => {
-    let users = [];
+// function getData() {
+//   return new Promise((res, rej) => {
+//     let users = [];
 
-    if (users.length > 0) {
-      res("users found");
-    } else {
-      rej("no users found");
-    }
-  });
+//     if (users.length > 0) {
+//       res("users found");
+//     } else {
+//       rej("no users found");
+//     }
+//   });
+// }
+// getData().then(
+//   (resolvedValue) => console.log(resolvedValue),
+//   (rejectedValue) => console.log(rejectedValue)
+// );
+
+// function getData() {
+//   let users = [];
+
+//   if (users.length > 0) {
+//     return Promise.resolve(" users found");
+//   } else {
+//     return Promise.reject(" no users found");
+//   }
+// }
+// getData().then(
+//   (resolvedValue) => console.log(resolvedValue),
+//   (rejectedValue) => console.log("rejected" + rejectedValue)
+// );
+
+function getData() {
+  let users = [];
+
+  if (users.length > 0) {
+    return Promise.resolve(" users found");
+  } else {
+    return Promise.reject(" no users found");
+  }
 }
 getData().then(
   (resolvedValue) => console.log(resolvedValue),
-  (rejectedValue) => console.log(rejectedValue)
+  (rejectedValue) => console.log("rejected" + rejectedValue)
 );
