@@ -284,3 +284,19 @@
 //   (resolvedValue) => console.log(resolvedValue),
 //   (rejectedvalue) => console.log(`rejected: ${rejectedvalue}`)
 // );
+
+function getData() {
+  return new Promise((res, rej) => {
+    let users = [];
+
+    if (users.length > 0) {
+      res("users found");
+    } else {
+      rej("no users found");
+    }
+  });
+}
+getData().then(
+  (resolvedValue) => console.log(resolvedValue),
+  (rejectedValue) => console.log(rejectedValue)
+);
