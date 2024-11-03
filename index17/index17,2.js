@@ -315,18 +315,18 @@
 //   (rejectedValue) => console.log("rejected" + rejectedValue)
 // );
 
-async function getData() {
-  let users = ["fifi"];
+// async function getData() {
+//   let users = ["fifi"];
 
-  if (users.length > 0) {
-    return " users found";
-  } else {
-    throw new Error(" no users found");
-  }
-}
-console.log(getData());
+//   if (users.length > 0) {
+//     return " users found";
+//   } else {
+//     throw new Error(" no users found");
+//   }
+// }
+// console.log(getData());
 
-getData().then(
-  (resolvedValue) => console.log(resolvedValue),
-  (rejectedValue) => console.log("rejected" + rejectedValue)
-);
+// getData().then(
+//   (resolvedValue) => console.log(resolvedValue),
+//   (rejectedValue) => console.log("rejected" + rejectedValue)
+// );
