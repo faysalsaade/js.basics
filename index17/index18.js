@@ -315,15 +315,17 @@
 //   (rejectedValue) => console.log("rejected" + rejectedValue)
 // );
 
-function getData() {
-  let users = [];
+async function getData() {
+  let users = ["fifi"];
 
   if (users.length > 0) {
-    return Promise.resolve(" users found");
+    return " users found";
   } else {
-    return Promise.reject(" no users found");
+    throw new Error(" no users found");
   }
 }
+console.log(getData());
+
 getData().then(
   (resolvedValue) => console.log(resolvedValue),
   (rejectedValue) => console.log("rejected" + rejectedValue)
