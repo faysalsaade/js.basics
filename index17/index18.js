@@ -271,5 +271,6 @@ const mythirdpromise = new Promise((res, rej) => {
   }, 2000);
 });
 Promise.all([myfirstpromise, mysecondpromise, mythirdpromise]).then(
-  (resolvedValue) => console.log(resolvedValue)
+  (resolvedValue) => console.log(resolvedValue),
+  (rejectedvalue) => console.log(`rejected: ${rejectedvalue}`)
 );
